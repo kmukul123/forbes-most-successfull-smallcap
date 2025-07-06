@@ -41,6 +41,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/forbes-most-successfull-smallcap/",
               "budgets": [
                 {
                   "type": "initial",
