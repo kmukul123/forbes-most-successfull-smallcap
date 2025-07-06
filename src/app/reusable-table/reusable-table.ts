@@ -1,4 +1,5 @@
-import { Component, Input, ViewChild, OnInit, AfterViewInit, OnChanges, SimpleChanges, isDevMode } from '@angular/core';
+import { Component, Input, ViewChild, OnInit, AfterViewInit, OnChanges, SimpleChanges } from '@angular/core';
+import { environment } from '../../environments/environment';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
@@ -31,7 +32,7 @@ export class ReusableTable implements OnInit, OnChanges {
   filterText: string = '';
   editingCell: { rowIndex: number, key: string, element: HTMLInputElement } | null = null;
   selectedRow: CompanyData | null = null;
-  isDevMode = isDevMode();
+  enableDownloadButton = environment.enableDownloadButton;
 
   ngOnInit(): void {
     this.filteredData = [...this.data]; // Create a shallow copy
