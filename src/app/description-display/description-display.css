@@ -1,0 +1,56 @@
+.description-container {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #eee;
+}
+
+.controls {
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.controls button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.description-content p {
+  margin-bottom: 10px;
+}
+
+.description-content p:last-child {
+  margin-bottom: 0;
+}
+
+.edit-mode .form-group {
+  margin-bottom: 15px;
+}
+
+.edit-mode label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.edit-mode textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.positive {
+  color: green;
+  font-weight: bold;
+}
+
+.negative {
+  color: red;
+  font-weight: bold;
+}
+
+.highlight {
+  background-color: yellow;
+}

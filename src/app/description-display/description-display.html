@@ -1,0 +1,20 @@
+<div class="description-container">
+  <div class="controls">
+    <button (click)="toggleEdit()">{{ isEditing ? 'Cancel' : 'Edit' }}</button>
+    <button *ngIf="isEditing" (click)="save()">Save</button>
+  </div>
+
+  <div *ngIf="!isEditing" class="description-content">
+    <div *ngFor="let key of descriptionKeys">
+      <p><strong>{{ getTitleCase(key) }}:</strong></p>
+      <quill-view [content]="editableDescription[key]" format="object"></quill-view>
+    </div>
+  </div>
+
+  <div *ngIf="isEditing" class="edit-mode">
+    <div *ngFor="let key of descriptionKeys" class="form-group">
+      <label [for]="key">{{ getTitleCase(key) }}</label>
+      <app-rich-text-editor [id]="key" [toolbarConfig]="toolbarConfig"></app-rich-text-editor>
+    </div>
+  </div>
+</div>

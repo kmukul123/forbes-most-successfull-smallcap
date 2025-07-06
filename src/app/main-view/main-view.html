@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="buttons">
+    <button (click)="setActiveDataSet('americas')" [class.active]="activeDataSet === 'americas'">Americas</button>
+    <button (click)="setActiveDataSet('asia')" [class.active]="activeDataSet === 'asia'">Asia</button>
+  </div>
+
+  <div *ngIf="activeDataSet === 'americas'">
+    <app-reusable-table [data]="americasData" [columns]="americasColumns"></app-reusable-table>
+  </div>
+
+  <div *ngIf="activeDataSet === 'asia'">
+    <app-reusable-table [data]="asiaData" [columns]="asiaColumns"></app-reusable-table>
+  </div>
+</div>

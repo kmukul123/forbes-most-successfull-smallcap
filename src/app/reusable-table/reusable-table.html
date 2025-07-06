@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="controls">
+    <input type="text" [(ngModel)]="filterText" (ngModelChange)="filterData()" placeholder="Filter data...">
+    <button (click)="downloadJson()">Download JSON</button>
+  </div>
+  <table id="reusableTable">
+    <thead>
+      <tr>
+        <th *ngFor="let column of columns">{{ column }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let companyData of filteredData; let i = index">
+        <tr (click)="toggleRow(companyData)" [class.expanded]="selectedRow === companyData">
+          <td *ngFor="let key of columns" (dblclick)="startEdit($event, i, key)">
+            <span *ngIf="editingCell?.rowIndex !== i || editingCell?.key !== key">{{ companyData[key] }}</span>
+            <input #editInput *ngIf="editingCell?.rowIndex === i && editingCell?.key === key" type="text" [value]="companyData[key]" (blur)="saveEdit(i, key, editInput.value)" (keydown.enter)="saveEdit(i, key, editInput.value)" autofocus>
+          </td>
+        </tr>
+        <tr *ngIf="selectedRow === companyData" class="detail-row">
+          <td [attr.colspan]="columns.length">
+            <app-description-display 
+              [companyData]="selectedRow" 
+              (onSave)="onDescriptionSave($event)">
+            </app-description-display>
+          </td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+</div>
