@@ -32,7 +32,9 @@ export class ReusableTable implements OnInit, OnChanges {
   filterText: string = '';
   editingCell: { rowIndex: number, key: string, element: HTMLInputElement } | null = null;
   selectedRow: CompanyData | null = null;
-  enableDownloadButton = environment.enableDownloadButton;
+  get enableDownloadButton(): boolean {
+    return environment.enableDownloadButton;
+  }
 
   ngOnInit(): void {
     this.filteredData = [...this.data]; // Create a shallow copy

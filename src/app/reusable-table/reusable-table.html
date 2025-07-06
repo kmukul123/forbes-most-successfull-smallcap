@@ -1,7 +1,7 @@
 <div class="container">
   <div class="controls">
     <input type="text" [(ngModel)]="filterText" (ngModelChange)="filterData()" placeholder="Filter data...">
-    <button (click)="downloadJson()" [disabled]="!enableDownloadButton">Download JSON</button>
+    <button *ngIf="enableDownloadButton" (click)="downloadJson()">Download JSON</button>
   </div>
   <table id="reusableTable">
     <thead>
