@@ -1,11 +1,9 @@
-import { Component, Input, ViewChild, OnInit, AfterViewInit, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, ViewChild, OnInit, OnChanges, SimpleChanges } from '@angular/core';
 import { environment } from '../../environments/environment';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { MatTableDataSource, MatTableModule } from '@angular/material/table';
-import { MatSort, MatSortModule } from '@angular/material/sort';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatInputModule } from '@angular/material/input';
+
+
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { CompanyData } from '../data';
 import { DescriptionDisplay } from '../description-display/description-display';
@@ -13,7 +11,7 @@ import { DescriptionDisplay } from '../description-display/description-display';
 @Component({
   selector: 'app-reusable-table',
   standalone: true,
-  imports: [CommonModule, FormsModule, MatTableModule, MatSortModule, MatFormFieldModule, MatInputModule, DescriptionDisplay],
+  imports: [CommonModule, FormsModule, DescriptionDisplay],
   templateUrl: './reusable-table.html',
   styleUrls: ['./reusable-table.css'],
   animations: [
