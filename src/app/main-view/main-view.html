@@ -5,10 +5,10 @@
   </div>
 
   <div *ngIf="activeDataSet === 'americas'">
-    <app-reusable-table [data]="americasData" [columns]="americasColumns"></app-reusable-table>
+    <app-reusable-table [data]="americasData?.listCompanies ?? []" [columns]="americasColumns" [tableTitle]="activeTitle" [tableSubHeading]="activeSubHeading"></app-reusable-table>
   </div>
 
   <div *ngIf="activeDataSet === 'asia'">
-    <app-reusable-table [data]="asiaData" [columns]="asiaColumns"></app-reusable-table>
+    <app-reusable-table [data]="asiaData?.listCompanies ?? []" [columns]="asiaColumns" [tableTitle]="activeTitle" [tableSubHeading]="activeSubHeading"></app-reusable-table>
   </div>
 </div>

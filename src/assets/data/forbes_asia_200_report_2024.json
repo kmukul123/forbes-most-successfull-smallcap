@@ -1,2002 +1,2006 @@
-[
-    {
-        "Rank": 1,
-        "Company": "Able Global",
-        "Country/Territory": "Malaysia",
-        "Industry": "Consumer Goods",
-        "Sales ($M)": 142,
-        "Net Income ($M)": 11,
-        "Market Value ($M)": 134,
-        "year": 2024
-    },
-    {
-        "Rank": 2,
-        "Company": "Acrow",
-        "Country/Territory": "Australia",
-        "Industry": "Industrials",
-        "Sales ($M)": 113,
-        "Net Income ($M)": 16,
-        "Market Value ($M)": 126,
-        "year": 2024
-    },
-    {
-        "Rank": 3,
-        "Company": "Action Construction Equipment",
-        "Country/Territory": "India",
-        "Industry": "Industrials",
-        "Sales ($M)": 352,
-        "Net Income ($M)": 40,
-        "Market Value ($M)": 425,
-        "year": 2024
-    },
-    {
-        "Rank": 4,
-        "Company": "Activation Group Holdings",
-        "Country/Territory": "China",
-        "Industry": "Media & Entertainment",
-        "Sales ($M)": 137,
-        "Net Income ($M)": 15,
-        "Market Value ($M)": 134,
-        "year": 2024
-    },
-    {
-        "Rank": 5,
-        "Company": "Agi Infra",
-        "Country/Territory": "India",
-        "Industry": "Real Estate",
-        "Sales ($M)": 35,
-        "Net Income ($M)": 6,
-        "Market Value ($M)": 126,
-        "year": 2024
-    },
-    {
-        "Rank": 6,
-        "Company": "Ahluwalia Contracts (India)",
-        "Country/Territory": "India",
-        "Industry": "Construction",
-        "Sales ($M)": 466,
-        "Net Income ($M)": 45,
-        "Market Value ($M)": 425,
-        "year": 2024
-    },
-    {
-        "Rank": 7,
-        "Company": "AIC",
-        "Country/Territory": "Taiwan",
-        "Industry": "Technology",
-        "Sales ($M)": 282,
-        "Net Income ($M)": 30,
-        "Market Value ($M)": 1000,
-        "year": 2024
-    },
-    {
-        "Rank": 8,
-        "Company": "Aidma Holdings",
-        "Country/Territory": "Japan",
-        "Industry": "Services",
-        "Sales ($M)": 65,
-        "Net Income ($M)": 9,
-        "Market Value ($M)": 102,
-        "year": 2024
-    },
-    {
-        "Rank": 9,
-        "Company": "Airtac International Group",
-        "Country/Territory": "Taiwan",
-        "Industry": "Industrials",
-        "Sales ($M)": 957,
-        "Net Income ($M)": 223,
-        "Market Value ($M)": 8300,
-        "year": 2024
-    },
-    {
-        "Rank": 10,
-        "Company": "Alchip Technologies",
-        "Country/Territory": "Taiwan",
-        "Industry": "Semiconductors",
-        "Sales ($M)": 978,
-        "Net Income ($M)": 107,
-        "Market Value ($M)": 6700,
-        "year": 2024
-    },
-    {
-        "Rank": 11,
-        "Company": "Alexander Marine",
-        "Country/Territory": "Taiwan",
-        "Industry": "Consumer Durables",
-        "Sales ($M)": 203,
-        "Net Income ($M)": 67,
-        "Market Value ($M)": 1800,
-        "year": 2024
-    },
-    {
-        "Rank": 12,
-        "Company": "Amotiv",
-        "Country/Territory": "South Korea",
-        "Industry": "Industrials",
-        "Sales ($M)": 697,
-        "Net Income ($M)": 66,
-        "Market Value ($M)": 5300,
-        "year": 2024
-    },
-    {
-        "Rank": 13,
-        "Company": "Anand Rathi Wealth",
-        "Country/Territory": "India",
-        "Industry": "Finance",
-        "Sales ($M)": 90,
-        "Net Income ($M)": 27,
-        "Market Value ($M)": 420,
-        "year": 2024
-    },
-    {
-        "Rank": 14,
-        "Company": "Anhui Huaheng Biotechnology",
-        "Country/Territory": "China",
-        "Industry": "Food & Beverage",
-        "Sales ($M)": 272,
-        "Net Income ($M)": 63,
-        "Market Value ($M)": 1200,
-        "year": 2024
-    },
-    {
-        "Rank": 15,
-        "Company": "Anji Microelectronics Technology (Shanghai)",
-        "Country/Territory": "China",
-        "Industry": "Semiconductors",
-        "Sales ($M)": 175,
-        "Net Income ($M)": 57,
-        "Market Value ($M)": 2000,
-        "year": 2024
-    },
-    {
-        "Rank": 16,
-        "Company": "Avia Avian",
-        "Country/Territory": "Indonesia",
-        "Industry": "Construction",
-        "Sales ($M)": 461,
-        "Net Income ($M)": 108,
-        "Market Value ($M)": 250,
-        "year": 2024
-    },
-    {
-        "Rank": 17,
-        "Company": "Axxzia",
-        "Country/Territory": "Japan",
-        "Industry": "Cosmetics",
-        "Sales ($M)": 82,
-        "Net Income ($M)": 10,
-        "Market Value ($M)": 110,
-        "year": 2024
-    },
-    {
-        "Rank": 18,
-        "Company": "Azeus Systems Holdings",
-        "Country/Territory": "Philippines",
-        "Industry": "Software & Services",
-        "Sales ($M)": 42,
-        "Net Income ($M)": 11,
-        "Market Value ($M)": 17800,
-        "year": 2024
-    },
-    {
-        "Rank": 19,
-        "Company": "Azoom",
-        "Country/Territory": "Japan",
-        "Industry": "Real Estate",
-        "Sales ($M)": 60,
-        "Net Income ($M)": 6,
-        "Market Value ($M)": 3100,
-        "year": 2024
-    },
-    {
-        "Rank": 20,
-        "Company": "Aztech Global",
-        "Country/Territory": "Singapore",
-        "Industry": "Technology",
-        "Sales ($M)": 667,
-        "Net Income ($M)": 74,
-        "Market Value ($M)": 9000,
-        "year": 2024
-    },
-    {
-        "Rank": 21,
-        "Company": "Baudroie",
-        "Country/Territory": "Taiwan",
-        "Industry": "Technology",
-        "Sales ($M)": 51,
-        "Net Income ($M)": 8,
-        "Market Value ($M)": 150,
-        "year": 2024
-    },
-    {
-        "Rank": 22,
-        "Company": "BayCurrent Consulting",
-        "Country/Territory": "Japan",
-        "Industry": "Software & Services",
-        "Sales ($M)": 656,
-        "Net Income ($M)": 177,
-        "Market Value ($M)": 200,
-        "year": 2024
-    },
-    {
-        "Rank": 23,
-        "Company": "Bengo4.Com",
-        "Country/Territory": "Japan",
-        "Industry": "Software & Services",
-        "Sales ($M)": 78,
-        "Net Income ($M)": 6,
-        "Market Value ($M)": 50,
-        "year": 2024
-    },
-    {
-        "Rank": 24,
-        "Company": "Bermaz Auto",
-        "Country/Territory": "Malaysia",
-        "Industry": "Automotive",
-        "Sales ($M)": 841,
-        "Net Income ($M)": 75,
-        "Market Value ($M)": 70,
-        "year": 2024
-    },
-    {
-        "Rank": 25,
-        "Company": "Beta Drugs",
-        "Country/Territory": "India",
-        "Industry": "Healthcare",
-        "Sales ($M)": 36,
-        "Net Income ($M)": 4,
-        "Market Value ($M)": 60,
-        "year": 2024
-    },
-    {
-        "Rank": 26,
-        "Company": "BioPlus",
-        "Country/Territory": "South Korea",
-        "Industry": "Healthcare",
-        "Sales ($M)": 50,
-        "Net Income ($M)": 20,
-        "Market Value ($M)": 100,
-        "year": 2024
-    },
-    {
-        "Rank": 27,
-        "Company": "Boltek Holdings",
-        "Country/Territory": "Malaysia",
-        "Industry": "Industrials",
-        "Sales ($M)": 22,
-        "Net Income ($M)": 4,
-        "Market Value ($M)": 40,
-        "year": 2024
-    },
-    {
-        "Rank": 28,
-        "Company": "Bora Pharmaceuticals",
-        "Country/Territory": "Taiwan",
-        "Industry": "Healthcare",
-        "Sales ($M)": 456,
-        "Net Income ($M)": 97,
-        "Market Value ($M)": 40,
-        "year": 2024
-    },
-    {
-        "Rank": 29,
-        "Company": "Caplin Point Laboratories",
-        "Country/Territory": "India",
-        "Industry": "Healthcare",
-        "Sales ($M)": 205,
-        "Net Income ($M)": 55,
-        "Market Value ($M)": 3500,
-        "year": 2024
-    },
-    {
-        "Rank": 30,
-        "Company": "CAR Group",
-        "Country/Territory": "Australia",
-        "Industry": "Software & Services",
-        "Sales ($M)": 525,
-        "Net Income ($M)": 434,
-        "Market Value ($M)": 3500,
-        "year": 2024
-    },
-    {
-        "Rank": 31,
-        "Company": "Carpenter Tan Holdings",
-        "Country/Territory": "Hong Kong",
-        "Industry": "Consumer Durables",
-        "Sales ($M)": 71,
-        "Net Income ($M)": 25,
-        "Market Value ($M)": 400,
-        "year": 2024
-    },
-    {
-        "Rank": 32,
-        "Company": "CCK Consolidated Holdings",
-        "Country/Territory": "Malaysia",
-        "Industry": "Food & Beverage",
-        "Sales ($M)": 215,
-        "Net Income ($M)": 18,
-        "Market Value ($M)": 3000,
-        "year": 2024
-    },
-    {
-        "Rank": 33,
-        "Company": "Chenbro Micom",
-        "Country/Territory": "Taiwan",
-        "Industry": "Technology Hardware & Equipment",
-        "Sales ($M)": 361,
-        "Net Income ($M)": 35,
-        "Market Value ($M)": 150,
-        "year": 2024
-    },
-    {
-        "Rank": 34,
-        "Company": "China Chunlai Education Group",
-        "Country/Territory": "China",
-        "Industry": "Diversified Financials",
-        "Sales ($M)": 213,
-        "Net Income ($M)": 97,
-        "Market Value ($M)": 1500,
-        "year": 2024
-    },
-    {
-        "Rank": 35,
-        "Company": "Choo Chiang Holdings",
-        "Country/Territory": "Singapore",
-        "Industry": "Trading & Distribution",
-        "Sales ($M)": 68,
-        "Net Income ($M)": 8,
-        "Market Value ($M)": 100,
-        "year": 2024
-    },
-    {
-        "Rank": 36,
-        "Company": "Circuit Fabology Microelectronics Equipment",
-        "Country/Territory": "Taiwan",
-        "Industry": "Semiconductors",
-        "Sales ($M)": 116,
-        "Net Income ($M)": 25,
-        "Market Value ($M)": 100,
-        "year": 2024
-    },
-    {
-        "Rank": 37,
-        "Company": "Cisarua Mountain Dairy",
-        "Country/Territory": "Indonesia",
-        "Industry": "Food & Beverage",
-        "Sales ($M)": 510,
-        "Net Income ($M)": 82,
-        "Market Value ($M)": 1000,
-        "year": 2024
-    },
-    {
-        "Rank": 38,
-        "Company": "Core Concept Technologies",
-        "Country/Territory": "Taiwan",
-        "Industry": "Technology Hardware & Equipment",
-        "Sales ($M)": 113,
-        "Net Income ($M)": 9,
-        "Market Value ($M)": 200,
-        "year": 2024
-    },
-    {
-        "Rank": 39,
-        "Company": "Cosol",
-        "Country/Territory": "Australia",
-        "Industry": "Software & Services",
-        "Sales ($M)": 51,
-        "Net Income ($M)": 5,
-        "Market Value ($M)": 5000,
-        "year": 2024
-    },
-    {
-        "Rank": 40,
-        "Company": "Credit Bureau Asia",
-        "Country/Territory": "Singapore",
-        "Industry": "Diversified Financials",
-        "Sales ($M)": 40,
-        "Net Income ($M)": 7,
-        "Market Value ($M)": 300,
-        "year": 2024
-    },
-    {
-        "Rank": 41,
-        "Company": "Daihan Pharmaceutical",
-        "Country/Territory": "South Korea",
-        "Industry": "Healthcare",
-        "Sales ($M)": 150,
-        "Net Income ($M)": 22,
-        "Market Value ($M)": 2500,
-        "year": 2024
-    },
-    {
-        "Rank": 42,
-        "Company": "Data Patterns (India)",
-        "Country/Territory": "India",
-        "Industry": "Aerospace & Defense",
-        "Sales ($M)": 63,
-        "Net Income ($M)": 22,
-        "Market Value ($M)": 25000,
-        "year": 2024
-    },
-    {
-        "Rank": 43,
-        "Company": "DCI Indonesia",
-        "Country/Territory": "Indonesia",
-        "Industry": "Software & Services",
-        "Sales ($M)": 86,
-        "Net Income ($M)": 34,
-        "Market Value ($M)": 8000,
-        "year": 2024
-    },
-    {
-        "Rank": 44,
-        "Company": "Delfi",
-        "Country/Territory": "Singapore",
-        "Industry": "Food & Beverage",
-        "Sales ($M)": 538,
-        "Net Income ($M)": 46,
-        "Market Value ($M)": 2000,
-        "year": 2024
-    },
-    {
-        "Rank": 45,
-        "Company": "Dentium",
-        "Country/Territory": "South Korea",
-        "Industry": "Healthcare",
-        "Sales ($M)": 301,
-        "Net Income ($M)": 74,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 46,
-        "Company": "Diamond Building Products",
-        "Country/Territory": "Thailand",
-        "Industry": "Construction Materials",
-        "Sales ($M)": 162,
-        "Net Income ($M)": 18,
-        "Market Value ($M)": 25000,
-        "year": 2024
-    },
-    {
-        "Rank": 47,
-        "Company": "Ditto (Thailand)",
-        "Country/Territory": "Thailand",
-        "Industry": "Software & Services",
-        "Sales ($M)": 52,
-        "Net Income ($M)": 10,
-        "Market Value ($M)": 1500,
-        "year": 2024
-    },
-    {
-        "Rank": 48,
-        "Company": "EClerx Services",
-        "Country/Territory": "India",
-        "Industry": "Software & Services",
-        "Sales ($M)": 353,
-        "Net Income ($M)": 62,
-        "Market Value ($M)": 3500,
-        "year": 2024
-    },
-    {
-        "Rank": 49,
-        "Company": "EFT Solutions Holdings",
-        "Country/Territory": "Hong Kong",
-        "Industry": "Software & Services",
-        "Sales ($M)": 16,
-        "Net Income ($M)": 4,
-        "Market Value ($M)": 1800,
-        "year": 2024
-    },
-    {
-        "Rank": 50,
-        "Company": "Eggriculture Foods",
-        "Country/Territory": "Hong Kong",
-        "Industry": "Food & Beverage",
-        "Sales ($M)": 81,
-        "Net Income ($M)": 14,
-        "Market Value ($M)": 12000,
-        "year": 2024
-    },
-    {
-        "Rank": 51,
-        "Company": "Ekarat Engineering",
-        "Country/Territory": "Thailand",
-        "Industry": "Electrical Equipment",
-        "Sales ($M)": 66,
-        "Net Income ($M)": 6,
-        "Market Value ($M)": 300,
-        "year": 2024
-    },
-    {
-        "Rank": 52,
-        "Company": "Elecon Engineering",
-        "Country/Territory": "India",
-        "Industry": "Industrial Machinery",
-        "Sales ($M)": 234,
-        "Net Income ($M)": 43,
-        "Market Value ($M)": 500,
-        "year": 2024
-    },
-    {
-        "Rank": 53,
-        "Company": "Essex Bio-Technology",
-        "Country/Territory": "China",
-        "Industry": "Biotechnology",
-        "Sales ($M)": 218,
-        "Net Income ($M)": 35,
-        "Market Value ($M)": 60000,
-        "year": 2024
-    },
-    {
-        "Rank": 54,
-        "Company": "Exotic Food",
-        "Country/Territory": "Thailand",
-        "Industry": "Food & Beverage",
-        "Sales ($M)": 72,
-        "Net Income ($M)": 23,
-        "Market Value ($M)": 5000,
-        "year": 2024
-    },
-    {
-        "Rank": 55,
-        "Company": "Far Eastern University",
-        "Country/Territory": "Philippines",
-        "Industry": "Education Services",
-        "Sales ($M)": 88,
-        "Net Income ($M)": 33,
-        "Market Value ($M)": 30000,
-        "year": 2024
-    },
-    {
-        "Rank": 56,
-        "Company": "Fineotex Chemical",
-        "Country/Territory": "India",
-        "Industry": "Chemicals",
-        "Sales ($M)": 69,
-        "Net Income ($M)": 14,
-        "Market Value ($M)": 300,
-        "year": 2024
-    },
-    {
-        "Rank": 57,
-        "Company": "First Hi-tec Enterprise",
-        "Country/Territory": "Taiwan",
-        "Industry": "Semiconductors",
-        "Sales ($M)": 140,
-        "Net Income ($M)": 15,
-        "Market Value ($M)": 1500,
-        "year": 2024
-    },
-    {
-        "Rank": 58,
-        "Company": "Galaxy Software Services",
-        "Country/Territory": "Taiwan",
-        "Industry": "Software & Services",
-        "Sales ($M)": 51,
-        "Net Income ($M)": 6,
-        "Market Value ($M)": 500,
-        "year": 2024
-    },
-    {
-        "Rank": 59,
-        "Company": "Gemadept",
-        "Country/Territory": "Vietnam",
-        "Industry": "Transportation",
-        "Sales ($M)": 158,
-        "Net Income ($M)": 92,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 60,
-        "Company": "G&M Holdings",
-        "Country/Territory": "Cayman Islands",
-        "Industry": "Capital Markets",
-        "Sales ($M)": 63,
-        "Net Income ($M)": 7,
-        "Market Value ($M)": 250,
-        "year": 2024
-    },
-    {
-        "Rank": 61,
-        "Company": "GnBS Eco",
-        "Country/Territory": "South Korea",
-        "Industry": "Healthcare",
-        "Sales ($M)": 68,
-        "Net Income ($M)": 13,
-        "Market Value ($M)": 4000,
-        "year": 2024
-    },
-    {
-        "Rank": 62,
-        "Company": "GNI Group",
-        "Country/Territory": "Japan",
-        "Industry": "Biotechnology",
-        "Sales ($M)": 185,
-        "Net Income ($M)": 58,
-        "Market Value ($M)": 2500,
-        "year": 2024
-    },
-    {
-        "Rank": 63,
-        "Company": "Greatech Technology",
-        "Country/Territory": "Malaysia",
-        "Industry": "Industrial Machinery",
-        "Sales ($M)": 144,
-        "Net Income ($M)": 34,
-        "Market Value ($M)": 4000,
-        "year": 2024
-    },
-    {
-        "Rank": 64,
-        "Company": "Hangzhou Bio-Sincerity Pharma-Tech",
-        "Country/Territory": "China",
-        "Industry": "Pharmaceuticals",
-        "Sales ($M)": 143,
-        "Net Income ($M)": 38,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 65,
-        "Company": "Hasnur Internasional Shipping",
-        "Country/Territory": "Indonesia",
-        "Industry": "Marine Transportation",
-        "Sales ($M)": 62,
-        "Net Income ($M)": 10,
-        "Market Value ($M)": 2000,
-        "year": 2024
-    },
-    {
-        "Rank": 66,
-        "Company": "HBL Power Systems",
-        "Country/Territory": "India",
-        "Industry": "Electrical Equipment",
-        "Sales ($M)": 270,
-        "Net Income ($M)": 34,
-        "Market Value ($M)": 1500,
-        "year": 2024
-    },
-    {
-        "Rank": 67,
-        "Company": "HiTech Group Australia",
-        "Country/Territory": "Australia",
-        "Industry": "Software & Services",
-        "Sales ($M)": 50,
-        "Net Income ($M)": 4,
-        "Market Value ($M)": 1000,
-        "year": 2024
-    },
-    {
-        "Rank": 68,
-        "Company": "Hong Leong Industries",
-        "Country/Territory": "Malaysia",
-        "Industry": "Building Materials",
-        "Sales ($M)": 760,
-        "Net Income ($M)": 65,
-        "Market Value ($M)": 6000,
-        "year": 2024
-    },
-    {
-        "Rank": 69,
-        "Company": "Humanica",
-        "Country/Territory": "Thailand",
-        "Industry": "Software & Services",
-        "Sales ($M)": 37,
-        "Net Income ($M)": 9,
-        "Market Value ($M)": 3500,
-        "year": 2024
-    },
-    {
-        "Rank": 70,
-        "Company": "HyVision System",
-        "Country/Territory": "South Korea",
-        "Industry": "Technology Hardware & Equipment",
-        "Sales ($M)": 267,
-        "Net Income ($M)": 35,
-        "Market Value ($M)": 6000,
-        "year": 2024
-    },
-    {
-        "Rank": 71,
-        "Company": "I-ne Co.",
-        "Country/Territory": "Japan",
-        "Industry": "Consumer Goods",
-        "Sales ($M)": 296,
-        "Net Income ($M)": 28,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 72,
-        "Company": "IDP Education",
-        "Country/Territory": "Australia",
-        "Industry": "Education Services",
-        "Sales ($M)": 658,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 50000,
-        "year": 2024
-    },
-    {
-        "Rank": 73,
-        "Company": "IFamilySC",
-        "Country/Territory": "Taiwan",
-        "Industry": "Software & Services",
-        "Sales ($M)": 114,
-        "Net Income ($M)": 15,
-        "Market Value ($M)": 60000,
-        "year": 2024
-    },
-    {
-        "Rank": 74,
-        "Company": "IKD",
-        "Country/Territory": "China",
-        "Industry": "Automotive Components",
-        "Sales ($M)": 831,
-        "Net Income ($M)": 129,
-        "Market Value ($M)": 1000,
-        "year": 2024
-    },
-    {
-        "Rank": 75,
-        "Company": "Impack Pratama Industri",
-        "Country/Territory": "Indonesia",
-        "Industry": "Building Materials",
-        "Sales ($M)": 185,
-        "Net Income ($M)": 28,
-        "Market Value ($M)": 3500,
-        "year": 2024
-    },
-    {
-        "Rank": 76,
-        "Company": "InBody",
-        "Country/Territory": "South Korea",
-        "Industry": "Medical Equipment",
-        "Sales ($M)": 130,
-        "Net Income ($M)": 28,
-        "Market Value ($M)": 1500,
-        "year": 2024
-    },
-    {
-        "Rank": 77,
-        "Company": "Insource",
-        "Country/Territory": "Japan",
-        "Industry": "Software & Services",
-        "Sales ($M)": 78,
-        "Net Income ($M)": 19,
-        "Market Value ($M)": null,
-        "year": 2024
-    },
-    {
-        "Rank": 78,
-        "Company": "International Games System",
-        "Country/Territory": "Taiwan",
-        "Industry": "Gaming",
-        "Sales ($M)": 455,
-        "Net Income ($M)": 206,
-        "Market Value ($M)": 8000,
-        "year": 2024
-    },
-    {
-        "Rank": 79,
-        "Company": "IPD Group",
-        "Country/Territory": "Australia",
-        "Industry": "Electrical Equipment",
-        "Sales ($M)": 153,
-        "Net Income ($M)": 11,
-        "Market Value ($M)": 20000,
-        "year": 2024
-    },
-    {
-        "Rank": 80,
-        "Company": "Ittehad Chemicals",
-        "Country/Territory": "Pakistan",
-        "Industry": "Chemicals",
-        "Sales ($M)": 98,
-        "Net Income ($M)": 7,
-        "Market Value ($M)": 10000,
-        "year": 2024
-    },
-    {
-        "Rank": 81,
-        "Company": "J-Lease",
-        "Country/Territory": "Japan",
-        "Industry": "Diversified Financials",
-        "Sales ($M)": 91,
-        "Net Income ($M)": 12,
-        "Market Value ($M)": 1500,
-        "year": 2024
-    },
-    {
-        "Rank": 82,
-        "Company": "Japan Elevator Service Holdings",
-        "Country/Territory": "Japan",
-        "Industry": "Construction",
-        "Sales ($M)": 292,
-        "Net Income ($M)": 31,
-        "Market Value ($M)": 50000,
-        "year": 2024
-    },
-    {
-        "Rank": 83,
-        "Company": "Jasuindo Tiga Perkasa",
-        "Country/Territory": "Indonesia",
-        "Industry": "Commercial Services",
-        "Sales ($M)": 151,
-        "Net Income ($M)": 14,
-        "Market Value ($M)": 8000,
-        "year": 2024
-    },
-    {
-        "Rank": 84,
-        "Company": "Jess-Link Products",
-        "Country/Territory": "Taiwan",
-        "Industry": "Technology Hardware & Equipment",
-        "Sales ($M)": 159,
-        "Net Income ($M)": 20,
-        "Market Value ($M)": 25000,
-        "year": 2024
-    },
-    {
-        "Rank": 85,
-        "Company": "Jiangsu ToLand Alloy",
-        "Country/Territory": "China",
-        "Industry": "Metals & Mining",
-        "Sales ($M)": 194,
-        "Net Income ($M)": 47,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 86,
-        "Company": "Jiayou International Logistics",
-        "Country/Territory": "China",
-        "Industry": "Transportation",
-        "Sales ($M)": 984,
-        "Net Income ($M)": 147,
-        "Market Value ($M)": 2500,
-        "year": 2024
-    },
-    {
-        "Rank": 87,
-        "Company": "Jin Yang Pharmaceutical",
-        "Country/Territory": "South Korea",
-        "Industry": "Pharmaceuticals",
-        "Sales ($M)": 72,
-        "Net Income ($M)": 10,
-        "Market Value ($M)": 500,
-        "year": 2024
-    },
-    {
-        "Rank": 88,
-        "Company": "Jinzai Food Group",
-        "Country/Territory": "China",
-        "Industry": "Food & Beverage",
-        "Sales ($M)": 290,
-        "Net Income ($M)": 30,
-        "Market Value ($M)": 500,
-        "year": 2024
-    },
-    {
-        "Rank": 89,
-        "Company": "Jupiter Wagons",
-        "Country/Territory": "India",
-        "Industry": "Industrial Machinery",
-        "Sales ($M)": 440,
-        "Net Income ($M)": 40,
-        "Market Value ($M)": 25000,
-        "year": 2024
-    },
-    {
-        "Rank": 90,
-        "Company": "Jyothy Labs",
-        "Country/Territory": "India",
-        "Industry": "Household & Personal Products",
-        "Sales ($M)": 334,
-        "Net Income ($M)": 45,
-        "Market Value ($M)": 5000,
-        "year": 2024
-    },
-    {
-        "Rank": 91,
-        "Company": "JYP Entertainment",
-        "Country/Territory": "South Korea",
-        "Industry": "Media & Entertainment",
-        "Sales ($M)": 434,
-        "Net Income ($M)": 81,
-        "Market Value ($M)": 20000,
-        "year": 2024
-    },
-    {
-        "Rank": 92,
-        "Company": "Karmarts",
-        "Country/Territory": "Thailand",
-        "Industry": "Personal Products",
-        "Sales ($M)": 70,
-        "Net Income ($M)": 19,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 93,
-        "Company": "KeePer Technical Laboratory",
-        "Country/Territory": "Japan",
-        "Industry": "Commercial Services",
-        "Sales ($M)": 124,
-        "Net Income ($M)": 29,
-        "Market Value ($M)": null,
-        "year": 2024
-    },
-    {
-        "Rank": 94,
-        "Company": "Kewal Kiran Clothing",
-        "Country/Territory": "India",
-        "Industry": "Apparel",
-        "Sales ($M)": 104,
-        "Net Income ($M)": 19,
-        "Market Value ($M)": 15000,
-        "year": 2024
-    },
-    {
-        "Rank": 95,
-        "Company": "K.P. Energy",
-        "Country/Territory": "India",
-        "Industry": "Renewable Energy",
-        "Sales ($M)": 57,
-        "Net Income ($M)": 7,
-        "Market Value ($M)": 400,
-        "year": 2024
-    },
-    {
-        "Rank": 96,
-        "Company": "KPIT Technologies",
-        "Country/Territory": "India",
-        "Industry": "Software & Services",
-        "Sales ($M)": 588,
-        "Net Income ($M)": 77,
-        "Market Value ($M)": 5000,
-        "year": 2024
-    },
-    {
-        "Rank": 97,
-        "Company": "LaserBond",
-        "Country/Territory": "Australia",
-        "Industry": "Industrial Machinery",
-        "Sales ($M)": 26,
-        "Net Income ($M)": 3,
-        "Market Value ($M)": 2500,
-        "year": 2024
-    },
-    {
-        "Rank": 98,
-        "Company": "Lycopodium",
-        "Country/Territory": "Australia",
-        "Industry": "Construction & Engineering",
-        "Sales ($M)": 218,
-        "Net Income ($M)": 31,
-        "Market Value ($M)": 8000,
-        "year": 2024
-    },
-    {
-        "Rank": 99,
-        "Company": "M31 Technology",
-        "Country/Territory": "Taiwan",
-        "Industry": "Semiconductors",
-        "Sales ($M)": 52,
-        "Net Income ($M)": 14,
-        "Market Value ($M)": 2000,
-        "year": 2024
-    },
-    {
-        "Rank": 100,
-        "Company": "Fanuc",
-        "Country/Territory": "Japan",
-        "Industry": "Manufacturing",
-        "Sales ($M)": 6000,
-        "Net Income ($M)": 1500,
-        "Market Value ($M)": 40000,
-        "year": 2024
-    },
-    {
-        "Rank": 101,
-        "Company": "Far EasTone Telecommunications",
-        "Country/Territory": "Taiwan",
-        "Industry": "Telecommunications",
-        "Sales ($M)": 3000,
-        "Net Income ($M)": 300,
-        "Market Value ($M)": 8000,
-        "year": 2024
-    },
-    {
-        "Rank": 102,
-        "Company": "Fast Retailing",
-        "Country/Territory": "Japan",
-        "Industry": "Retail",
-        "Sales ($M)": 20000,
-        "Net Income ($M)": 2000,
-        "Market Value ($M)": 70000,
-        "year": 2024
-    },
-    {
-        "Rank": 103,
-        "Company": "F-Code",
-        "Country/Territory": "Japan",
-        "Industry": "IT Services",
-        "Sales ($M)": 20,
-        "Net Income ($M)": 5,
-        "Market Value ($M)": 100,
-        "year": 2024
-    },
-    {
-        "Rank": 104,
-        "Company": "FDK",
-        "Country/Territory": "Japan",
-        "Industry": "Electronics",
-        "Sales ($M)": 600,
-        "Net Income ($M)": 10,
-        "Market Value ($M)": 200,
-        "year": 2024
-    },
-    {
-        "Rank": 105,
-        "Company": "Ferrotec Holdings",
-        "Country/Territory": "Japan",
-        "Industry": "Semiconductors",
-        "Sales ($M)": 1500,
-        "Net Income ($M)": 200,
-        "Market Value ($M)": 2000,
-        "year": 2024
-    },
-    {
-        "Rank": 106,
-        "Company": "Fila Holdings",
-        "Country/Territory": "South Korea",
-        "Industry": "Apparel",
-        "Sales ($M)": 3000,
-        "Net Income ($M)": 200,
-        "Market Value ($M)": 2500,
-        "year": 2024
-    },
-    {
-        "Rank": 107,
-        "Company": "First Gen",
-        "Country/Territory": "Philippines",
-        "Industry": "Utilities",
-        "Sales ($M)": 2000,
-        "Net Income ($M)": 250,
-        "Market Value ($M)": 1000,
-        "year": 2024
-    },
-    {
-        "Rank": 108,
-        "Company": "Fisco",
-        "Country/Territory": "Japan",
-        "Industry": "Finance",
-        "Sales ($M)": 50,
-        "Net Income ($M)": 10,
-        "Market Value ($M)": 150,
-        "year": 2024
-    },
-    {
-        "Rank": 109,
-        "Company": "Fossil Group",
-        "Country/Territory": "Hong Kong",
-        "Industry": "Consumer Goods",
-        "Sales ($M)": 1500,
-        "Net Income ($M)": -100,
-        "Market Value ($M)": 200,
-        "year": 2024
-    },
-    {
-        "Rank": 110,
-        "Company": "Foster Electric",
-        "Country/Territory": "Japan",
-        "Industry": "Electronics",
-        "Sales ($M)": 1000,
-        "Net Income ($M)": 20,
-        "Market Value ($M)": 300,
-        "year": 2024
-    },
-    {
-        "Rank": 111,
-        "Company": "Fubon Financial Holding",
-        "Country/Territory": "Taiwan",
-        "Industry": "Finance",
-        "Sales ($M)": 20000,
-        "Net Income ($M)": 2000,
-        "Market Value ($M)": 25000,
-        "year": 2024
-    },
-    {
-        "Rank": 112,
-        "Company": "Fuji Electric",
-        "Country/Territory": "Japan",
-        "Industry": "Manufacturing",
-        "Sales ($M)": 8000,
-        "Net Income ($M)": 400,
-        "Market Value ($M)": 6000,
-        "year": 2024
-    },
-    {
-        "Rank": 113,
-        "Company": "Fuji Heavy Industries",
-        "Country/Territory": "Japan",
-        "Industry": "Automotive",
-        "Sales ($M)": 30000,
-        "Net Income ($M)": 1500,
-        "Market Value ($M)": 20000,
-        "year": 2024
-    },
-    {
-        "Rank": 114,
-        "Company": "Fuji Media Holdings",
-        "Country/Territory": "Japan",
-        "Industry": "Media",
-        "Sales ($M)": 5000,
-        "Net Income ($M)": 200,
-        "Market Value ($M)": 3000,
-        "year": 2024
-    },
-    {
-        "Rank": 115,
-        "Company": "Fujifilm Holdings",
-        "Country/Territory": "Japan",
-        "Industry": "Technology",
-        "Sales ($M)": 22000,
-        "Net Income ($M)": 1500,
-        "Market Value ($M)": 30000,
-        "year": 2024
-    },
-    {
-        "Rank": 116,
-        "Company": "Fujikura",
-        "Country/Territory": "Japan",
-        "Industry": "Manufacturing",
-        "Sales ($M)": 6000,
-        "Net Income ($M)": 200,
-        "Market Value ($M)": 2000,
-        "year": 2024
-    },
-    {
-        "Rank": 117,
-        "Company": "Fujitsu",
-        "Country/Territory": "Japan",
-        "Industry": "IT Services",
-        "Sales ($M)": 35000,
-        "Net Income ($M)": 1500,
-        "Market Value ($M)": 25000,
-        "year": 2024
-    },
-    {
-        "Rank": 118,
-        "Company": "Fukuda Denshi",
-        "Country/Territory": "Japan",
-        "Industry": "Healthcare",
-        "Sales ($M)": 1200,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 1000,
-        "year": 2024
-    },
-    {
-        "Rank": 119,
-        "Company": "Fukuoka Financial Group",
-        "Country/Territory": "Japan",
-        "Industry": "Finance",
-        "Sales ($M)": 3000,
-        "Net Income ($M)": 500,
-        "Market Value ($M)": 5000,
-        "year": 2024
-    },
-    {
-        "Rank": 120,
-        "Company": "Fullcast Holdings",
-        "Country/Territory": "Japan",
-        "Industry": "Services",
-        "Sales ($M)": 400,
-        "Net Income ($M)": 30,
-        "Market Value ($M)": 300,
-        "year": 2024
-    },
-    {
-        "Rank": 121,
-        "Company": "Funai Electric",
-        "Country/Territory": "Japan",
-        "Industry": "Electronics",
-        "Sales ($M)": 1000,
-        "Net Income ($M)": -50,
-        "Market Value ($M)": 100,
-        "year": 2024
-    },
-    {
-        "Rank": 122,
-        "Company": "Furukawa Electric",
-        "Country/Territory": "Japan",
-        "Industry": "Manufacturing",
-        "Sales ($M)": 8000,
-        "Net Income ($M)": 200,
-        "Market Value ($M)": 2500,
-        "year": 2024
-    },
-    {
-        "Rank": 123,
-        "Company": "Fuso Chemical",
-        "Country/Territory": "Japan",
-        "Industry": "Chemicals",
-        "Sales ($M)": 400,
-        "Net Income ($M)": 50,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 124,
-        "Company": "Futaba Industrial",
-        "Country/Territory": "Japan",
-        "Industry": "Automotive",
-        "Sales ($M)": 2500,
-        "Net Income ($M)": 50,
-        "Market Value ($M)": 400,
-        "year": 2024
-    },
-    {
-        "Rank": 125,
-        "Company": "Gakken Holdings",
-        "Country/Territory": "Japan",
-        "Industry": "Publishing",
-        "Sales ($M)": 1500,
-        "Net Income ($M)": 50,
-        "Market Value ($M)": 500,
-        "year": 2024
-    },
-    {
-        "Rank": 126,
-        "Company": "Gelex",
-        "Country/Territory": "Vietnam",
-        "Industry": "Manufacturing",
-        "Sales ($M)": 1300,
-        "Net Income ($M)": 50,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 127,
-        "Company": "General Packer",
-        "Country/Territory": "Japan",
-        "Industry": "Manufacturing",
-        "Sales ($M)": 100,
-        "Net Income ($M)": 10,
-        "Market Value ($M)": 150,
-        "year": 2024
-    },
-    {
-        "Rank": 128,
-        "Company": "Genky DrugStores",
-        "Country/Territory": "Japan",
-        "Industry": "Retail",
-        "Sales ($M)": 1500,
-        "Net Income ($M)": 50,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 129,
-        "Company": "Genting Singapore",
-        "Country/Territory": "Singapore",
-        "Industry": "Gaming",
-        "Sales ($M)": 1700,
-        "Net Income ($M)": 250,
-        "Market Value ($M)": 7000,
-        "year": 2024
-    },
-    {
-        "Rank": 130,
-        "Company": "G-Foot",
-        "Country/Territory": "Japan",
-        "Industry": "Retail",
-        "Sales ($M)": 800,
-        "Net Income ($M)": -20,
-        "Market Value ($M)": 100,
-        "year": 2024
-    },
-    {
-        "Rank": 131,
-        "Company": "Giga-Tronics",
-        "Country/Territory": "Taiwan",
-        "Industry": "Electronics",
-        "Sales ($M)": 50,
-        "Net Income ($M)": 10,
-        "Market Value ($M)": 100,
-        "year": 2024
-    },
-    {
-        "Rank": 132,
-        "Company": "Giken",
-        "Country/Territory": "Japan",
-        "Industry": "Construction",
-        "Sales ($M)": 300,
-        "Net Income ($M)": 30,
-        "Market Value ($M)": 500,
-        "year": 2024
-    },
-    {
-        "Rank": 133,
-        "Company": "GMO Payment Gateway",
-        "Country/Territory": "Japan",
-        "Industry": "Finance",
-        "Sales ($M)": 400,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 8000,
-        "year": 2024
-    },
-    {
-        "Rank": 134,
-        "Company": "Goldwin",
-        "Country/Territory": "Japan",
-        "Industry": "Apparel",
-        "Sales ($M)": 900,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 2000,
-        "year": 2024
-    },
-    {
-        "Rank": 135,
-        "Company": "Goodman Fielder",
-        "Country/Territory": "Australia",
-        "Industry": "Food &amp; Beverage",
-        "Sales ($M)": 1800,
-        "Net Income ($M)": 50,
-        "Market Value ($M)": 1000,
-        "year": 2024
-    },
-    {
-        "Rank": 136,
-        "Company": "Gree",
-        "Country/Territory": "Japan",
-        "Industry": "Gaming",
-        "Sales ($M)": 600,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 1000,
-        "year": 2024
-    },
-    {
-        "Rank": 137,
-        "Company": "GSI Creos",
-        "Country/Territory": "Japan",
-        "Industry": "Trading",
-        "Sales ($M)": 1500,
-        "Net Income ($M)": 50,
-        "Market Value ($M)": 300,
-        "year": 2024
-    },
-    {
-        "Rank": 138,
-        "Company": "G-Tekt",
-        "Country/Territory": "Japan",
-        "Industry": "Automotive",
-        "Sales ($M)": 2500,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 139,
-        "Company": "Gulliver International",
-        "Country/Territory": "Japan",
-        "Industry": "Retail",
-        "Sales ($M)": 3000,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 140,
-        "Company": "Gunma Bank",
-        "Country/Territory": "Japan",
-        "Industry": "Finance",
-        "Sales ($M)": 1500,
-        "Net Income ($M)": 300,
-        "Market Value ($M)": 2500,
-        "year": 2024
-    },
-    {
-        "Rank": 141,
-        "Company": "Gunze",
-        "Country/Territory": "Japan",
-        "Industry": "Apparel",
-        "Sales ($M)": 1200,
-        "Net Income ($M)": 50,
-        "Market Value ($M)": 500,
-        "year": 2024
-    },
-    {
-        "Rank": 142,
-        "Company": "H2O Retailing",
-        "Country/Territory": "Japan",
-        "Industry": "Retail",
-        "Sales ($M)": 7000,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 1500,
-        "year": 2024
-    },
-    {
-        "Rank": 143,
-        "Company": "Hachijuni Bank",
-        "Country/Territory": "Japan",
-        "Industry": "Finance",
-        "Sales ($M)": 2000,
-        "Net Income ($M)": 300,
-        "Market Value ($M)": 3000,
-        "year": 2024
-    },
-    {
-        "Rank": 144,
-        "Company": "Hakuhodo DY Holdings",
-        "Country/Territory": "Japan",
-        "Industry": "Media",
-        "Sales ($M)": 8000,
-        "Net Income ($M)": 300,
-        "Market Value ($M)": 4000,
-        "year": 2024
-    },
-    {
-        "Rank": 145,
-        "Company": "Hamamatsu Photonics",
-        "Country/Territory": "Japan",
-        "Industry": "Electronics",
-        "Sales ($M)": 1800,
-        "Net Income ($M)": 300,
-        "Market Value ($M)": 8000,
-        "year": 2024
-    },
-    {
-        "Rank": 146,
-        "Company": "Hankyu Hanshin Holdings",
-        "Country/Territory": "Japan",
-        "Industry": "Transportation",
-        "Sales ($M)": 8000,
-        "Net Income ($M)": 500,
-        "Market Value ($M)": 10000,
-        "year": 2024
-    },
-    {
-        "Rank": 147,
-        "Company": "Hanshin Electric Railway",
-        "Country/Territory": "Japan",
-        "Industry": "Transportation",
-        "Sales ($M)": 1500,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 2000,
-        "year": 2024
-    },
-    {
-        "Rank": 148,
-        "Company": "Haseko",
-        "Country/Territory": "Japan",
-        "Industry": "Construction",
-        "Sales ($M)": 8000,
-        "Net Income ($M)": 500,
-        "Market Value ($M)": 4000,
-        "year": 2024
-    },
-    {
-        "Rank": 149,
-        "Company": "Heiwa",
-        "Country/Territory": "Japan",
-        "Industry": "Gaming",
-        "Sales ($M)": 1200,
-        "Net Income ($M)": 150,
-        "Market Value ($M)": 1500,
-        "year": 2024
-    },
-    {
-        "Rank": 150,
-        "Company": "Heiwado",
-        "Country/Territory": "Japan",
-        "Industry": "Retail",
-        "Sales ($M)": 4000,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 151,
-        "Company": "Hibiya Engineering",
-        "Country/Territory": "Japan",
-        "Industry": "Construction",
-        "Sales ($M)": 500,
-        "Net Income ($M)": 30,
-        "Market Value ($M)": 300,
-        "year": 2024
-    },
-    {
-        "Rank": 152,
-        "Company": "Hikari Tsushin",
-        "Country/Territory": "Japan",
-        "Industry": "IT Services",
-        "Sales ($M)": 5000,
-        "Net Income ($M)": 500,
-        "Market Value ($M)": 8000,
-        "year": 2024
-    },
-    {
-        "Rank": 153,
-        "Company": "Hino Motors",
-        "Country/Territory": "Japan",
-        "Industry": "Automotive",
-        "Sales ($M)": 15000,
-        "Net Income ($M)": -500,
-        "Market Value ($M)": 2000,
-        "year": 2024
-    },
-    {
-        "Rank": 154,
-        "Company": "Hirose Electric",
-        "Country/Territory": "Japan",
-        "Industry": "Electronics",
-        "Sales ($M)": 1500,
-        "Net Income ($M)": 250,
-        "Market Value ($M)": 5000,
-        "year": 2024
-    },
-    {
-        "Rank": 155,
-        "Company": "Hisamitsu Pharmaceutical",
-        "Country/Territory": "Japan",
-        "Industry": "Healthcare",
-        "Sales ($M)": 1200,
-        "Net Income ($M)": 150,
-        "Market Value ($M)": 4000,
-        "year": 2024
-    },
-    {
-        "Rank": 156,
-        "Company": "Hitachi",
-        "Country/Territory": "Japan",
-        "Industry": "Conglomerate",
-        "Sales ($M)": 90000,
-        "Net Income ($M)": 3000,
-        "Market Value ($M)": 50000,
-        "year": 2024
-    },
-    {
-        "Rank": 157,
-        "Company": "Hitachi Construction Machinery",
-        "Country/Territory": "Japan",
-        "Industry": "Manufacturing",
-        "Sales ($M)": 9000,
-        "Net Income ($M)": 400,
-        "Market Value ($M)": 6000,
-        "year": 2024
-    },
-    {
-        "Rank": 158,
-        "Company": "Hitachi High-Technologies",
-        "Country/Territory": "Japan",
-        "Industry": "Technology",
-        "Sales ($M)": 6000,
-        "Net Income ($M)": 300,
-        "Market Value ($M)": 5000,
-        "year": 2024
-    },
-    {
-        "Rank": 159,
-        "Company": "Hitachi Metals",
-        "Country/Territory": "Japan",
-        "Industry": "Metals",
-        "Sales ($M)": 8000,
-        "Net Income ($M)": 200,
-        "Market Value ($M)": 4000,
-        "year": 2024
-    },
-    {
-        "Rank": 160,
-        "Company": "Hogy Medical",
-        "Country/Territory": "Japan",
-        "Industry": "Healthcare",
-        "Sales ($M)": 300,
-        "Net Income ($M)": 50,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 161,
-        "Company": "Hokkaido Electric Power",
-        "Country/Territory": "Japan",
-        "Industry": "Utilities",
-        "Sales ($M)": 6000,
-        "Net Income ($M)": -200,
-        "Market Value ($M)": 1500,
-        "year": 2024
-    },
-    {
-        "Rank": 162,
-        "Company": "Hokuetsu",
-        "Country/Territory": "Japan",
-        "Industry": "Paper",
-        "Sales ($M)": 2500,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 163,
-        "Company": "Hokuriku Electric Power",
-        "Country/Territory": "Japan",
-        "Industry": "Utilities",
-        "Sales ($M)": 5000,
-        "Net Income ($M)": -100,
-        "Market Value ($M)": 1000,
-        "year": 2024
-    },
-    {
-        "Rank": 164,
-        "Company": "Honda Motor",
-        "Country/Territory": "Japan",
-        "Industry": "Automotive",
-        "Sales ($M)": 130000,
-        "Net Income ($M)": 5000,
-        "Market Value ($M)": 50000,
-        "year": 2024
-    },
-    {
-        "Rank": 165,
-        "Company": "Hon Hai Precision Industry",
-        "Country/Territory": "Taiwan",
-        "Industry": "Electronics",
-        "Sales ($M)": 200000,
-        "Net Income ($M)": 5000,
-        "Market Value ($M)": 50000,
-        "year": 2024
-    },
-    {
-        "Rank": 166,
-        "Company": "Horiba",
-        "Country/Territory": "Japan",
-        "Industry": "Technology",
-        "Sales ($M)": 2000,
-        "Net Income ($M)": 200,
-        "Market Value ($M)": 4000,
-        "year": 2024
-    },
-    {
-        "Rank": 167,
-        "Company": "Hoshizaki",
-        "Country/Territory": "Japan",
-        "Industry": "Manufacturing",
-        "Sales ($M)": 2500,
-        "Net Income ($M)": 200,
-        "Market Value ($M)": 6000,
-        "year": 2024
-    },
-    {
-        "Rank": 168,
-        "Company": "House Foods Group",
-        "Country/Territory": "Japan",
-        "Industry": "Food &amp; Beverage",
-        "Sales ($M)": 2500,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 2000,
-        "year": 2024
-    },
-    {
-        "Rank": 169,
-        "Company": "Hoya",
-        "Country/Territory": "Japan",
-        "Industry": "Healthcare",
-        "Sales ($M)": 5500,
-        "Net Income ($M)": 1500,
-        "Market Value ($M)": 40000,
-        "year": 2024
-    },
-    {
-        "Rank": 170,
-        "Company": "Hulic",
-        "Country/Territory": "Japan",
-        "Industry": "Real Estate",
-        "Sales ($M)": 3000,
-        "Net Income ($M)": 500,
-        "Market Value ($M)": 8000,
-        "year": 2024
-    },
-    {
-        "Rank": 171,
-        "Company": "Hyundai Department Store",
-        "Country/Territory": "South Korea",
-        "Industry": "Retail",
-        "Sales ($M)": 6000,
-        "Net Income ($M)": 200,
-        "Market Value ($M)": 2000,
-        "year": 2024
-    },
-    {
-        "Rank": 172,
-        "Company": "Hyundai Glovis",
-        "Country/Territory": "South Korea",
-        "Industry": "Logistics",
-        "Sales ($M)": 20000,
-        "Net Income ($M)": 500,
-        "Market Value ($M)": 6000,
-        "year": 2024
-    },
-    {
-        "Rank": 173,
-        "Company": "Hyundai Mobis",
-        "Country/Territory": "South Korea",
-        "Industry": "Automotive",
-        "Sales ($M)": 40000,
-        "Net Income ($M)": 1500,
-        "Market Value ($M)": 18000,
-        "year": 2024
-    },
-    {
-        "Rank": 174,
-        "Company": "Hyundai Motor",
-        "Country/Territory": "South Korea",
-        "Industry": "Automotive",
-        "Sales ($M)": 120000,
-        "Net Income ($M)": 5000,
-        "Market Value ($M)": 40000,
-        "year": 2024
-    },
-    {
-        "Rank": 175,
-        "Company": "Ibiden",
-        "Country/Territory": "Japan",
-        "Industry": "Electronics",
-        "Sales ($M)": 3000,
-        "Net Income ($M)": 200,
-        "Market Value ($M)": 4000,
-        "year": 2024
-    },
-    {
-        "Rank": 176,
-        "Company": "Ichibanya",
-        "Country/Territory": "Japan",
-        "Industry": "Food &amp; Beverage",
-        "Sales ($M)": 450,
-        "Net Income ($M)": 30,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 177,
-        "Company": "Idemitsu Kosan",
-        "Country/Territory": "Japan",
-        "Industry": "Energy",
-        "Sales ($M)": 60000,
-        "Net Income ($M)": 1500,
-        "Market Value ($M)": 5000,
-        "year": 2024
-    },
-    {
-        "Rank": 178,
-        "Company": "IHI",
-        "Country/Territory": "Japan",
-        "Industry": "Manufacturing",
-        "Sales ($M)": 12000,
-        "Net Income ($M)": 200,
-        "Market Value ($M)": 3000,
-        "year": 2024
-    },
-    {
-        "Rank": 179,
-        "Company": "Iida Group Holdings",
-        "Country/Territory": "Japan",
-        "Industry": "Construction",
-        "Sales ($M)": 12000,
-        "Net Income ($M)": 800,
-        "Market Value ($M)": 6000,
-        "year": 2024
-    },
-    {
-        "Rank": 180,
-        "Company": "Iino Kaiun Kaisha",
-        "Country/Territory": "Japan",
-        "Industry": "Shipping",
-        "Sales ($M)": 1000,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 181,
-        "Company": "I-Net",
-        "Country/Territory": "Japan",
-        "Industry": "IT Services",
-        "Sales ($M)": 300,
-        "Net Income ($M)": 20,
-        "Market Value ($M)": 250,
-        "year": 2024
-    },
-    {
-        "Rank": 182,
-        "Company": "Inpex",
-        "Country/Territory": "Japan",
-        "Industry": "Energy",
-        "Sales ($M)": 15000,
-        "Net Income ($M)": 3000,
-        "Market Value ($M)": 15000,
-        "year": 2024
-    },
-    {
-        "Rank": 183,
-        "Company": "Inter Action",
-        "Country/Territory": "Japan",
-        "Industry": "Manufacturing",
-        "Sales ($M)": 100,
-        "Net Income ($M)": 15,
-        "Market Value ($M)": 150,
-        "year": 2024
-    },
-    {
-        "Rank": 184,
-        "Company": "Invoclar Vivadent",
-        "Country/Territory": "Liechtenstein",
-        "Industry": "Healthcare",
-        "Sales ($M)": 800,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": null,
-        "year": 2024
-    },
-    {
-        "Rank": 185,
-        "Company": "Isetan Mitsukoshi Holdings",
-        "Country/Territory": "Japan",
-        "Industry": "Retail",
-        "Sales ($M)": 10000,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 3000,
-        "year": 2024
-    },
-    {
-        "Rank": 186,
-        "Company": "Ishihara Sangyo Kaisha",
-        "Country/Territory": "Japan",
-        "Industry": "Chemicals",
-        "Sales ($M)": 1000,
-        "Net Income ($M)": 50,
-        "Market Value ($M)": 400,
-        "year": 2024
-    },
-    {
-        "Rank": 187,
-        "Company": "Isuzu Motors",
-        "Country/Territory": "Japan",
-        "Industry": "Automotive",
-        "Sales ($M)": 20000,
-        "Net Income ($M)": 800,
-        "Market Value ($M)": 8000,
-        "year": 2024
-    },
-    {
-        "Rank": 188,
-        "Company": "Ito En",
-        "Country/Territory": "Japan",
-        "Industry": "Food &amp; Beverage",
-        "Sales ($M)": 4000,
-        "Net Income ($M)": 150,
-        "Market Value ($M)": 3000,
-        "year": 2024
-    },
-    {
-        "Rank": 189,
-        "Company": "Itochu",
-        "Country/Territory": "Japan",
-        "Industry": "Trading",
-        "Sales ($M)": 100000,
-        "Net Income ($M)": 5000,
-        "Market Value ($M)": 40000,
-        "year": 2024
-    },
-    {
-        "Rank": 190,
-        "Company": "Itoham Yonekyu Holdings",
-        "Country/Territory": "Japan",
-        "Industry": "Food &amp; Beverage",
-        "Sales ($M)": 8000,
-        "Net Income ($M)": 200,
-        "Market Value ($M)": 2000,
-        "year": 2024
-    },
-    {
-        "Rank": 191,
-        "Company": "Iwatani",
-        "Country/Territory": "Japan",
-        "Industry": "Energy",
-        "Sales ($M)": 6000,
-        "Net Income ($M)": 200,
-        "Market Value ($M)": 2500,
-        "year": 2024
-    },
-    {
-        "Rank": 192,
-        "Company": "Izumi",
-        "Country/Territory": "Japan",
-        "Industry": "Retail",
-        "Sales ($M)": 7000,
-        "Net Income ($M)": 200,
-        "Market Value ($M)": 2500,
-        "year": 2024
-    },
-    {
-        "Rank": 193,
-        "Company": "Jaccs",
-        "Country/Territory": "Japan",
-        "Industry": "Finance",
-        "Sales ($M)": 1200,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 800,
-        "year": 2024
-    },
-    {
-        "Rank": 194,
-        "Company": "Jafco Group",
-        "Country/Territory": "Japan",
-        "Industry": "Finance",
-        "Sales ($M)": 200,
-        "Net Income ($M)": 100,
-        "Market Value ($M)": 1500,
-        "year": 2024
-    },
-    {
-        "Rank": 195,
-        "Company": "Japan Airlines",
-        "Country/Territory": "Japan",
-        "Industry": "Aviation",
-        "Sales ($M)": 12000,
-        "Net Income ($M)": -300,
-        "Market Value ($M)": 5000,
-        "year": 2024
-    },
-    {
-        "Rank": 196,
-        "Company": "Japan Airport Terminal",
-        "Country/Territory": "Japan",
-        "Industry": "Transportation",
-        "Sales ($M)": 2000,
-        "Net Income ($M)": -200,
-        "Market Value ($M)": 3000,
-        "year": 2024
-    },
-    {
-        "Rank": 197,
-        "Company": "Japan Exchange Group",
-        "Country/Territory": "Japan",
-        "Industry": "Finance",
-        "Sales ($M)": 1200,
-        "Net Income ($M)": 500,
-        "Market Value ($M)": 10000,
-        "year": 2024
-    },
-    {
-        "Rank": 198,
-        "Company": "Japan Lifeline",
-        "Country/Territory": "Japan",
-        "Industry": "Healthcare",
-        "Sales ($M)": 400,
-        "Net Income ($M)": 80,
-        "Market Value ($M)": 1500,
-        "year": 2024
-    },
-    {
-        "Rank": 199,
-        "Company": "Japan Post Holdings",
-        "Country/Territory": "Japan",
-        "Industry": "Conglomerate",
-        "Sales ($M)": 100000,
-        "Net Income ($M)": 3000,
-        "Market Value ($M)": 30000,
-        "year": 2024
-    },
-    {
-        "Rank": 200,
-        "Company": "Japan Tobacco",
-        "Country/Territory": "Japan",
-        "Industry": "Tobacco",
-        "Sales ($M)": 20000,
-        "Net Income ($M)": 3000,
-        "Market Value ($M)": 35000,
-        "year": 2024
-    }
-]
+{
+    "listName" : "Forbes Asia’s 200 Best Under A Billion'",
+    "listSubHeading" :"AUGUST 06, 2024",
+    "listCompanies": [
+        {
+            "Rank": 1,
+            "Company": "Able Global",
+            "Country/Territory": "Malaysia",
+            "Industry": "Consumer Goods",
+            "Sales ($M)": 142,
+            "Net Income ($M)": 11,
+            "Market Value ($M)": 134,
+            "year": 2024
+        },
+        {
+            "Rank": 2,
+            "Company": "Acrow",
+            "Country/Territory": "Australia",
+            "Industry": "Industrials",
+            "Sales ($M)": 113,
+            "Net Income ($M)": 16,
+            "Market Value ($M)": 126,
+            "year": 2024
+        },
+        {
+            "Rank": 3,
+            "Company": "Action Construction Equipment",
+            "Country/Territory": "India",
+            "Industry": "Industrials",
+            "Sales ($M)": 352,
+            "Net Income ($M)": 40,
+            "Market Value ($M)": 425,
+            "year": 2024
+        },
+        {
+            "Rank": 4,
+            "Company": "Activation Group Holdings",
+            "Country/Territory": "China",
+            "Industry": "Media & Entertainment",
+            "Sales ($M)": 137,
+            "Net Income ($M)": 15,
+            "Market Value ($M)": 134,
+            "year": 2024
+        },
+        {
+            "Rank": 5,
+            "Company": "Agi Infra",
+            "Country/Territory": "India",
+            "Industry": "Real Estate",
+            "Sales ($M)": 35,
+            "Net Income ($M)": 6,
+            "Market Value ($M)": 126,
+            "year": 2024
+        },
+        {
+            "Rank": 6,
+            "Company": "Ahluwalia Contracts (India)",
+            "Country/Territory": "India",
+            "Industry": "Construction",
+            "Sales ($M)": 466,
+            "Net Income ($M)": 45,
+            "Market Value ($M)": 425,
+            "year": 2024
+        },
+        {
+            "Rank": 7,
+            "Company": "AIC",
+            "Country/Territory": "Taiwan",
+            "Industry": "Technology",
+            "Sales ($M)": 282,
+            "Net Income ($M)": 30,
+            "Market Value ($M)": 1000,
+            "year": 2024
+        },
+        {
+            "Rank": 8,
+            "Company": "Aidma Holdings",
+            "Country/Territory": "Japan",
+            "Industry": "Services",
+            "Sales ($M)": 65,
+            "Net Income ($M)": 9,
+            "Market Value ($M)": 102,
+            "year": 2024
+        },
+        {
+            "Rank": 9,
+            "Company": "Airtac International Group",
+            "Country/Territory": "Taiwan",
+            "Industry": "Industrials",
+            "Sales ($M)": 957,
+            "Net Income ($M)": 223,
+            "Market Value ($M)": 8300,
+            "year": 2024
+        },
+        {
+            "Rank": 10,
+            "Company": "Alchip Technologies",
+            "Country/Territory": "Taiwan",
+            "Industry": "Semiconductors",
+            "Sales ($M)": 978,
+            "Net Income ($M)": 107,
+            "Market Value ($M)": 6700,
+            "year": 2024
+        },
+        {
+            "Rank": 11,
+            "Company": "Alexander Marine",
+            "Country/Territory": "Taiwan",
+            "Industry": "Consumer Durables",
+            "Sales ($M)": 203,
+            "Net Income ($M)": 67,
+            "Market Value ($M)": 1800,
+            "year": 2024
+        },
+        {
+            "Rank": 12,
+            "Company": "Amotiv",
+            "Country/Territory": "South Korea",
+            "Industry": "Industrials",
+            "Sales ($M)": 697,
+            "Net Income ($M)": 66,
+            "Market Value ($M)": 5300,
+            "year": 2024
+        },
+        {
+            "Rank": 13,
+            "Company": "Anand Rathi Wealth",
+            "Country/Territory": "India",
+            "Industry": "Finance",
+            "Sales ($M)": 90,
+            "Net Income ($M)": 27,
+            "Market Value ($M)": 420,
+            "year": 2024
+        },
+        {
+            "Rank": 14,
+            "Company": "Anhui Huaheng Biotechnology",
+            "Country/Territory": "China",
+            "Industry": "Food & Beverage",
+            "Sales ($M)": 272,
+            "Net Income ($M)": 63,
+            "Market Value ($M)": 1200,
+            "year": 2024
+        },
+        {
+            "Rank": 15,
+            "Company": "Anji Microelectronics Technology (Shanghai)",
+            "Country/Territory": "China",
+            "Industry": "Semiconductors",
+            "Sales ($M)": 175,
+            "Net Income ($M)": 57,
+            "Market Value ($M)": 2000,
+            "year": 2024
+        },
+        {
+            "Rank": 16,
+            "Company": "Avia Avian",
+            "Country/Territory": "Indonesia",
+            "Industry": "Construction",
+            "Sales ($M)": 461,
+            "Net Income ($M)": 108,
+            "Market Value ($M)": 250,
+            "year": 2024
+        },
+        {
+            "Rank": 17,
+            "Company": "Axxzia",
+            "Country/Territory": "Japan",
+            "Industry": "Cosmetics",
+            "Sales ($M)": 82,
+            "Net Income ($M)": 10,
+            "Market Value ($M)": 110,
+            "year": 2024
+        },
+        {
+            "Rank": 18,
+            "Company": "Azeus Systems Holdings",
+            "Country/Territory": "Philippines",
+            "Industry": "Software & Services",
+            "Sales ($M)": 42,
+            "Net Income ($M)": 11,
+            "Market Value ($M)": 17800,
+            "year": 2024
+        },
+        {
+            "Rank": 19,
+            "Company": "Azoom",
+            "Country/Territory": "Japan",
+            "Industry": "Real Estate",
+            "Sales ($M)": 60,
+            "Net Income ($M)": 6,
+            "Market Value ($M)": 3100,
+            "year": 2024
+        },
+        {
+            "Rank": 20,
+            "Company": "Aztech Global",
+            "Country/Territory": "Singapore",
+            "Industry": "Technology",
+            "Sales ($M)": 667,
+            "Net Income ($M)": 74,
+            "Market Value ($M)": 9000,
+            "year": 2024
+        },
+        {
+            "Rank": 21,
+            "Company": "Baudroie",
+            "Country/Territory": "Taiwan",
+            "Industry": "Technology",
+            "Sales ($M)": 51,
+            "Net Income ($M)": 8,
+            "Market Value ($M)": 150,
+            "year": 2024
+        },
+        {
+            "Rank": 22,
+            "Company": "BayCurrent Consulting",
+            "Country/Territory": "Japan",
+            "Industry": "Software & Services",
+            "Sales ($M)": 656,
+            "Net Income ($M)": 177,
+            "Market Value ($M)": 200,
+            "year": 2024
+        },
+        {
+            "Rank": 23,
+            "Company": "Bengo4.Com",
+            "Country/Territory": "Japan",
+            "Industry": "Software & Services",
+            "Sales ($M)": 78,
+            "Net Income ($M)": 6,
+            "Market Value ($M)": 50,
+            "year": 2024
+        },
+        {
+            "Rank": 24,
+            "Company": "Bermaz Auto",
+            "Country/Territory": "Malaysia",
+            "Industry": "Automotive",
+            "Sales ($M)": 841,
+            "Net Income ($M)": 75,
+            "Market Value ($M)": 70,
+            "year": 2024
+        },
+        {
+            "Rank": 25,
+            "Company": "Beta Drugs",
+            "Country/Territory": "India",
+            "Industry": "Healthcare",
+            "Sales ($M)": 36,
+            "Net Income ($M)": 4,
+            "Market Value ($M)": 60,
+            "year": 2024
+        },
+        {
+            "Rank": 26,
+            "Company": "BioPlus",
+            "Country/Territory": "South Korea",
+            "Industry": "Healthcare",
+            "Sales ($M)": 50,
+            "Net Income ($M)": 20,
+            "Market Value ($M)": 100,
+            "year": 2024
+        },
+        {
+            "Rank": 27,
+            "Company": "Boltek Holdings",
+            "Country/Territory": "Malaysia",
+            "Industry": "Industrials",
+            "Sales ($M)": 22,
+            "Net Income ($M)": 4,
+            "Market Value ($M)": 40,
+            "year": 2024
+        },
+        {
+            "Rank": 28,
+            "Company": "Bora Pharmaceuticals",
+            "Country/Territory": "Taiwan",
+            "Industry": "Healthcare",
+            "Sales ($M)": 456,
+            "Net Income ($M)": 97,
+            "Market Value ($M)": 40,
+            "year": 2024
+        },
+        {
+            "Rank": 29,
+            "Company": "Caplin Point Laboratories",
+            "Country/Territory": "India",
+            "Industry": "Healthcare",
+            "Sales ($M)": 205,
+            "Net Income ($M)": 55,
+            "Market Value ($M)": 3500,
+            "year": 2024
+        },
+        {
+            "Rank": 30,
+            "Company": "CAR Group",
+            "Country/Territory": "Australia",
+            "Industry": "Software & Services",
+            "Sales ($M)": 525,
+            "Net Income ($M)": 434,
+            "Market Value ($M)": 3500,
+            "year": 2024
+        },
+        {
+            "Rank": 31,
+            "Company": "Carpenter Tan Holdings",
+            "Country/Territory": "Hong Kong",
+            "Industry": "Consumer Durables",
+            "Sales ($M)": 71,
+            "Net Income ($M)": 25,
+            "Market Value ($M)": 400,
+            "year": 2024
+        },
+        {
+            "Rank": 32,
+            "Company": "CCK Consolidated Holdings",
+            "Country/Territory": "Malaysia",
+            "Industry": "Food & Beverage",
+            "Sales ($M)": 215,
+            "Net Income ($M)": 18,
+            "Market Value ($M)": 3000,
+            "year": 2024
+        },
+        {
+            "Rank": 33,
+            "Company": "Chenbro Micom",
+            "Country/Territory": "Taiwan",
+            "Industry": "Technology Hardware & Equipment",
+            "Sales ($M)": 361,
+            "Net Income ($M)": 35,
+            "Market Value ($M)": 150,
+            "year": 2024
+        },
+        {
+            "Rank": 34,
+            "Company": "China Chunlai Education Group",
+            "Country/Territory": "China",
+            "Industry": "Diversified Financials",
+            "Sales ($M)": 213,
+            "Net Income ($M)": 97,
+            "Market Value ($M)": 1500,
+            "year": 2024
+        },
+        {
+            "Rank": 35,
+            "Company": "Choo Chiang Holdings",
+            "Country/Territory": "Singapore",
+            "Industry": "Trading & Distribution",
+            "Sales ($M)": 68,
+            "Net Income ($M)": 8,
+            "Market Value ($M)": 100,
+            "year": 2024
+        },
+        {
+            "Rank": 36,
+            "Company": "Circuit Fabology Microelectronics Equipment",
+            "Country/Territory": "Taiwan",
+            "Industry": "Semiconductors",
+            "Sales ($M)": 116,
+            "Net Income ($M)": 25,
+            "Market Value ($M)": 100,
+            "year": 2024
+        },
+        {
+            "Rank": 37,
+            "Company": "Cisarua Mountain Dairy",
+            "Country/Territory": "Indonesia",
+            "Industry": "Food & Beverage",
+            "Sales ($M)": 510,
+            "Net Income ($M)": 82,
+            "Market Value ($M)": 1000,
+            "year": 2024
+        },
+        {
+            "Rank": 38,
+            "Company": "Core Concept Technologies",
+            "Country/Territory": "Taiwan",
+            "Industry": "Technology Hardware & Equipment",
+            "Sales ($M)": 113,
+            "Net Income ($M)": 9,
+            "Market Value ($M)": 200,
+            "year": 2024
+        },
+        {
+            "Rank": 39,
+            "Company": "Cosol",
+            "Country/Territory": "Australia",
+            "Industry": "Software & Services",
+            "Sales ($M)": 51,
+            "Net Income ($M)": 5,
+            "Market Value ($M)": 5000,
+            "year": 2024
+        },
+        {
+            "Rank": 40,
+            "Company": "Credit Bureau Asia",
+            "Country/Territory": "Singapore",
+            "Industry": "Diversified Financials",
+            "Sales ($M)": 40,
+            "Net Income ($M)": 7,
+            "Market Value ($M)": 300,
+            "year": 2024
+        },
+        {
+            "Rank": 41,
+            "Company": "Daihan Pharmaceutical",
+            "Country/Territory": "South Korea",
+            "Industry": "Healthcare",
+            "Sales ($M)": 150,
+            "Net Income ($M)": 22,
+            "Market Value ($M)": 2500,
+            "year": 2024
+        },
+        {
+            "Rank": 42,
+            "Company": "Data Patterns (India)",
+            "Country/Territory": "India",
+            "Industry": "Aerospace & Defense",
+            "Sales ($M)": 63,
+            "Net Income ($M)": 22,
+            "Market Value ($M)": 25000,
+            "year": 2024
+        },
+        {
+            "Rank": 43,
+            "Company": "DCI Indonesia",
+            "Country/Territory": "Indonesia",
+            "Industry": "Software & Services",
+            "Sales ($M)": 86,
+            "Net Income ($M)": 34,
+            "Market Value ($M)": 8000,
+            "year": 2024
+        },
+        {
+            "Rank": 44,
+            "Company": "Delfi",
+            "Country/Territory": "Singapore",
+            "Industry": "Food & Beverage",
+            "Sales ($M)": 538,
+            "Net Income ($M)": 46,
+            "Market Value ($M)": 2000,
+            "year": 2024
+        },
+        {
+            "Rank": 45,
+            "Company": "Dentium",
+            "Country/Territory": "South Korea",
+            "Industry": "Healthcare",
+            "Sales ($M)": 301,
+            "Net Income ($M)": 74,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 46,
+            "Company": "Diamond Building Products",
+            "Country/Territory": "Thailand",
+            "Industry": "Construction Materials",
+            "Sales ($M)": 162,
+            "Net Income ($M)": 18,
+            "Market Value ($M)": 25000,
+            "year": 2024
+        },
+        {
+            "Rank": 47,
+            "Company": "Ditto (Thailand)",
+            "Country/Territory": "Thailand",
+            "Industry": "Software & Services",
+            "Sales ($M)": 52,
+            "Net Income ($M)": 10,
+            "Market Value ($M)": 1500,
+            "year": 2024
+        },
+        {
+            "Rank": 48,
+            "Company": "EClerx Services",
+            "Country/Territory": "India",
+            "Industry": "Software & Services",
+            "Sales ($M)": 353,
+            "Net Income ($M)": 62,
+            "Market Value ($M)": 3500,
+            "year": 2024
+        },
+        {
+            "Rank": 49,
+            "Company": "EFT Solutions Holdings",
+            "Country/Territory": "Hong Kong",
+            "Industry": "Software & Services",
+            "Sales ($M)": 16,
+            "Net Income ($M)": 4,
+            "Market Value ($M)": 1800,
+            "year": 2024
+        },
+        {
+            "Rank": 50,
+            "Company": "Eggriculture Foods",
+            "Country/Territory": "Hong Kong",
+            "Industry": "Food & Beverage",
+            "Sales ($M)": 81,
+            "Net Income ($M)": 14,
+            "Market Value ($M)": 12000,
+            "year": 2024
+        },
+        {
+            "Rank": 51,
+            "Company": "Ekarat Engineering",
+            "Country/Territory": "Thailand",
+            "Industry": "Electrical Equipment",
+            "Sales ($M)": 66,
+            "Net Income ($M)": 6,
+            "Market Value ($M)": 300,
+            "year": 2024
+        },
+        {
+            "Rank": 52,
+            "Company": "Elecon Engineering",
+            "Country/Territory": "India",
+            "Industry": "Industrial Machinery",
+            "Sales ($M)": 234,
+            "Net Income ($M)": 43,
+            "Market Value ($M)": 500,
+            "year": 2024
+        },
+        {
+            "Rank": 53,
+            "Company": "Essex Bio-Technology",
+            "Country/Territory": "China",
+            "Industry": "Biotechnology",
+            "Sales ($M)": 218,
+            "Net Income ($M)": 35,
+            "Market Value ($M)": 60000,
+            "year": 2024
+        },
+        {
+            "Rank": 54,
+            "Company": "Exotic Food",
+            "Country/Territory": "Thailand",
+            "Industry": "Food & Beverage",
+            "Sales ($M)": 72,
+            "Net Income ($M)": 23,
+            "Market Value ($M)": 5000,
+            "year": 2024
+        },
+        {
+            "Rank": 55,
+            "Company": "Far Eastern University",
+            "Country/Territory": "Philippines",
+            "Industry": "Education Services",
+            "Sales ($M)": 88,
+            "Net Income ($M)": 33,
+            "Market Value ($M)": 30000,
+            "year": 2024
+        },
+        {
+            "Rank": 56,
+            "Company": "Fineotex Chemical",
+            "Country/Territory": "India",
+            "Industry": "Chemicals",
+            "Sales ($M)": 69,
+            "Net Income ($M)": 14,
+            "Market Value ($M)": 300,
+            "year": 2024
+        },
+        {
+            "Rank": 57,
+            "Company": "First Hi-tec Enterprise",
+            "Country/Territory": "Taiwan",
+            "Industry": "Semiconductors",
+            "Sales ($M)": 140,
+            "Net Income ($M)": 15,
+            "Market Value ($M)": 1500,
+            "year": 2024
+        },
+        {
+            "Rank": 58,
+            "Company": "Galaxy Software Services",
+            "Country/Territory": "Taiwan",
+            "Industry": "Software & Services",
+            "Sales ($M)": 51,
+            "Net Income ($M)": 6,
+            "Market Value ($M)": 500,
+            "year": 2024
+        },
+        {
+            "Rank": 59,
+            "Company": "Gemadept",
+            "Country/Territory": "Vietnam",
+            "Industry": "Transportation",
+            "Sales ($M)": 158,
+            "Net Income ($M)": 92,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 60,
+            "Company": "G&M Holdings",
+            "Country/Territory": "Cayman Islands",
+            "Industry": "Capital Markets",
+            "Sales ($M)": 63,
+            "Net Income ($M)": 7,
+            "Market Value ($M)": 250,
+            "year": 2024
+        },
+        {
+            "Rank": 61,
+            "Company": "GnBS Eco",
+            "Country/Territory": "South Korea",
+            "Industry": "Healthcare",
+            "Sales ($M)": 68,
+            "Net Income ($M)": 13,
+            "Market Value ($M)": 4000,
+            "year": 2024
+        },
+        {
+            "Rank": 62,
+            "Company": "GNI Group",
+            "Country/Territory": "Japan",
+            "Industry": "Biotechnology",
+            "Sales ($M)": 185,
+            "Net Income ($M)": 58,
+            "Market Value ($M)": 2500,
+            "year": 2024
+        },
+        {
+            "Rank": 63,
+            "Company": "Greatech Technology",
+            "Country/Territory": "Malaysia",
+            "Industry": "Industrial Machinery",
+            "Sales ($M)": 144,
+            "Net Income ($M)": 34,
+            "Market Value ($M)": 4000,
+            "year": 2024
+        },
+        {
+            "Rank": 64,
+            "Company": "Hangzhou Bio-Sincerity Pharma-Tech",
+            "Country/Territory": "China",
+            "Industry": "Pharmaceuticals",
+            "Sales ($M)": 143,
+            "Net Income ($M)": 38,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 65,
+            "Company": "Hasnur Internasional Shipping",
+            "Country/Territory": "Indonesia",
+            "Industry": "Marine Transportation",
+            "Sales ($M)": 62,
+            "Net Income ($M)": 10,
+            "Market Value ($M)": 2000,
+            "year": 2024
+        },
+        {
+            "Rank": 66,
+            "Company": "HBL Power Systems",
+            "Country/Territory": "India",
+            "Industry": "Electrical Equipment",
+            "Sales ($M)": 270,
+            "Net Income ($M)": 34,
+            "Market Value ($M)": 1500,
+            "year": 2024
+        },
+        {
+            "Rank": 67,
+            "Company": "HiTech Group Australia",
+            "Country/Territory": "Australia",
+            "Industry": "Software & Services",
+            "Sales ($M)": 50,
+            "Net Income ($M)": 4,
+            "Market Value ($M)": 1000,
+            "year": 2024
+        },
+        {
+            "Rank": 68,
+            "Company": "Hong Leong Industries",
+            "Country/Territory": "Malaysia",
+            "Industry": "Building Materials",
+            "Sales ($M)": 760,
+            "Net Income ($M)": 65,
+            "Market Value ($M)": 6000,
+            "year": 2024
+        },
+        {
+            "Rank": 69,
+            "Company": "Humanica",
+            "Country/Territory": "Thailand",
+            "Industry": "Software & Services",
+            "Sales ($M)": 37,
+            "Net Income ($M)": 9,
+            "Market Value ($M)": 3500,
+            "year": 2024
+        },
+        {
+            "Rank": 70,
+            "Company": "HyVision System",
+            "Country/Territory": "South Korea",
+            "Industry": "Technology Hardware & Equipment",
+            "Sales ($M)": 267,
+            "Net Income ($M)": 35,
+            "Market Value ($M)": 6000,
+            "year": 2024
+        },
+        {
+            "Rank": 71,
+            "Company": "I-ne Co.",
+            "Country/Territory": "Japan",
+            "Industry": "Consumer Goods",
+            "Sales ($M)": 296,
+            "Net Income ($M)": 28,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 72,
+            "Company": "IDP Education",
+            "Country/Territory": "Australia",
+            "Industry": "Education Services",
+            "Sales ($M)": 658,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 50000,
+            "year": 2024
+        },
+        {
+            "Rank": 73,
+            "Company": "IFamilySC",
+            "Country/Territory": "Taiwan",
+            "Industry": "Software & Services",
+            "Sales ($M)": 114,
+            "Net Income ($M)": 15,
+            "Market Value ($M)": 60000,
+            "year": 2024
+        },
+        {
+            "Rank": 74,
+            "Company": "IKD",
+            "Country/Territory": "China",
+            "Industry": "Automotive Components",
+            "Sales ($M)": 831,
+            "Net Income ($M)": 129,
+            "Market Value ($M)": 1000,
+            "year": 2024
+        },
+        {
+            "Rank": 75,
+            "Company": "Impack Pratama Industri",
+            "Country/Territory": "Indonesia",
+            "Industry": "Building Materials",
+            "Sales ($M)": 185,
+            "Net Income ($M)": 28,
+            "Market Value ($M)": 3500,
+            "year": 2024
+        },
+        {
+            "Rank": 76,
+            "Company": "InBody",
+            "Country/Territory": "South Korea",
+            "Industry": "Medical Equipment",
+            "Sales ($M)": 130,
+            "Net Income ($M)": 28,
+            "Market Value ($M)": 1500,
+            "year": 2024
+        },
+        {
+            "Rank": 77,
+            "Company": "Insource",
+            "Country/Territory": "Japan",
+            "Industry": "Software & Services",
+            "Sales ($M)": 78,
+            "Net Income ($M)": 19,
+            "Market Value ($M)": null,
+            "year": 2024
+        },
+        {
+            "Rank": 78,
+            "Company": "International Games System",
+            "Country/Territory": "Taiwan",
+            "Industry": "Gaming",
+            "Sales ($M)": 455,
+            "Net Income ($M)": 206,
+            "Market Value ($M)": 8000,
+            "year": 2024
+        },
+        {
+            "Rank": 79,
+            "Company": "IPD Group",
+            "Country/Territory": "Australia",
+            "Industry": "Electrical Equipment",
+            "Sales ($M)": 153,
+            "Net Income ($M)": 11,
+            "Market Value ($M)": 20000,
+            "year": 2024
+        },
+        {
+            "Rank": 80,
+            "Company": "Ittehad Chemicals",
+            "Country/Territory": "Pakistan",
+            "Industry": "Chemicals",
+            "Sales ($M)": 98,
+            "Net Income ($M)": 7,
+            "Market Value ($M)": 10000,
+            "year": 2024
+        },
+        {
+            "Rank": 81,
+            "Company": "J-Lease",
+            "Country/Territory": "Japan",
+            "Industry": "Diversified Financials",
+            "Sales ($M)": 91,
+            "Net Income ($M)": 12,
+            "Market Value ($M)": 1500,
+            "year": 2024
+        },
+        {
+            "Rank": 82,
+            "Company": "Japan Elevator Service Holdings",
+            "Country/Territory": "Japan",
+            "Industry": "Construction",
+            "Sales ($M)": 292,
+            "Net Income ($M)": 31,
+            "Market Value ($M)": 50000,
+            "year": 2024
+        },
+        {
+            "Rank": 83,
+            "Company": "Jasuindo Tiga Perkasa",
+            "Country/Territory": "Indonesia",
+            "Industry": "Commercial Services",
+            "Sales ($M)": 151,
+            "Net Income ($M)": 14,
+            "Market Value ($M)": 8000,
+            "year": 2024
+        },
+        {
+            "Rank": 84,
+            "Company": "Jess-Link Products",
+            "Country/Territory": "Taiwan",
+            "Industry": "Technology Hardware & Equipment",
+            "Sales ($M)": 159,
+            "Net Income ($M)": 20,
+            "Market Value ($M)": 25000,
+            "year": 2024
+        },
+        {
+            "Rank": 85,
+            "Company": "Jiangsu ToLand Alloy",
+            "Country/Territory": "China",
+            "Industry": "Metals & Mining",
+            "Sales ($M)": 194,
+            "Net Income ($M)": 47,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 86,
+            "Company": "Jiayou International Logistics",
+            "Country/Territory": "China",
+            "Industry": "Transportation",
+            "Sales ($M)": 984,
+            "Net Income ($M)": 147,
+            "Market Value ($M)": 2500,
+            "year": 2024
+        },
+        {
+            "Rank": 87,
+            "Company": "Jin Yang Pharmaceutical",
+            "Country/Territory": "South Korea",
+            "Industry": "Pharmaceuticals",
+            "Sales ($M)": 72,
+            "Net Income ($M)": 10,
+            "Market Value ($M)": 500,
+            "year": 2024
+        },
+        {
+            "Rank": 88,
+            "Company": "Jinzai Food Group",
+            "Country/Territory": "China",
+            "Industry": "Food & Beverage",
+            "Sales ($M)": 290,
+            "Net Income ($M)": 30,
+            "Market Value ($M)": 500,
+            "year": 2024
+        },
+        {
+            "Rank": 89,
+            "Company": "Jupiter Wagons",
+            "Country/Territory": "India",
+            "Industry": "Industrial Machinery",
+            "Sales ($M)": 440,
+            "Net Income ($M)": 40,
+            "Market Value ($M)": 25000,
+            "year": 2024
+        },
+        {
+            "Rank": 90,
+            "Company": "Jyothy Labs",
+            "Country/Territory": "India",
+            "Industry": "Household & Personal Products",
+            "Sales ($M)": 334,
+            "Net Income ($M)": 45,
+            "Market Value ($M)": 5000,
+            "year": 2024
+        },
+        {
+            "Rank": 91,
+            "Company": "JYP Entertainment",
+            "Country/Territory": "South Korea",
+            "Industry": "Media & Entertainment",
+            "Sales ($M)": 434,
+            "Net Income ($M)": 81,
+            "Market Value ($M)": 20000,
+            "year": 2024
+        },
+        {
+            "Rank": 92,
+            "Company": "Karmarts",
+            "Country/Territory": "Thailand",
+            "Industry": "Personal Products",
+            "Sales ($M)": 70,
+            "Net Income ($M)": 19,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 93,
+            "Company": "KeePer Technical Laboratory",
+            "Country/Territory": "Japan",
+            "Industry": "Commercial Services",
+            "Sales ($M)": 124,
+            "Net Income ($M)": 29,
+            "Market Value ($M)": null,
+            "year": 2024
+        },
+        {
+            "Rank": 94,
+            "Company": "Kewal Kiran Clothing",
+            "Country/Territory": "India",
+            "Industry": "Apparel",
+            "Sales ($M)": 104,
+            "Net Income ($M)": 19,
+            "Market Value ($M)": 15000,
+            "year": 2024
+        },
+        {
+            "Rank": 95,
+            "Company": "K.P. Energy",
+            "Country/Territory": "India",
+            "Industry": "Renewable Energy",
+            "Sales ($M)": 57,
+            "Net Income ($M)": 7,
+            "Market Value ($M)": 400,
+            "year": 2024
+        },
+        {
+            "Rank": 96,
+            "Company": "KPIT Technologies",
+            "Country/Territory": "India",
+            "Industry": "Software & Services",
+            "Sales ($M)": 588,
+            "Net Income ($M)": 77,
+            "Market Value ($M)": 5000,
+            "year": 2024
+        },
+        {
+            "Rank": 97,
+            "Company": "LaserBond",
+            "Country/Territory": "Australia",
+            "Industry": "Industrial Machinery",
+            "Sales ($M)": 26,
+            "Net Income ($M)": 3,
+            "Market Value ($M)": 2500,
+            "year": 2024
+        },
+        {
+            "Rank": 98,
+            "Company": "Lycopodium",
+            "Country/Territory": "Australia",
+            "Industry": "Construction & Engineering",
+            "Sales ($M)": 218,
+            "Net Income ($M)": 31,
+            "Market Value ($M)": 8000,
+            "year": 2024
+        },
+        {
+            "Rank": 99,
+            "Company": "M31 Technology",
+            "Country/Territory": "Taiwan",
+            "Industry": "Semiconductors",
+            "Sales ($M)": 52,
+            "Net Income ($M)": 14,
+            "Market Value ($M)": 2000,
+            "year": 2024
+        },
+        {
+            "Rank": 100,
+            "Company": "Fanuc",
+            "Country/Territory": "Japan",
+            "Industry": "Manufacturing",
+            "Sales ($M)": 6000,
+            "Net Income ($M)": 1500,
+            "Market Value ($M)": 40000,
+            "year": 2024
+        },
+        {
+            "Rank": 101,
+            "Company": "Far EasTone Telecommunications",
+            "Country/Territory": "Taiwan",
+            "Industry": "Telecommunications",
+            "Sales ($M)": 3000,
+            "Net Income ($M)": 300,
+            "Market Value ($M)": 8000,
+            "year": 2024
+        },
+        {
+            "Rank": 102,
+            "Company": "Fast Retailing",
+            "Country/Territory": "Japan",
+            "Industry": "Retail",
+            "Sales ($M)": 20000,
+            "Net Income ($M)": 2000,
+            "Market Value ($M)": 70000,
+            "year": 2024
+        },
+        {
+            "Rank": 103,
+            "Company": "F-Code",
+            "Country/Territory": "Japan",
+            "Industry": "IT Services",
+            "Sales ($M)": 20,
+            "Net Income ($M)": 5,
+            "Market Value ($M)": 100,
+            "year": 2024
+        },
+        {
+            "Rank": 104,
+            "Company": "FDK",
+            "Country/Territory": "Japan",
+            "Industry": "Electronics",
+            "Sales ($M)": 600,
+            "Net Income ($M)": 10,
+            "Market Value ($M)": 200,
+            "year": 2024
+        },
+        {
+            "Rank": 105,
+            "Company": "Ferrotec Holdings",
+            "Country/Territory": "Japan",
+            "Industry": "Semiconductors",
+            "Sales ($M)": 1500,
+            "Net Income ($M)": 200,
+            "Market Value ($M)": 2000,
+            "year": 2024
+        },
+        {
+            "Rank": 106,
+            "Company": "Fila Holdings",
+            "Country/Territory": "South Korea",
+            "Industry": "Apparel",
+            "Sales ($M)": 3000,
+            "Net Income ($M)": 200,
+            "Market Value ($M)": 2500,
+            "year": 2024
+        },
+        {
+            "Rank": 107,
+            "Company": "First Gen",
+            "Country/Territory": "Philippines",
+            "Industry": "Utilities",
+            "Sales ($M)": 2000,
+            "Net Income ($M)": 250,
+            "Market Value ($M)": 1000,
+            "year": 2024
+        },
+        {
+            "Rank": 108,
+            "Company": "Fisco",
+            "Country/Territory": "Japan",
+            "Industry": "Finance",
+            "Sales ($M)": 50,
+            "Net Income ($M)": 10,
+            "Market Value ($M)": 150,
+            "year": 2024
+        },
+        {
+            "Rank": 109,
+            "Company": "Fossil Group",
+            "Country/Territory": "Hong Kong",
+            "Industry": "Consumer Goods",
+            "Sales ($M)": 1500,
+            "Net Income ($M)": -100,
+            "Market Value ($M)": 200,
+            "year": 2024
+        },
+        {
+            "Rank": 110,
+            "Company": "Foster Electric",
+            "Country/Territory": "Japan",
+            "Industry": "Electronics",
+            "Sales ($M)": 1000,
+            "Net Income ($M)": 20,
+            "Market Value ($M)": 300,
+            "year": 2024
+        },
+        {
+            "Rank": 111,
+            "Company": "Fubon Financial Holding",
+            "Country/Territory": "Taiwan",
+            "Industry": "Finance",
+            "Sales ($M)": 20000,
+            "Net Income ($M)": 2000,
+            "Market Value ($M)": 25000,
+            "year": 2024
+        },
+        {
+            "Rank": 112,
+            "Company": "Fuji Electric",
+            "Country/Territory": "Japan",
+            "Industry": "Manufacturing",
+            "Sales ($M)": 8000,
+            "Net Income ($M)": 400,
+            "Market Value ($M)": 6000,
+            "year": 2024
+        },
+        {
+            "Rank": 113,
+            "Company": "Fuji Heavy Industries",
+            "Country/Territory": "Japan",
+            "Industry": "Automotive",
+            "Sales ($M)": 30000,
+            "Net Income ($M)": 1500,
+            "Market Value ($M)": 20000,
+            "year": 2024
+        },
+        {
+            "Rank": 114,
+            "Company": "Fuji Media Holdings",
+            "Country/Territory": "Japan",
+            "Industry": "Media",
+            "Sales ($M)": 5000,
+            "Net Income ($M)": 200,
+            "Market Value ($M)": 3000,
+            "year": 2024
+        },
+        {
+            "Rank": 115,
+            "Company": "Fujifilm Holdings",
+            "Country/Territory": "Japan",
+            "Industry": "Technology",
+            "Sales ($M)": 22000,
+            "Net Income ($M)": 1500,
+            "Market Value ($M)": 30000,
+            "year": 2024
+        },
+        {
+            "Rank": 116,
+            "Company": "Fujikura",
+            "Country/Territory": "Japan",
+            "Industry": "Manufacturing",
+            "Sales ($M)": 6000,
+            "Net Income ($M)": 200,
+            "Market Value ($M)": 2000,
+            "year": 2024
+        },
+        {
+            "Rank": 117,
+            "Company": "Fujitsu",
+            "Country/Territory": "Japan",
+            "Industry": "IT Services",
+            "Sales ($M)": 35000,
+            "Net Income ($M)": 1500,
+            "Market Value ($M)": 25000,
+            "year": 2024
+        },
+        {
+            "Rank": 118,
+            "Company": "Fukuda Denshi",
+            "Country/Territory": "Japan",
+            "Industry": "Healthcare",
+            "Sales ($M)": 1200,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 1000,
+            "year": 2024
+        },
+        {
+            "Rank": 119,
+            "Company": "Fukuoka Financial Group",
+            "Country/Territory": "Japan",
+            "Industry": "Finance",
+            "Sales ($M)": 3000,
+            "Net Income ($M)": 500,
+            "Market Value ($M)": 5000,
+            "year": 2024
+        },
+        {
+            "Rank": 120,
+            "Company": "Fullcast Holdings",
+            "Country/Territory": "Japan",
+            "Industry": "Services",
+            "Sales ($M)": 400,
+            "Net Income ($M)": 30,
+            "Market Value ($M)": 300,
+            "year": 2024
+        },
+        {
+            "Rank": 121,
+            "Company": "Funai Electric",
+            "Country/Territory": "Japan",
+            "Industry": "Electronics",
+            "Sales ($M)": 1000,
+            "Net Income ($M)": -50,
+            "Market Value ($M)": 100,
+            "year": 2024
+        },
+        {
+            "Rank": 122,
+            "Company": "Furukawa Electric",
+            "Country/Territory": "Japan",
+            "Industry": "Manufacturing",
+            "Sales ($M)": 8000,
+            "Net Income ($M)": 200,
+            "Market Value ($M)": 2500,
+            "year": 2024
+        },
+        {
+            "Rank": 123,
+            "Company": "Fuso Chemical",
+            "Country/Territory": "Japan",
+            "Industry": "Chemicals",
+            "Sales ($M)": 400,
+            "Net Income ($M)": 50,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 124,
+            "Company": "Futaba Industrial",
+            "Country/Territory": "Japan",
+            "Industry": "Automotive",
+            "Sales ($M)": 2500,
+            "Net Income ($M)": 50,
+            "Market Value ($M)": 400,
+            "year": 2024
+        },
+        {
+            "Rank": 125,
+            "Company": "Gakken Holdings",
+            "Country/Territory": "Japan",
+            "Industry": "Publishing",
+            "Sales ($M)": 1500,
+            "Net Income ($M)": 50,
+            "Market Value ($M)": 500,
+            "year": 2024
+        },
+        {
+            "Rank": 126,
+            "Company": "Gelex",
+            "Country/Territory": "Vietnam",
+            "Industry": "Manufacturing",
+            "Sales ($M)": 1300,
+            "Net Income ($M)": 50,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 127,
+            "Company": "General Packer",
+            "Country/Territory": "Japan",
+            "Industry": "Manufacturing",
+            "Sales ($M)": 100,
+            "Net Income ($M)": 10,
+            "Market Value ($M)": 150,
+            "year": 2024
+        },
+        {
+            "Rank": 128,
+            "Company": "Genky DrugStores",
+            "Country/Territory": "Japan",
+            "Industry": "Retail",
+            "Sales ($M)": 1500,
+            "Net Income ($M)": 50,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 129,
+            "Company": "Genting Singapore",
+            "Country/Territory": "Singapore",
+            "Industry": "Gaming",
+            "Sales ($M)": 1700,
+            "Net Income ($M)": 250,
+            "Market Value ($M)": 7000,
+            "year": 2024
+        },
+        {
+            "Rank": 130,
+            "Company": "G-Foot",
+            "Country/Territory": "Japan",
+            "Industry": "Retail",
+            "Sales ($M)": 800,
+            "Net Income ($M)": -20,
+            "Market Value ($M)": 100,
+            "year": 2024
+        },
+        {
+            "Rank": 131,
+            "Company": "Giga-Tronics",
+            "Country/Territory": "Taiwan",
+            "Industry": "Electronics",
+            "Sales ($M)": 50,
+            "Net Income ($M)": 10,
+            "Market Value ($M)": 100,
+            "year": 2024
+        },
+        {
+            "Rank": 132,
+            "Company": "Giken",
+            "Country/Territory": "Japan",
+            "Industry": "Construction",
+            "Sales ($M)": 300,
+            "Net Income ($M)": 30,
+            "Market Value ($M)": 500,
+            "year": 2024
+        },
+        {
+            "Rank": 133,
+            "Company": "GMO Payment Gateway",
+            "Country/Territory": "Japan",
+            "Industry": "Finance",
+            "Sales ($M)": 400,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 8000,
+            "year": 2024
+        },
+        {
+            "Rank": 134,
+            "Company": "Goldwin",
+            "Country/Territory": "Japan",
+            "Industry": "Apparel",
+            "Sales ($M)": 900,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 2000,
+            "year": 2024
+        },
+        {
+            "Rank": 135,
+            "Company": "Goodman Fielder",
+            "Country/Territory": "Australia",
+            "Industry": "Food &amp; Beverage",
+            "Sales ($M)": 1800,
+            "Net Income ($M)": 50,
+            "Market Value ($M)": 1000,
+            "year": 2024
+        },
+        {
+            "Rank": 136,
+            "Company": "Gree",
+            "Country/Territory": "Japan",
+            "Industry": "Gaming",
+            "Sales ($M)": 600,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 1000,
+            "year": 2024
+        },
+        {
+            "Rank": 137,
+            "Company": "GSI Creos",
+            "Country/Territory": "Japan",
+            "Industry": "Trading",
+            "Sales ($M)": 1500,
+            "Net Income ($M)": 50,
+            "Market Value ($M)": 300,
+            "year": 2024
+        },
+        {
+            "Rank": 138,
+            "Company": "G-Tekt",
+            "Country/Territory": "Japan",
+            "Industry": "Automotive",
+            "Sales ($M)": 2500,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 139,
+            "Company": "Gulliver International",
+            "Country/Territory": "Japan",
+            "Industry": "Retail",
+            "Sales ($M)": 3000,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 140,
+            "Company": "Gunma Bank",
+            "Country/Territory": "Japan",
+            "Industry": "Finance",
+            "Sales ($M)": 1500,
+            "Net Income ($M)": 300,
+            "Market Value ($M)": 2500,
+            "year": 2024
+        },
+        {
+            "Rank": 141,
+            "Company": "Gunze",
+            "Country/Territory": "Japan",
+            "Industry": "Apparel",
+            "Sales ($M)": 1200,
+            "Net Income ($M)": 50,
+            "Market Value ($M)": 500,
+            "year": 2024
+        },
+        {
+            "Rank": 142,
+            "Company": "H2O Retailing",
+            "Country/Territory": "Japan",
+            "Industry": "Retail",
+            "Sales ($M)": 7000,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 1500,
+            "year": 2024
+        },
+        {
+            "Rank": 143,
+            "Company": "Hachijuni Bank",
+            "Country/Territory": "Japan",
+            "Industry": "Finance",
+            "Sales ($M)": 2000,
+            "Net Income ($M)": 300,
+            "Market Value ($M)": 3000,
+            "year": 2024
+        },
+        {
+            "Rank": 144,
+            "Company": "Hakuhodo DY Holdings",
+            "Country/Territory": "Japan",
+            "Industry": "Media",
+            "Sales ($M)": 8000,
+            "Net Income ($M)": 300,
+            "Market Value ($M)": 4000,
+            "year": 2024
+        },
+        {
+            "Rank": 145,
+            "Company": "Hamamatsu Photonics",
+            "Country/Territory": "Japan",
+            "Industry": "Electronics",
+            "Sales ($M)": 1800,
+            "Net Income ($M)": 300,
+            "Market Value ($M)": 8000,
+            "year": 2024
+        },
+        {
+            "Rank": 146,
+            "Company": "Hankyu Hanshin Holdings",
+            "Country/Territory": "Japan",
+            "Industry": "Transportation",
+            "Sales ($M)": 8000,
+            "Net Income ($M)": 500,
+            "Market Value ($M)": 10000,
+            "year": 2024
+        },
+        {
+            "Rank": 147,
+            "Company": "Hanshin Electric Railway",
+            "Country/Territory": "Japan",
+            "Industry": "Transportation",
+            "Sales ($M)": 1500,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 2000,
+            "year": 2024
+        },
+        {
+            "Rank": 148,
+            "Company": "Haseko",
+            "Country/Territory": "Japan",
+            "Industry": "Construction",
+            "Sales ($M)": 8000,
+            "Net Income ($M)": 500,
+            "Market Value ($M)": 4000,
+            "year": 2024
+        },
+        {
+            "Rank": 149,
+            "Company": "Heiwa",
+            "Country/Territory": "Japan",
+            "Industry": "Gaming",
+            "Sales ($M)": 1200,
+            "Net Income ($M)": 150,
+            "Market Value ($M)": 1500,
+            "year": 2024
+        },
+        {
+            "Rank": 150,
+            "Company": "Heiwado",
+            "Country/Territory": "Japan",
+            "Industry": "Retail",
+            "Sales ($M)": 4000,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 151,
+            "Company": "Hibiya Engineering",
+            "Country/Territory": "Japan",
+            "Industry": "Construction",
+            "Sales ($M)": 500,
+            "Net Income ($M)": 30,
+            "Market Value ($M)": 300,
+            "year": 2024
+        },
+        {
+            "Rank": 152,
+            "Company": "Hikari Tsushin",
+            "Country/Territory": "Japan",
+            "Industry": "IT Services",
+            "Sales ($M)": 5000,
+            "Net Income ($M)": 500,
+            "Market Value ($M)": 8000,
+            "year": 2024
+        },
+        {
+            "Rank": 153,
+            "Company": "Hino Motors",
+            "Country/Territory": "Japan",
+            "Industry": "Automotive",
+            "Sales ($M)": 15000,
+            "Net Income ($M)": -500,
+            "Market Value ($M)": 2000,
+            "year": 2024
+        },
+        {
+            "Rank": 154,
+            "Company": "Hirose Electric",
+            "Country/Territory": "Japan",
+            "Industry": "Electronics",
+            "Sales ($M)": 1500,
+            "Net Income ($M)": 250,
+            "Market Value ($M)": 5000,
+            "year": 2024
+        },
+        {
+            "Rank": 155,
+            "Company": "Hisamitsu Pharmaceutical",
+            "Country/Territory": "Japan",
+            "Industry": "Healthcare",
+            "Sales ($M)": 1200,
+            "Net Income ($M)": 150,
+            "Market Value ($M)": 4000,
+            "year": 2024
+        },
+        {
+            "Rank": 156,
+            "Company": "Hitachi",
+            "Country/Territory": "Japan",
+            "Industry": "Conglomerate",
+            "Sales ($M)": 90000,
+            "Net Income ($M)": 3000,
+            "Market Value ($M)": 50000,
+            "year": 2024
+        },
+        {
+            "Rank": 157,
+            "Company": "Hitachi Construction Machinery",
+            "Country/Territory": "Japan",
+            "Industry": "Manufacturing",
+            "Sales ($M)": 9000,
+            "Net Income ($M)": 400,
+            "Market Value ($M)": 6000,
+            "year": 2024
+        },
+        {
+            "Rank": 158,
+            "Company": "Hitachi High-Technologies",
+            "Country/Territory": "Japan",
+            "Industry": "Technology",
+            "Sales ($M)": 6000,
+            "Net Income ($M)": 300,
+            "Market Value ($M)": 5000,
+            "year": 2024
+        },
+        {
+            "Rank": 159,
+            "Company": "Hitachi Metals",
+            "Country/Territory": "Japan",
+            "Industry": "Metals",
+            "Sales ($M)": 8000,
+            "Net Income ($M)": 200,
+            "Market Value ($M)": 4000,
+            "year": 2024
+        },
+        {
+            "Rank": 160,
+            "Company": "Hogy Medical",
+            "Country/Territory": "Japan",
+            "Industry": "Healthcare",
+            "Sales ($M)": 300,
+            "Net Income ($M)": 50,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 161,
+            "Company": "Hokkaido Electric Power",
+            "Country/Territory": "Japan",
+            "Industry": "Utilities",
+            "Sales ($M)": 6000,
+            "Net Income ($M)": -200,
+            "Market Value ($M)": 1500,
+            "year": 2024
+        },
+        {
+            "Rank": 162,
+            "Company": "Hokuetsu",
+            "Country/Territory": "Japan",
+            "Industry": "Paper",
+            "Sales ($M)": 2500,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 163,
+            "Company": "Hokuriku Electric Power",
+            "Country/Territory": "Japan",
+            "Industry": "Utilities",
+            "Sales ($M)": 5000,
+            "Net Income ($M)": -100,
+            "Market Value ($M)": 1000,
+            "year": 2024
+        },
+        {
+            "Rank": 164,
+            "Company": "Honda Motor",
+            "Country/Territory": "Japan",
+            "Industry": "Automotive",
+            "Sales ($M)": 130000,
+            "Net Income ($M)": 5000,
+            "Market Value ($M)": 50000,
+            "year": 2024
+        },
+        {
+            "Rank": 165,
+            "Company": "Hon Hai Precision Industry",
+            "Country/Territory": "Taiwan",
+            "Industry": "Electronics",
+            "Sales ($M)": 200000,
+            "Net Income ($M)": 5000,
+            "Market Value ($M)": 50000,
+            "year": 2024
+        },
+        {
+            "Rank": 166,
+            "Company": "Horiba",
+            "Country/Territory": "Japan",
+            "Industry": "Technology",
+            "Sales ($M)": 2000,
+            "Net Income ($M)": 200,
+            "Market Value ($M)": 4000,
+            "year": 2024
+        },
+        {
+            "Rank": 167,
+            "Company": "Hoshizaki",
+            "Country/Territory": "Japan",
+            "Industry": "Manufacturing",
+            "Sales ($M)": 2500,
+            "Net Income ($M)": 200,
+            "Market Value ($M)": 6000,
+            "year": 2024
+        },
+        {
+            "Rank": 168,
+            "Company": "House Foods Group",
+            "Country/Territory": "Japan",
+            "Industry": "Food &amp; Beverage",
+            "Sales ($M)": 2500,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 2000,
+            "year": 2024
+        },
+        {
+            "Rank": 169,
+            "Company": "Hoya",
+            "Country/Territory": "Japan",
+            "Industry": "Healthcare",
+            "Sales ($M)": 5500,
+            "Net Income ($M)": 1500,
+            "Market Value ($M)": 40000,
+            "year": 2024
+        },
+        {
+            "Rank": 170,
+            "Company": "Hulic",
+            "Country/Territory": "Japan",
+            "Industry": "Real Estate",
+            "Sales ($M)": 3000,
+            "Net Income ($M)": 500,
+            "Market Value ($M)": 8000,
+            "year": 2024
+        },
+        {
+            "Rank": 171,
+            "Company": "Hyundai Department Store",
+            "Country/Territory": "South Korea",
+            "Industry": "Retail",
+            "Sales ($M)": 6000,
+            "Net Income ($M)": 200,
+            "Market Value ($M)": 2000,
+            "year": 2024
+        },
+        {
+            "Rank": 172,
+            "Company": "Hyundai Glovis",
+            "Country/Territory": "South Korea",
+            "Industry": "Logistics",
+            "Sales ($M)": 20000,
+            "Net Income ($M)": 500,
+            "Market Value ($M)": 6000,
+            "year": 2024
+        },
+        {
+            "Rank": 173,
+            "Company": "Hyundai Mobis",
+            "Country/Territory": "South Korea",
+            "Industry": "Automotive",
+            "Sales ($M)": 40000,
+            "Net Income ($M)": 1500,
+            "Market Value ($M)": 18000,
+            "year": 2024
+        },
+        {
+            "Rank": 174,
+            "Company": "Hyundai Motor",
+            "Country/Territory": "South Korea",
+            "Industry": "Automotive",
+            "Sales ($M)": 120000,
+            "Net Income ($M)": 5000,
+            "Market Value ($M)": 40000,
+            "year": 2024
+        },
+        {
+            "Rank": 175,
+            "Company": "Ibiden",
+            "Country/Territory": "Japan",
+            "Industry": "Electronics",
+            "Sales ($M)": 3000,
+            "Net Income ($M)": 200,
+            "Market Value ($M)": 4000,
+            "year": 2024
+        },
+        {
+            "Rank": 176,
+            "Company": "Ichibanya",
+            "Country/Territory": "Japan",
+            "Industry": "Food &amp; Beverage",
+            "Sales ($M)": 450,
+            "Net Income ($M)": 30,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 177,
+            "Company": "Idemitsu Kosan",
+            "Country/Territory": "Japan",
+            "Industry": "Energy",
+            "Sales ($M)": 60000,
+            "Net Income ($M)": 1500,
+            "Market Value ($M)": 5000,
+            "year": 2024
+        },
+        {
+            "Rank": 178,
+            "Company": "IHI",
+            "Country/Territory": "Japan",
+            "Industry": "Manufacturing",
+            "Sales ($M)": 12000,
+            "Net Income ($M)": 200,
+            "Market Value ($M)": 3000,
+            "year": 2024
+        },
+        {
+            "Rank": 179,
+            "Company": "Iida Group Holdings",
+            "Country/Territory": "Japan",
+            "Industry": "Construction",
+            "Sales ($M)": 12000,
+            "Net Income ($M)": 800,
+            "Market Value ($M)": 6000,
+            "year": 2024
+        },
+        {
+            "Rank": 180,
+            "Company": "Iino Kaiun Kaisha",
+            "Country/Territory": "Japan",
+            "Industry": "Shipping",
+            "Sales ($M)": 1000,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 181,
+            "Company": "I-Net",
+            "Country/Territory": "Japan",
+            "Industry": "IT Services",
+            "Sales ($M)": 300,
+            "Net Income ($M)": 20,
+            "Market Value ($M)": 250,
+            "year": 2024
+        },
+        {
+            "Rank": 182,
+            "Company": "Inpex",
+            "Country/Territory": "Japan",
+            "Industry": "Energy",
+            "Sales ($M)": 15000,
+            "Net Income ($M)": 3000,
+            "Market Value ($M)": 15000,
+            "year": 2024
+        },
+        {
+            "Rank": 183,
+            "Company": "Inter Action",
+            "Country/Territory": "Japan",
+            "Industry": "Manufacturing",
+            "Sales ($M)": 100,
+            "Net Income ($M)": 15,
+            "Market Value ($M)": 150,
+            "year": 2024
+        },
+        {
+            "Rank": 184,
+            "Company": "Invoclar Vivadent",
+            "Country/Territory": "Liechtenstein",
+            "Industry": "Healthcare",
+            "Sales ($M)": 800,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": null,
+            "year": 2024
+        },
+        {
+            "Rank": 185,
+            "Company": "Isetan Mitsukoshi Holdings",
+            "Country/Territory": "Japan",
+            "Industry": "Retail",
+            "Sales ($M)": 10000,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 3000,
+            "year": 2024
+        },
+        {
+            "Rank": 186,
+            "Company": "Ishihara Sangyo Kaisha",
+            "Country/Territory": "Japan",
+            "Industry": "Chemicals",
+            "Sales ($M)": 1000,
+            "Net Income ($M)": 50,
+            "Market Value ($M)": 400,
+            "year": 2024
+        },
+        {
+            "Rank": 187,
+            "Company": "Isuzu Motors",
+            "Country/Territory": "Japan",
+            "Industry": "Automotive",
+            "Sales ($M)": 20000,
+            "Net Income ($M)": 800,
+            "Market Value ($M)": 8000,
+            "year": 2024
+        },
+        {
+            "Rank": 188,
+            "Company": "Ito En",
+            "Country/Territory": "Japan",
+            "Industry": "Food &amp; Beverage",
+            "Sales ($M)": 4000,
+            "Net Income ($M)": 150,
+            "Market Value ($M)": 3000,
+            "year": 2024
+        },
+        {
+            "Rank": 189,
+            "Company": "Itochu",
+            "Country/Territory": "Japan",
+            "Industry": "Trading",
+            "Sales ($M)": 100000,
+            "Net Income ($M)": 5000,
+            "Market Value ($M)": 40000,
+            "year": 2024
+        },
+        {
+            "Rank": 190,
+            "Company": "Itoham Yonekyu Holdings",
+            "Country/Territory": "Japan",
+            "Industry": "Food &amp; Beverage",
+            "Sales ($M)": 8000,
+            "Net Income ($M)": 200,
+            "Market Value ($M)": 2000,
+            "year": 2024
+        },
+        {
+            "Rank": 191,
+            "Company": "Iwatani",
+            "Country/Territory": "Japan",
+            "Industry": "Energy",
+            "Sales ($M)": 6000,
+            "Net Income ($M)": 200,
+            "Market Value ($M)": 2500,
+            "year": 2024
+        },
+        {
+            "Rank": 192,
+            "Company": "Izumi",
+            "Country/Territory": "Japan",
+            "Industry": "Retail",
+            "Sales ($M)": 7000,
+            "Net Income ($M)": 200,
+            "Market Value ($M)": 2500,
+            "year": 2024
+        },
+        {
+            "Rank": 193,
+            "Company": "Jaccs",
+            "Country/Territory": "Japan",
+            "Industry": "Finance",
+            "Sales ($M)": 1200,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 800,
+            "year": 2024
+        },
+        {
+            "Rank": 194,
+            "Company": "Jafco Group",
+            "Country/Territory": "Japan",
+            "Industry": "Finance",
+            "Sales ($M)": 200,
+            "Net Income ($M)": 100,
+            "Market Value ($M)": 1500,
+            "year": 2024
+        },
+        {
+            "Rank": 195,
+            "Company": "Japan Airlines",
+            "Country/Territory": "Japan",
+            "Industry": "Aviation",
+            "Sales ($M)": 12000,
+            "Net Income ($M)": -300,
+            "Market Value ($M)": 5000,
+            "year": 2024
+        },
+        {
+            "Rank": 196,
+            "Company": "Japan Airport Terminal",
+            "Country/Territory": "Japan",
+            "Industry": "Transportation",
+            "Sales ($M)": 2000,
+            "Net Income ($M)": -200,
+            "Market Value ($M)": 3000,
+            "year": 2024
+        },
+        {
+            "Rank": 197,
+            "Company": "Japan Exchange Group",
+            "Country/Territory": "Japan",
+            "Industry": "Finance",
+            "Sales ($M)": 1200,
+            "Net Income ($M)": 500,
+            "Market Value ($M)": 10000,
+            "year": 2024
+        },
+        {
+            "Rank": 198,
+            "Company": "Japan Lifeline",
+            "Country/Territory": "Japan",
+            "Industry": "Healthcare",
+            "Sales ($M)": 400,
+            "Net Income ($M)": 80,
+            "Market Value ($M)": 1500,
+            "year": 2024
+        },
+        {
+            "Rank": 199,
+            "Company": "Japan Post Holdings",
+            "Country/Territory": "Japan",
+            "Industry": "Conglomerate",
+            "Sales ($M)": 100000,
+            "Net Income ($M)": 3000,
+            "Market Value ($M)": 30000,
+            "year": 2024
+        },
+        {
+            "Rank": 200,
+            "Company": "Japan Tobacco",
+            "Country/Territory": "Japan",
+            "Industry": "Tobacco",
+            "Sales ($M)": 20000,
+            "Net Income ($M)": 3000,
+            "Market Value ($M)": 35000,
+            "year": 2024
+        }
+    ]
+}

@@ -1,3 +1,17 @@
+h3 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; /* Bold */
+}
+
+.list-date {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: -10px; /* Adjust as needed to bring it closer to the title */
+  margin-bottom: 20px;
+}
+
 .container {
   padding: 20px;
 }

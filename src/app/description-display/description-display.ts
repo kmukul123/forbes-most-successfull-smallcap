@@ -40,13 +40,8 @@ export class DescriptionDisplay implements OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    if (changes['companyData'] && this.companyData && this.companyData.DESCRIPTION) {
-      this.descriptionKeys = Object.keys(this.companyData.DESCRIPTION);
-      const description = this.companyData.DESCRIPTION as any;
-      for (const key of this.descriptionKeys) {
-        const content = description[key];
-        this.editableDescription[key] = this.convertLegacyTextToDelta(content);
-      }
+    if (changes['companyData'] && this.companyData) {
+      this.resetEditableDescription();
     }
   }
 
@@ -63,9 +58,6 @@ export class DescriptionDisplay implements OnChanges {
           }
         });
       });
-    } else {
-      // When exiting edit mode, revert changes if cancelled
-      this.ngOnChanges({ companyData: new SimpleChange(null, this.companyData, false) });
     }
   }
 
@@ -90,8 +82,18 @@ export class DescriptionDisplay implements OnChanges {
 
   cancel(): void {
     this.isEditing = false;
-    // Revert changes by re-processing the original data
-    this.ngOnChanges({ companyData: new SimpleChange(null, this.companyData, false) });
+    this.resetEditableDescription();
+  }
+
+  private resetEditableDescription(): void {
+    if (this.companyData && this.companyData.DESCRIPTION) {
+      this.descriptionKeys = Object.keys(this.companyData.DESCRIPTION);
+      const description = this.companyData.DESCRIPTION as any;
+      for (const key of this.descriptionKeys) {
+        const content = description[key];
+        this.editableDescription[key] = this.convertLegacyTextToDelta(content);
+      }
+    }
   }
 
   private convertLegacyTextToDelta(text: string): any {

@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Data, CompanyData } from '../data';
+import { Data, ListData } from '../data';
 import { ReusableTable } from '../reusable-table/reusable-table';
+import { forkJoin } from 'rxjs';
 
 @Component({
   selector: 'app-main-view',
@@ -11,27 +12,34 @@ import { ReusableTable } from '../reusable-table/reusable-table';
   styleUrls: ['./main-view.css']
 })
 export class MainView implements OnInit {
-  americasData: CompanyData[] = [];
-  asiaData: CompanyData[] = [];
+  americasData?: ListData;
+  asiaData?: ListData;
   americasColumns: string[] = ['RANK', 'COMPANY', 'INDUSTRY', '52-WEEK RETURN (%)', 'REVENUE (millions USD)', 'TICKER'];
   asiaColumns: string[] = ['Rank', 'Company', 'Country/Territory', 'Industry', 'Sales ($M)', 'Net Income ($M)', 'Market Value ($M)'];
-  
+
   activeDataSet: 'americas' | 'asia' = 'americas';
+  activeTitle = '';
+  activeSubHeading = '';
 
   constructor(private dataService: Data) { }
 
   ngOnInit(): void {
-    this.dataService.getAmericasData().subscribe(data => {
-      this.americasData = data;
-      console.log('loaded Americas Data:', this.americasData.length);
-    });
-    this.dataService.getAsiaData().subscribe(data => {
-      this.asiaData = data;
-      console.log('Asia Data:', this.asiaData.length);
+    forkJoin({
+      americas: this.dataService.getAmericasData(),
+      asia: this.dataService.getAsiaData()
+    }).subscribe(({ americas, asia }) => {
+      this.americasData = americas;
+      this.asiaData = asia;
+      this.setActiveDataSet('americas');
     });
   }
 
   setActiveDataSet(dataSet: 'americas' | 'asia'): void {
     this.activeDataSet = dataSet;
+    const data = dataSet === 'americas' ? this.americasData : this.asiaData;
+    if (data) {
+      this.activeTitle = data.listName;
+      this.activeSubHeading = data.listSubHeading;
+    }
   }
 }

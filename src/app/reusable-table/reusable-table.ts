@@ -27,6 +27,8 @@ import { DescriptionDisplay } from '../description-display/description-display';
 export class ReusableTable implements OnInit, OnChanges {
   @Input() data: CompanyData[] = [];
   @Input() columns: string[] = [];
+  @Input() tableTitle: string = '';
+  @Input() tableSubHeading: string = '';
 
   filteredData: CompanyData[] = [];
   filterText: string = '';
@@ -98,10 +100,15 @@ export class ReusableTable implements OnInit, OnChanges {
   }
 
   onDescriptionSave(updatedData: CompanyData): void {
-    const index = this.data.findIndex(item => item.Rank === updatedData.Rank);
-    if (index !== -1) {
-      this.data[index] = updatedData;
-      this.filterData(); // Refresh the filtered data
+    const indexInOriginalData = this.data.findIndex(item => item['Rank'] === updatedData['Rank']);
+    if (indexInOriginalData !== -1) {
+      this.data[indexInOriginalData] = updatedData; // Update the original data array
+    }
+
+    const indexInFilteredData = this.filteredData.findIndex(item => item['Rank'] === updatedData['Rank']);
+    if (indexInFilteredData !== -1) {
+      this.filteredData[indexInFilteredData] = updatedData; // Update the filtered data array
+      this.selectedRow = this.filteredData[indexInFilteredData]; // Update selectedRow to the new object
     }
   }
 }
