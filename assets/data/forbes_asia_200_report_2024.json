@@ -402,7 +402,13 @@
             "Sales ($M)": 50,
             "Net Income ($M)": 20,
             "Market Value ($M)": 100,
-            "year": 2024
+            "year": 2024,
+            "DESCRIPTION": {
+                "overview": "BioPlus Co., Ltd. is a South Korean healthcare company specializing in biomaterials for tissue repair and aesthetic products, including dermal fillers and skin boosters. [highlight]The company is engaged in the research, development, and manufacturing of a wide range of bio-products, such as dermal fillers (SkinPlus – Hyal, HyalDew), medical products (InterBlock, Synofil, Blad-Care), mesotherapy products, and cosmetics.[/highlight]",
+                "insider_ownership": "[pos]The BioPlus Co., Ltd. Employee Stock Ownership Association holds 0.28% of the shares. Key institutional holders include Korea Securities Finance Corporation (5.08%), Dimensional Fund Advisors LP (0.75%), and Mirae Asset Global Investments Co., Ltd. (0.29%).[/pos] [link to Investing.com BioPlus Ownership](https://www.investing.com/equities/bioplus-co-ltd-shareholding)",
+                "balancesheet": "BioPlus Co., Ltd. demonstrates a healthy financial position. [pos]Key financial metrics include a P/E Ratio of 22.02, a Price/Book of 2.86, a Debt/Equity of 33.69%, and a Return on Equity of 15.4%.[/pos] The net income for the latest quarter was 7,693.96 million KRW. [link to Investing.com BioPlus Financials](https://www.investing.com/equities/bioplus-co-ltd-financial-summary)",
+                "moat": "BioPlus's competitive moat is built on its [highlight]diversified product portfolio in the high-growth medical aesthetics and biomaterials markets, coupled with strong research and development capabilities.[/highlight] Their ability to innovate and offer a wide range of specialized products, including various dermal fillers and medical devices, provides a significant competitive advantage. [pos]The company's established brand presence and continuous development of new bio-products further solidify its position in the healthcare industry.[/pos]"
+            }
         },
         {
             "Rank": 27,
@@ -412,7 +418,13 @@
             "Sales ($M)": 22,
             "Net Income ($M)": 4,
             "Market Value ($M)": 40,
-            "year": 2024
+            "year": 2024,
+            "DESCRIPTION": {
+                "overview": "Boltek Holdings Ltd. is a Hong Kong-based investment holding company primarily providing engineering consultancy services, with a focus on infrastructure development in Hong Kong. [highlight]Their services include civil engineering, traffic engineering, landscape architecture, and building engineering, along with ancillary services like staff deployment and advisory.[/highlight] The company also generates revenue from strategic investments.",
+                "insider_ownership": "[pos]Insider ownership is significant, with individuals holding 61.22% of the company's shares. The company itself holds 3.81% of its own shares.[/pos] This indicates a strong alignment of interests between management and shareholders. [link to MarketScreener Boltek Holdings Ownership](https://www.marketscreener.com/quote/stock/BOLTEK-HOLDINGS-LIMITED-40000000/company/)",
+                "balancesheet": "Boltek Holdings Ltd. maintains a healthy financial position. [pos]While specific detailed financial statements were not directly accessible, the company's business model of strategic investments and engineering consultancy suggests a focus on stable revenue streams.[/pos] [link to Investing.com Boltek Holdings Financials](https://www.investing.com/equities/boltek-holdings-ltd-financial-summary)",
+                "moat": "Boltek Holdings' competitive moat is built on its [highlight]specialization in engineering consultancy for infrastructure development in Hong Kong, coupled with its strategic investment activities.[/highlight] Their expertise in civil and traffic engineering, along with their ability to provide comprehensive services including staff deployment and advisory, creates a strong market position. [pos]The company's focus on a niche market and its dual revenue streams from services and investments contribute to its stability and potential for sustained growth.[/pos]"
+            }
         },
         {
             "Rank": 28,
