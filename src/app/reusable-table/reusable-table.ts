@@ -99,16 +99,34 @@ export class ReusableTable implements OnInit, OnChanges {
     this.selectedRow = this.selectedRow === row ? null : row;
   }
 
+  /**
+   * Handles the save event from the DescriptionDisplay component.
+   * This method is crucial for ensuring data consistency across the table.
+   * Bug Fix: Previously, saving a description would cause the expanded row to collapse
+   * and the downloaded JSON to not reflect the changes. This was due to:
+   * 1. `selectedRow` not being updated to point to the modified object in `filteredData`.
+   * 2. The original `data` array not being updated, leading to outdated downloads.
+   * 
+   * @param updatedData The CompanyData object with the updated description.
+   */
   onDescriptionSave(updatedData: CompanyData): void {
+    // Find the index of the updated company in the original data array.
+    // It's important to update the original data source (`this.data`) so that
+    // subsequent operations (like filtering or downloading) use the latest information.
     const indexInOriginalData = this.data.findIndex(item => item['Rank'] === updatedData['Rank']);
     if (indexInOriginalData !== -1) {
       this.data[indexInOriginalData] = updatedData; // Update the original data array
     }
 
+    // Find the index of the updated company in the currently filtered data array.
+    // This ensures that the displayed data is also up-to-date.
     const indexInFilteredData = this.filteredData.findIndex(item => item['Rank'] === updatedData['Rank']);
     if (indexInFilteredData !== -1) {
       this.filteredData[indexInFilteredData] = updatedData; // Update the filtered data array
-      this.selectedRow = this.filteredData[indexInFilteredData]; // Update selectedRow to the new object
+      // Bug Fix: Update `selectedRow` to point to the newly updated object.
+      // This prevents the expanded description from disappearing after saving,
+      // as the reference to the object in `filteredData` remains valid.
+      this.selectedRow = this.filteredData[indexInFilteredData]; 
     }
   }
 }

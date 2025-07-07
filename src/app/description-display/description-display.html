@@ -1,19 +1,33 @@
+<!-- Main container for displaying and editing company descriptions. -->
 <div class="description-container">
+  <!-- Controls section with Edit/Cancel and Save buttons. -->
   <div class="controls">
+    <!-- Button to toggle between view and edit modes. Text changes based on `isEditing` state. -->
     <button (click)="toggleEdit()">{{ isEditing ? 'Cancel' : 'Edit' }}</button>
+    <!-- Save button, only visible when in editing mode. -->
     <button *ngIf="isEditing" (click)="save()">Save</button>
   </div>
 
+  <!-- Display mode: shows the formatted description. Only visible when not editing. -->
   <div *ngIf="!isEditing" class="description-content">
+    <!-- Iterates through each key (section) of the description. -->
     <div *ngFor="let key of descriptionKeys">
+      <!-- Displays the title-cased key as a section header. -->
       <p><strong>{{ getTitleCase(key) }}:</strong></p>
+      <!-- Quill-view component to render the rich text content (Delta object). -->
       <quill-view [content]="editableDescription[key]" format="object"></quill-view>
     </div>
   </div>
 
+  <!-- Edit mode: shows rich text editors for each description section. Only visible when editing. -->
   <div *ngIf="isEditing" class="edit-mode">
+    <!-- Iterates through each key (section) to create an editable form group. -->
     <div *ngFor="let key of descriptionKeys" class="form-group">
+      <!-- Label for the rich text editor, using the title-cased key. -->
       <label [for]="key">{{ getTitleCase(key) }}</label>
+      <!-- RichTextEditorComponent for editing the content. -->
+      <!-- The 'id' input is used to identify which editor corresponds to which description key. -->
+      <!-- 'toolbarConfig' customizes the editor's toolbar. -->
       <app-rich-text-editor [id]="key" [toolbarConfig]="toolbarConfig"></app-rich-text-editor>
     </div>
   </div>
