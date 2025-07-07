@@ -434,7 +434,13 @@
             "Sales ($M)": 456,
             "Net Income ($M)": 97,
             "Market Value ($M)": 40,
-            "year": 2024
+            "year": 2024,
+            "DESCRIPTION": {
+                "overview": "Bora Pharmaceuticals operates on a \"dual-engine\" business model, combining its role as a Contract Development and Manufacturing Organization (CDMO) with its own drug development and commercialization (Pharma Sales) efforts. [highlight]The company provides comprehensive CDMO services for various dosage forms and commercializes its own pharmaceutical products, often targeting niche and rare disease markets.[/highlight] Bora pursues growth through organic expansion and strategic M&A.",
+                "insider_ownership": "[pos]Major shareholders include Bao Lei Co., Ltd. (18.03%), Rui Bao Xin Investment Co. Ltd. (10.94%), and Sheng Pao-Shi (4.88%).[/pos] Top institutional holders include TaYa Innovation Investment Co., Ltd. and The Vanguard Group, Inc. [link to Bora Pharmaceuticals Investor Relations](https://www.bora-corp.com/investor-relations)",
+                "balancesheet": "Bora Pharmaceuticals demonstrates robust financial performance with strong revenue and earnings growth. [pos]For FY 2024, revenue was NT$19.2 billion (up 36% YoY) and net income was NT$3.94 billion (up 29.99% YoY).[/pos] The company has a total debt of NT$17.2 billion and a debt-to-equity ratio of 113.8%, which is considered high. However, they maintain NT$5.2 billion in cash and short-term investments. [link to Simply Wall St Bora Pharmaceuticals Financials](https://simplywall.st/stocks/tw/pharmaceuticals-biotechnology-and-life-sciences/two-6472/bora-pharmaceuticals-shares/financial-health)",
+                "moat": "Bora Pharmaceuticals' competitive moat is built on its [highlight]integrated business model spanning the entire pharmaceutical supply chain, its expanded U.S. manufacturing capabilities through strategic acquisitions, and its focus on niche and high-margin branded products.[/highlight] The company's strong R&D capabilities, established client base (including top pharmaceutical companies in its CDMO business), and consistent stock buyback program further solidify its market position and attractiveness for a potential acquirer. [pos]Their specialization in complex dosage forms and a focused pipeline in CNS specialty areas provide a sustainable competitive advantage.[/pos]"
+            }
         },
         {
             "Rank": 29,
@@ -444,7 +450,13 @@
             "Sales ($M)": 205,
             "Net Income ($M)": 55,
             "Market Value ($M)": 3500,
-            "year": 2024
+            "year": 2024,
+            "DESCRIPTION": {
+                "overview": "Caplin Point Laboratories is a pharmaceutical company focused on developing, manufacturing, and marketing affordable, high-quality generic and branded formulations. [highlight]The company has a significant presence in emerging markets (Latin America, Francophone Africa) and is expanding into regulated markets (USA, EU).[/highlight] They specialize in sterile injectables and complex generics, with an extensive product portfolio across various therapeutic areas.",
+                "insider_ownership": "[pos]Promoter holding in Caplin Point Laboratories is high, indicating a strong alignment of interests between the management and shareholders.[/pos] Specific percentages were not readily available in the search results, but the company's consistent performance suggests strong insider confidence. [link to Screener.in Caplin Point Laboratories Shareholding](https://www.screener.in/company/CAPL/shareholding/)",
+                "balancesheet": "Caplin Point Laboratories maintains a [pos]strong financial position with reduced debt and is almost debt-free.[/pos] Key financial metrics include a Market Capitalization of ₹15,308 Cr., a Stock P/E of 28.5, a Return on Capital Employed (ROCE) of 25.8%, and a Return on Equity (ROE) of 21.7%. The company has delivered a good profit growth of 20.5% CAGR over the last 5 years. [link to Screener.in Caplin Point Laboratories Financials](https://www.screener.in/company/CAPL/)",
+                "moat": "Caplin Point Laboratories' competitive moat is built on its [highlight]focus on emerging markets with a unique owned distribution network, enabling effective catering to the \"Bottom of the Pyramid\" demographic.[/highlight] Their specialization in sterile injectables and complex generics, coupled with an asset-light manufacturing approach and a growing presence in regulated markets (USA, EU), provides a significant competitive advantage. [pos]The company's consistent profit growth and strategic partnerships further solidify its position in the pharmaceutical industry.[/pos]"
+            }
         },
         {
             "Rank": 30,
@@ -454,7 +466,13 @@
             "Sales ($M)": 525,
             "Net Income ($M)": 434,
             "Market Value ($M)": 3500,
-            "year": 2024
+            "year": 2024,
+            "DESCRIPTION": {
+                "overview": "CAR Group Ltd (formerly carsales.com Ltd) is a global digital marketplace company specializing in online advertising and classifieds for automotive and non-automotive vehicles. [highlight]The company operates a diversified business model across various geographies (Oceania, Asia, Americas) and verticals, with a significant portion of revenue from subscription models for dealers.[/highlight]",
+                "insider_ownership": "[pos]Insider ownership for CAR Group (ASX:CAR) is approximately 4.7% of its total market capitalization.[/pos] While there has been a net reduction in insider holdings over the last 12 months, the company's strong market position suggests continued confidence. [link to Simply Wall St CAR Group Ownership](https://simplywall.st/stocks/au/media/asx-car/car-group-shares/ownership)",
+                "balancesheet": "CAR Group demonstrates a robust financial position. [pos]For FY 2024, revenue was $781.24 million and net income was $249.97 million. The company benefits from a low-cost base and high-margin business model with low working capital requirements, contributing to strong free cash flows.[/pos] [link to CapitalClimb CAR Group Financials](https://capitalclimb.app/stocks/ASX/CAR/financials)",
+                "moat": "CAR Group's competitive moat is primarily built on its [highlight]powerful network effect, strong market leadership in its core markets (Australia, South Korea, US, Brazil, Chile), and strategic diversification across geographies and verticals.[/highlight] Its resilient business model, heavily focused on used vehicle transactions, provides earnings stability. [pos]The company's scalable intellectual property and technology platform, coupled with continuous innovation in product development, further solidify its dominant position in the online automotive marketplace sector.[/pos]"
+            }
         },
         {
             "Rank": 31,
