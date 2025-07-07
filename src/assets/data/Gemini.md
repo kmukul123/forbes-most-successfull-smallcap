@@ -1,4 +1,4 @@
-can you update information in @src\assets\data\Americas_2025.json about all the different   companies. Find information which would be important for someone who wants to buy the whole   company. only update the data in the description in json, rename debt to balancesheet. rename main to overview. and put   numbers like insider ownership debt and cash level in relevant sections along with the links for reference where you have found the exact information. also highlight any important information as per format in   @Docs\description_features_reference.md. dont put generic links like generic investor relations page  but link to the page where the exact reference material can be find like link to exact sec filing and link it to exact material found on the page.
+can you update information in @src\assets\data\forbes_asia_200_report_2024.json in the same way as description is there in @Americas_2025.json the different companies. Find information which would be important for someone who wants to buy the whole   company. only update the data in the description in json, rename debt to balancesheet. rename main to overview. and put   numbers like insider ownership debt and cash level in relevant sections along with the links for reference where you have found the exact information. also highlight any important information as per format in   @description_features_reference.md. dont put generic links like generic investor relations page  but link to the page where the exact reference material can be find like link to exact sec filing and link it to exact material found on the page.
 
 yes do this for all the companies and if possible optimize the number of search queries so we  can do it faster
 
@@ -11,7 +11,7 @@ yes do this for all the companies and if possible optimize the number of search 
 When working with JSON files, especially for complex data structures like company descriptions, adhere to the following best practices to avoid common pitfalls:
 
 1.  **Programmatic Modification over Direct String Replacement**:
-    *   **Avoid**: Directly using `replace` with large, complex JSON strings for `new_string` and `old_string`. This is highly prone to escaping errors, syntax issues, and makes maintaining JSON validity extremely difficult.
+    *   **Avoid**: Directly using `replace` with large, complex JSON strings for `new_string` and `old_string`. This is highly prone to escaping errors, syntax issues, and makes maintaaining JSON validity extremely difficult.
     *   **Prefer**: Implement a programmatic approach. Read the entire JSON file content, parse it into a data structure (e.g., Python dictionary or JavaScript object), modify the specific fields within the data structure, and then serialize the entire structure back into a JSON string before writing it to the file. This ensures proper escaping and structural integrity.
 
 2.  **Strict JSON Validation**:

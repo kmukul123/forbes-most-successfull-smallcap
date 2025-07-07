@@ -11,42 +11,47 @@
     <!-- Button to download the current table data as a JSON file. -->
     <button *ngIf="enableDownloadButton" (click)="downloadJson()">Download JSON</button>
   </div>
-  <!-- The main table element. -->
-  <table id="reusableTable">
-    <!-- Table header section. -->
-    <thead>
-      <tr>
-        <!-- Renders table headers dynamically based on the 'columns' input. -->
-        <th *ngFor="let column of columns">{{ column }}</th>
-      </tr>
-    </thead>
-    <!-- Table body section. -->
-    <tbody>
-      <!-- Iterates over filteredData to render each row (company). -->
-      <ng-container *ngFor="let companyData of filteredData; let i = index">
-        <!-- Table row for each company. Clicking toggles the detailed description view. -->
-        <tr (click)="toggleRow(companyData)" [class.expanded]="selectedRow === companyData">
-          <!-- Renders table cells for each column. Double-clicking enables inline editing. -->
-          <td *ngFor="let key of columns" (dblclick)="startEdit($event, i, key)">
-            <!-- Displays the company data if not in editing mode for this cell. -->
-            <span *ngIf="editingCell?.rowIndex !== i || editingCell?.key !== key">{{ companyData[key] }}</span>
-            <!-- Input field for inline editing, shown only when a cell is being edited. -->
-            <!-- Uses blur and keydown.enter to save changes when focus is lost or Enter is pressed. -->
-            <input #editInput *ngIf="editingCell?.rowIndex === i && editingCell?.key === key" type="text" [value]="companyData[key]" (blur)="saveEdit(i, key, editInput.value)" (keydown.enter)="saveEdit(i, key, editInput.value)" autofocus>
-          </td>
-        </tr>
-        <!-- Detailed description row, shown only when a row is selected (expanded). -->
-        <tr *ngIf="selectedRow === companyData" class="detail-row">
-          <td [attr.colspan]="columns.length">
-            <!-- DescriptionDisplay component to show and edit the company's description. -->
-            <!-- Listens for the 'onSave' event to update the table data. -->
-            <app-description-display 
-              [companyData]="selectedRow" 
-              (onSave)="onDescriptionSave($event)">
-            </app-description-display>
-          </td>
-        </tr>
-      </ng-container>
-    </tbody>
-  </table>
+  <div class="table-description-wrapper">
+    <div class="table-responsive">
+      <table id="reusableTable">
+        <!-- Table header section. -->
+        <thead>
+          <tr>
+            <!-- Renders table headers dynamically based on the 'columns' input. -->
+            <th *ngFor="let column of columns">{{ column }}</th>
+          </tr>
+        </thead>
+        <!-- Table body section. -->
+        <tbody>
+          <!-- Iterates over filteredData to render each row (company). -->
+          <ng-container *ngFor="let companyData of filteredData; let i = index">
+            <!-- Table row for each company. Clicking toggles the detailed description view. -->
+            <tr (click)="toggleRow(companyData)" [class.expanded]="selectedRow === companyData">
+              <!-- Renders table cells for each column. Double-clicking enables inline editing. -->
+              <td *ngFor="let key of columns" class="data-cell" (dblclick)="startEdit($event, i, key)" [attr.data-label]="formatColumnHeader(key)">
+                <!-- Displays the company data if not in editing mode for this cell. -->
+                <span *ngIf="editingCell?.rowIndex !== i || editingCell?.key !== key">{{ companyData[key] }}</span>
+                <!-- Input field for inline editing, shown only when a cell is being edited. -->
+                <!-- Uses blur and keydown.enter to save changes when focus is lost or Enter is pressed. -->
+                <input #editInput *ngIf="editingCell?.rowIndex === i && editingCell?.key === key" type="text" [value]="companyData[key]" (blur)="saveEdit(i, key, editInput.value)" (keydown.enter)="saveEdit(i, key, editInput.value)" autofocus>
+              </td>
+            </tr>
+            <!-- Detailed description row, shown only when a row is selected (expanded). -->
+            <tr *ngIf="selectedRow === companyData" class="detail-row">
+              <td [attr.colspan]="columns.length">
+                <!-- DescriptionDisplay component to show and edit the company's description. -->
+                <!-- Listens for the 'onSave' event to update the table data. -->
+                <div class="description-wrapper">
+                  <app-description-display 
+                    [companyData]="selectedRow" 
+                    (onSave)="onDescriptionSave($event)">
+                  </app-description-display>
+                </div>
+              </td>
+            </tr>
+          </ng-container>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>

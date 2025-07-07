@@ -28,7 +28,7 @@ export class RichTextEditorComponent implements OnChanges {
       [{ 'script': 'sub'}, { 'script': 'super' }],
       [{ 'indent': '-1'}, { 'indent': '+1' }],
       [{ 'direction': 'rtl' }],
-      [{ 'size': ['small', false, 'large', 'huge'] }],
+      [{ 'size': ['10px', '12px', '14px', '16px', '18px', '20px', '24px', '36px'] }],
       [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
       [{ 'color': [] }, { 'background': [] }],
       [{ 'font': [] }],

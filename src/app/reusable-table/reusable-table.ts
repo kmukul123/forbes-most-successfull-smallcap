@@ -127,4 +127,22 @@ export class ReusableTable implements OnInit, OnChanges {
       this.selectedRow = this.filteredData[indexInFilteredData]; 
     }
   }
+
+  /**
+   * Formats a column key into a more readable header string.
+   * Converts snake-case or camelCase to Title Case with spaces.
+   * @param key The column key string (e.g., '52-WEEK RETURN (%)', 'Net Income ($M)').
+   * @returns Formatted string (e.g., '52-Week Return (%)', 'Net Income ($M)').
+   */
+  formatColumnHeader(key: string): string {
+    // Handle specific cases that are already well-formatted or have special characters
+    if (key.includes('(') || key.includes('%')) {
+      return key; // Return as is if it contains parentheses or percentage sign
+    }
+    // Replace underscores with spaces, then convert to Title Case
+    return key
+      .replace(/_/g, ' ')
+      .replace(/([A-Z])/g, ' $1') // Add space before capital letters
+      .replace(/^./, (str) => str.toUpperCase()); // Capitalize the first letter
+  }
 }

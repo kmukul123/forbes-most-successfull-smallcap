@@ -1,5 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
 @import "quill/dist/quill.snow.css";
 
+/* Define custom font sizes for Quill editor */
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="10px"]::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="10px"]::before { content: '10px'; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="12px"]::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="12px"]::before { content: '12px'; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="14px"]::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="14px"]::before { content: '14px'; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="16px"]::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="16px"]::before { content: '16px'; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="18px"]::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="18px"]::before { content: '18px'; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="20px"]::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="20px"]::before { content: '20px'; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="24px"]::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="24px"]::before { content: '24px'; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="36px"]::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="36px"]::before { content: '36px'; }
+
+/* Apply the font size to the editor content */
+.ql-editor .ql-size-10px { font-size: 10px; }
+.ql-editor .ql-size-12px { font-size: 12px; }
+.ql-editor .ql-size-14px { font-size: 14px; }
+.ql-editor .ql-size-16px { font-size: 16px; }
+.ql-editor .ql-size-18px { font-size: 18px; }
+.ql-editor .ql-size-20px { font-size: 20px; }
+.ql-editor .ql-size-24px { font-size: 24px; }
+.ql-editor .ql-size-36px { font-size: 36px; }
+
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { 
+  margin: 0; 
+  font-family: 'Roboto', sans-serif; 
+  font-size: 17px; /* Increased base font size for better readability */
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
