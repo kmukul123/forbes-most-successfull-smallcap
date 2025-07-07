@@ -76,6 +76,7 @@ h3 {
   font-size: 1.2em; /* Increased font size for better readability */
   word-wrap: break-word; /* Allow long words to break */
   overflow-wrap: break-word; /* Modern property for word breaking */
+  white-space: normal; /* Ensure text wraps naturally */
 }
 
 #reusableTable th {
@@ -162,26 +163,23 @@ td input {
     border: none; /* Remove individual cell borders */
     border-bottom: 1px solid #eee; /* Add a light border between rows */
     display: flex; /* Use flexbox for layout */
-    align-items: center; /* Vertically align items */
-    justify-content: space-between; /* Space out label and content */
+    flex-direction: column; /* Stack label and content vertically */
+    align-items: flex-start; /* Align items to the start */
     padding: 8px 10px; /* Adjust padding for smaller screens */
   }
 
   #reusableTable .data-cell::before {
     content: attr(data-label); /* Use data-label for column names */
-    flex-basis: 40%; /* Allocate space for the label */
-    text-align: left;
     font-weight: bold;
     color: #555;
-    padding-right: 10px; /* Space between label and content */
+    padding-bottom: 5px; /* Space between label and content */
     white-space: normal; /* Allow label to wrap */
-    flex-shrink: 0; /* Prevent label from shrinking */
   }
 
   #reusableTable td span, #reusableTable td input { /* Target the actual data */
-    flex: 1; /* Allow data to take remaining space and shrink */
-    text-align: right; /* Align data to the right */
+    text-align: left; /* Align data to the left */
     word-wrap: break-word; /* Allow long words to break */
     overflow-wrap: break-word; /* Modern property for word breaking */
+    width: 100%; /* Ensure data takes full width */
   }
 }
