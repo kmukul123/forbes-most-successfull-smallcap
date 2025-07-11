@@ -1,4 +1,3 @@
-fix: Resolve TypeError and remove console logs
+fix: Revert swipe sensitivity to Hammer.js default
 
-- Fixes `TypeError: Cannot read properties of undefined (reading 'TICKER')` by conditionally accessing `TICKER` property in `description-page.html` template.
-- Removes `console.log` statements from `description-display.ts` to clean up console output.
+- Removes the explicit `threshold` setting for pan gestures in `app.config.ts`, allowing Hammer.js to use its default sensitivity of 10 pixels. This should provide a more balanced swipe experience.

@@ -50,7 +50,6 @@ export class DescriptionPage implements OnInit {
    * Handles a pan left gesture to navigate to the next company.
    */
   onPanLeft(): void {
-    console.log('Pan Left detected');
     this.goToNext();
   }
 
@@ -58,7 +57,6 @@ export class DescriptionPage implements OnInit {
    * Handles a pan right gesture to navigate to the previous company.
    */
   onPanRight(): void {
-    console.log('Pan Right detected');
     this.goToPrevious();
   }
 
