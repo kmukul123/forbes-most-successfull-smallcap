@@ -129,6 +129,9 @@ export class DescriptionDisplay implements OnChanges {
         // Convert the plain text content (with custom tags) to Quill Delta format.
         this.editableDescription[key] = this.convertLegacyTextToDelta(content);
       }
+    } else {
+      this.descriptionKeys = [];
+      this.editableDescription = {};
     }
   }
 

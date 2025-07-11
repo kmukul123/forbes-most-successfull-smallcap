@@ -1,1 +1,4 @@
-chore: Remove temporary commit_message.txt file
+fix: Resolve TypeError and remove console logs
+
+- Fixes `TypeError: Cannot read properties of undefined (reading 'TICKER')` by conditionally accessing `TICKER` property in `description-page.html` template.
+- Removes `console.log` statements from `description-display.ts` to clean up console output.
