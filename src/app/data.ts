@@ -117,15 +117,17 @@ export class Data {
    * @param listCode The list code (e.g., 'americas', 'asia') where the company belongs.
    */
   updateCompanyData(updatedCompany: CompanyData, listCode: string): void {
+    const normalizedUpdatedCompany = normalizeKeysToUppercase(updatedCompany);
+
     if (listCode === 'Forbes_America_SmallCap_2024' && this._americasData) {
-      const index = this._americasData.listCompanies.findIndex(c => c.TICKER === updatedCompany.TICKER);
+      const index = this._americasData.listCompanies.findIndex(c => c.TICKER === normalizedUpdatedCompany.TICKER);
       if (index !== -1) {
-        this._americasData.listCompanies[index] = updatedCompany;
+        this._americasData.listCompanies[index] = normalizedUpdatedCompany;
       }
     } else if (listCode === 'Forbes_Asia_SmallCap_2024' && this._asiaData) {
-      const index = this._asiaData.listCompanies.findIndex(c => c.TICKER === updatedCompany.TICKER);
+      const index = this._asiaData.listCompanies.findIndex(c => c.TICKER === normalizedUpdatedCompany.TICKER);
       if (index !== -1) {
-        this._asiaData.listCompanies[index] = updatedCompany;
+        this._asiaData.listCompanies[index] = normalizedUpdatedCompany;
       }
     }
   }
