@@ -73,7 +73,7 @@ export class Data {
       tap(data => {
         // Normalize keys to uppercase for consistent access
         const normalizedCompanies = data.listCompanies.map(company => normalizeKeysToUppercase(company));
-        this._americasData = { ...data, listCompanies: normalizedCompanies };
+        this._americasData = { ...data, listCompanies: normalizedCompanies, listCode: data.listCode };
       })
     );
   }
@@ -91,7 +91,7 @@ export class Data {
       tap(data => {
         // Normalize keys to uppercase for consistent access
         const normalizedCompanies = data.listCompanies.map(company => normalizeKeysToUppercase(company));
-        this._asiaData = { ...data, listCompanies: normalizedCompanies };
+        this._asiaData = { ...data, listCompanies: normalizedCompanies, listCode: data.listCode };
       })
     );
   }
