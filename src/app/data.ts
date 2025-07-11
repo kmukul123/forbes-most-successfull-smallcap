@@ -7,6 +7,7 @@ import { tap } from 'rxjs/operators';
 export interface ListData {
   listName: string; // The main title of the company list (e.g., "Forbes Asia’s 200 Best Under A Billion").
   listSubHeading: string; // A subheading or date associated with the list (e.g., "AUGUST 06, 2024").
+  listCode: string; // Unique identifier for the list (e.g., 'americas', 'asia')
   listCompanies: CompanyData[]; // An array of company data objects within this list.
 }
 
@@ -50,7 +51,9 @@ export class Data {
       return of(this._americasData);
     }
     return this.http.get<ListData>(this.americasDataUrl).pipe(
-      tap(data => this._americasData = data)
+      tap(data => {
+        this._americasData = { ...data, listCode: 'americas' };
+      })
     );
   }
 
@@ -64,28 +67,43 @@ export class Data {
       return of(this._asiaData);
     }
     return this.http.get<ListData>(this.asiaDataUrl).pipe(
-      tap(data => this._asiaData = data)
+      tap(data => {
+        this._asiaData = { ...data, listCode: 'asia' };
+      })
     );
   }
 
   /**
-   * Updates a company's data in the in-memory cache.
-   * It searches for the company by its TICKER in both Americas and Asia lists.
-   * @param updatedCompany The CompanyData object with updated information.
+   * Retrieves a specific company by its ticker and list code.
+   * @param ticker The stock ticker of the company.
+   * @param listCode The list code (e.g., 'americas', 'asia') to search within.
+   * @returns An Observable of the CompanyData or undefined if not found.
    */
-  updateCompanyData(updatedCompany: CompanyData): void {
-    if (this._americasData) {
+  getCompanyByTickerAndList(ticker: string, listCode: string): Observable<CompanyData | undefined> {
+    if (listCode === 'americas' && this._americasData) {
+      return of(this._americasData.listCompanies.find(c => c.TICKER === ticker));
+    } else if (listCode === 'asia' && this._asiaData) {
+      return of(this._asiaData.listCompanies.find(c => c.TICKER === ticker));
+    }
+    return of(undefined);
+  }
+
+  /**
+   * Updates a company's data in the in-memory cache within its specific list.
+   * It searches for the company by its TICKER within the specified listCode.
+   * @param updatedCompany The CompanyData object with updated information.
+   * @param listCode The list code (e.g., 'americas', 'asia') where the company belongs.
+   */
+  updateCompanyData(updatedCompany: CompanyData, listCode: string): void {
+    if (listCode === 'americas' && this._americasData) {
       const index = this._americasData.listCompanies.findIndex(c => c.TICKER === updatedCompany.TICKER);
       if (index !== -1) {
         this._americasData.listCompanies[index] = updatedCompany;
-        return; // Company found and updated in Americas data
       }
-    }
-    if (this._asiaData) {
+    } else if (listCode === 'asia' && this._asiaData) {
       const index = this._asiaData.listCompanies.findIndex(c => c.TICKER === updatedCompany.TICKER);
       if (index !== -1) {
         this._asiaData.listCompanies[index] = updatedCompany;
-        return; // Company found and updated in Asia data
       }
     }
   }

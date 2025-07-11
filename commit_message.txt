@@ -1,5 +1,7 @@
-feat: Implement swipe navigation using Hammer.js swipe gesture
+feat: Implement list-aware navigation and data persistence
 
-- Changes gesture recognition from `pan` to `swipe` in `description-page.html` and `app.config.ts` for more intuitive navigation.
-- Updates method names in `description-page.ts` from `onPanLeft/Right` to `onSwipeLeft/Right` to reflect the change in gesture type.
-- Configures the `swipe` recognizer in `app.config.ts` to specifically detect horizontal swipes.
+- Introduces `listCode` to `ListData` interface and assigns it during data fetching in `Data` service.
+- Modifies `Data` service to include `getCompanyByTickerAndList` and updates `updateCompanyData` to use `listCode` for targeted data operations.
+- Updates `reusable-table.html` to pass `listCode` as a route parameter when navigating to the description page.
+- Refactors `description-page.ts` to receive `listCode` from route parameters, fetch company data from the correct list, and ensure previous/next navigation and description saves are list-specific.
+- Updates `app.routes.ts` to include `listCode` as a route parameter for the description page.

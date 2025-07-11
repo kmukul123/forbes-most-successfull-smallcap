@@ -25,7 +25,7 @@
       <!-- Iterates over filteredData to render each row (company). -->
       <ng-container *ngFor="let companyData of filteredData; let i = index">
         <!-- Table row for each company. Clicking navigates to the description page. -->
-        <tr [routerLink]="['/description', companyData['TICKER']]">
+        <tr [routerLink]="['/description', companyData['TICKER'], listCode]">
           <!-- Renders table cells for each column. Double-clicking enables inline editing. -->
           <td *ngFor="let key of columns" (dblclick)="startEdit($event, i, key)">
             <!-- Displays the company data if not in editing mode for this cell. -->

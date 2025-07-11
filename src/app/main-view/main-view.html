@@ -13,12 +13,12 @@
   <!-- The 'columns' input defines the table columns specific to Americas data. -->
   <!-- 'tableTitle' and 'tableSubHeading' are passed to display the list's title and subheading. -->
   <div *ngIf="activeDataSet === 'americas'">
-    <app-reusable-table [data]="americasData?.listCompanies ?? []" [columns]="americasColumns" [tableTitle]="activeTitle" [tableSubHeading]="activeSubHeading"></app-reusable-table>
+    <app-reusable-table [data]="americasData?.listCompanies ?? []" [columns]="americasColumns" [tableTitle]="activeTitle" [tableSubHeading]="activeSubHeading" [listCode]="activeDataSet"></app-reusable-table>
   </div>
 
   <!-- Conditionally renders the ReusableTable component for Asia data. -->
   <!-- Similar to the Americas table, but uses asiaData and asiaColumns. -->
   <div *ngIf="activeDataSet === 'asia'">
-    <app-reusable-table [data]="asiaData?.listCompanies ?? []" [columns]="asiaColumns" [tableTitle]="activeTitle" [tableSubHeading]="activeSubHeading"></app-reusable-table>
+    <app-reusable-table [data]="asiaData?.listCompanies ?? []" [columns]="asiaColumns" [tableTitle]="activeTitle" [tableSubHeading]="activeSubHeading" [listCode]="activeDataSet"></app-reusable-table>
   </div>
 </div>

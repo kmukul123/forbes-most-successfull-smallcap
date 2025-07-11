@@ -27,6 +27,7 @@ export class ReusableTable implements OnInit, OnChanges {
   @Input() columns: string[] = [];
   @Input() tableTitle: string = '';
   @Input() tableSubHeading: string = '';
+  @Input() listCode: string = ''; // New input for the list code
 
   filteredData: CompanyData[] = [];
   filterText: string = '';

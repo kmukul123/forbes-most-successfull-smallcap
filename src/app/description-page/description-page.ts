@@ -29,19 +29,23 @@ export class DescriptionPage implements OnInit {
     // Subscribe to route parameter changes to update company data when navigating between descriptions
     this.route.paramMap.subscribe(params => {
       const stockTicker = params.get('stockTicker');
-      if (stockTicker) {
-        // Fetch both Americas and Asia data to create a combined list for navigation
-        forkJoin({
-          americas: this.dataService.getAmericasData(),
-          asia: this.dataService.getAsiaData()
-        }).subscribe(({ americas, asia }) => {
-          // Combine company lists from both datasets
-          this.companyList = [...americas.listCompanies, ...asia.listCompanies];
-          // Find the index of the current company based on the stock ticker
-          this.currentIndex = this.companyList.findIndex(c => c['TICKER'] === stockTicker);
-          // Set the current company data
-          this.company = this.companyList[this.currentIndex];
-        });
+      const listCode = params.get('listCode');
+
+      if (stockTicker && listCode) {
+        // Fetch only the relevant list based on listCode
+        if (listCode === 'americas') {
+          this.dataService.getAmericasData().subscribe(data => {
+            this.companyList = data.listCompanies;
+            this.currentIndex = this.companyList.findIndex(c => c['TICKER'] === stockTicker);
+            this.company = this.companyList[this.currentIndex];
+          });
+        } else if (listCode === 'asia') {
+          this.dataService.getAsiaData().subscribe(data => {
+            this.companyList = data.listCompanies;
+            this.currentIndex = this.companyList.findIndex(c => c['TICKER'] === stockTicker);
+            this.company = this.companyList[this.currentIndex];
+          });
+        }
       }
     });
   }
@@ -75,7 +79,8 @@ export class DescriptionPage implements OnInit {
   goToPrevious(): void {
     if (this.currentIndex > 0) {
       const previousTicker = this.companyList[this.currentIndex - 1]['TICKER'];
-      this.router.navigate(['/description', previousTicker]);
+      const currentListCode = this.companyList[this.currentIndex]['listCode']; // Get listCode of current company
+      this.router.navigate(['/description', previousTicker, currentListCode]);
     }
   }
 
@@ -86,7 +91,8 @@ export class DescriptionPage implements OnInit {
   goToNext(): void {
     if (this.currentIndex < this.companyList.length - 1) {
       const nextTicker = this.companyList[this.currentIndex + 1]['TICKER'];
-      this.router.navigate(['/description', nextTicker]);
+      const currentListCode = this.companyList[this.currentIndex]['listCode']; // Get listCode of current company
+      this.router.navigate(['/description', nextTicker, currentListCode]);
     }
   }
 
@@ -96,7 +102,8 @@ export class DescriptionPage implements OnInit {
    * @param updatedCompany The CompanyData object with updated description.
    */
   onDescriptionSave(updatedCompany: CompanyData): void {
-    this.dataService.updateCompanyData(updatedCompany);
+    const currentListCode = this.companyList[this.currentIndex]['listCode']; // Get listCode of current company
+    this.dataService.updateCompanyData(updatedCompany, currentListCode);
     // Re-assign company to trigger change detection if needed, though updateCompanyData modifies in place
     this.company = { ...updatedCompany };
   }

@@ -4,5 +4,5 @@ import { DescriptionPage } from './description-page/description-page';
 
 export const routes: Routes = [
     { path: '', component: MainView },
-    { path: 'description/:stockTicker', component: DescriptionPage },
+    { path: 'description/:stockTicker/:listCode', component: DescriptionPage },
 ];
