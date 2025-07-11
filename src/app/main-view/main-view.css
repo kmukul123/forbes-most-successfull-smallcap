@@ -1,5 +1,18 @@
 .container {
-  padding: 10px; /* Reduced padding */
+  max-width: 1200px; /* From app.css */
+  margin: 0 auto; /* From app.css */
+  padding: 10px; /* From main-view.css, overrides app.css default padding */
+  background-color: #f8f9fa; /* From app.css */
+  border-radius: 8px; /* From app.css */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* From app.css */
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px; /* From app.css media query */
+    border-radius: 0; /* From app.css media query */
+    box-shadow: none; /* From app.css media query */
+  }
 }
 
 .buttons {

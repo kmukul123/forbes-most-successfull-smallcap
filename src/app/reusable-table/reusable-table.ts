@@ -38,7 +38,7 @@ export class ReusableTable implements OnInit, OnChanges {
 
   ngOnInit(): void {
     console.log('enableDownloadButton:', this.enableDownloadButton);
-    this.filteredData = [...this.data]; // Create a shallow copy
+    this.filterData(); // Initialize filteredData using the filterData method
   }
 
   ngOnChanges(changes: SimpleChanges): void {
