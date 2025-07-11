@@ -62,7 +62,8 @@ export class DescriptionDisplay implements OnChanges {
     this.isEditing = !this.isEditing;
     if (this.isEditing) {
       // Use setTimeout to ensure richTextEditors QueryList is populated after view has rendered
-      // the editable components. This is a common pattern for QueryList access.
+      // the editable components.
+      // This is a common pattern for QueryList access.
       setTimeout(() => {
         this.richTextEditors.forEach(editorComponent => {
           const key = editorComponent.id;
@@ -194,5 +195,16 @@ export class DescriptionDisplay implements OnChanges {
    */
   getTitleCase(key: string): string {
     return key.replace(/_/g, ' ').replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
+  }
+
+  /**
+   * Returns an array of keys from companyData, excluding the 'DESCRIPTION' key.
+   * @returns An array of strings representing the keys to display.
+   */
+  getCompanyDataKeys(): string[] {
+    if (!this.companyData) {
+      return [];
+    }
+    return Object.keys(this.companyData).filter(key => key !== 'DESCRIPTION');
   }
 }

@@ -1,3 +1,15 @@
-<div *ngIf="company">
-  <app-description-display [companyData]="company"></app-description-display>
+<div class="description-page-container">
+  <div *ngIf="company" class="company-description-content">
+    <div class="navigation-buttons top">
+      <button (click)="goBack()">Back to List</button>
+      <button (click)="goToPrevious()" [disabled]="currentIndex === 0">Previous: {{ companyList[currentIndex - 1]?.TICKER || 'N/A' }}</button>
+      <button (click)="goToNext()" [disabled]="currentIndex === companyList.length - 1">Next: {{ companyList[currentIndex + 1]?.TICKER || 'N/A' }}</button>
+    </div>
+    <app-description-display [companyData]="company"></app-description-display>
+    <div class="navigation-buttons bottom">
+      <button (click)="goBack()">Back to List</button>
+      <button (click)="goToPrevious()" [disabled]="currentIndex === 0">Previous: {{ companyList[currentIndex - 1]?.TICKER || 'N/A' }}</button>
+      <button (click)="goToNext()" [disabled]="currentIndex === companyList.length - 1">Next: {{ companyList[currentIndex + 1]?.TICKER || 'N/A' }}</button>
+    </div>
+  </div>
 </div>

@@ -1,5 +1,15 @@
 <!-- Main container for displaying and editing company descriptions. -->
 <div class="description-container">
+  <!-- Display all company data as key-value pairs -->
+  <div *ngIf="companyData" class="company-details">
+    <h3>Company Details</h3>
+    <div class="details-grid">
+      <div *ngFor="let key of getCompanyDataKeys()" class="detail-item">
+        <strong>{{ getTitleCase(key) }}:</strong> {{ companyData[key] }}
+      </div>
+    </div>
+  </div>
+
   <!-- Controls section with Edit/Cancel and Save buttons. -->
   <div class="controls">
     <!-- Button to toggle between view and edit modes. Text changes based on `isEditing` state. -->

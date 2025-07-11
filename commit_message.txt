@@ -1,0 +1,5 @@
+feat: Optimize company details layout on description page
+
+- Refactors the display of company details on the description page to utilize horizontal space more efficiently.
+- Implements a flexbox layout for company detail items, allowing them to display in a row when sufficient width is available and wrap to new lines as needed.
+- Adjusts styling to ensure proper spacing and alignment in the new layout.
