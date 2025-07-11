@@ -1,4 +1,0 @@
-fix: Ensure data persistence after editing by normalizing update payload
-
-- Applies `normalizeKeysToUppercase` to the `updatedCompany` object within the `Data` service's `updateCompanyData` method.
-- Ensures that keys in the updated data payload consistently match the normalized keys in the in-memory cache, resolving issues where edits were not persisting or data columns were clearing out after navigation.
