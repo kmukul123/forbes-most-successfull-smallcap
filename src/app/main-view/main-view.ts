@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 import { Data, ListData } from '../data';
 import { ReusableTable } from '../reusable-table/reusable-table';
 import { forkJoin } from 'rxjs';
@@ -7,7 +8,7 @@ import { forkJoin } from 'rxjs';
 @Component({
   selector: 'app-main-view',
   standalone: true,
-  imports: [CommonModule, ReusableTable],
+  imports: [CommonModule, ReusableTable, RouterModule],
   templateUrl: './main-view.html',
   styleUrls: ['./main-view.css']
 })

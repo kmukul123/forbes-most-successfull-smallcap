@@ -1,15 +1,14 @@
 h3 {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700; /* Bold */
-  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 .list-date {
   text-align: center;
   font-size: 0.9em;
   color: #666;
-  margin-top: 0; 
+  margin-top: -10px; /* Adjust as needed to bring it closer to the title */
   margin-bottom: 20px;
 }
 
@@ -19,167 +18,62 @@ h3 {
 
 .controls {
   margin-bottom: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
 }
 
 .controls input {
   padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  flex-grow: 1;
-  min-width: 150px;
+  margin-right: 10px;
 }
 
 .controls button {
   padding: 8px 12px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.controls button:hover {
-  background-color: #0056b3;
-}
-
-.table-description-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.table-responsive {
-  flex: 1 1 500px;
-  overflow-x: auto; /* Enables horizontal scrolling */
-  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-  width: 100%; /* Ensure it takes full width */
-  display: block; /* Ensure block-level behavior */
 }
 
 #reusableTable {
   width: 100%;
   border-collapse: collapse;
-  /* min-width: 700px; Removed to allow table to shrink */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  border-radius: 8px;
-  overflow: hidden; /* Ensures rounded corners apply to content */
+  min-width: 600px; /* Ensures table has a minimum width */
 }
 
 #reusableTable th, #reusableTable td {
   border: 1px solid #ddd;
-  padding: 12px 15px;
-  text-align: left;
-  font-size: 1.2em; /* Increased font size for better readability */
-  word-wrap: break-word; /* Allow long words to break */
-  overflow-wrap: break-word; /* Modern property for word breaking */
-  white-space: normal; /* Ensure text wraps naturally */
+  padding: 8px;
 }
 
 #reusableTable th {
-  background-color: #f8f9fa;
-  font-weight: bold;
-  color: #333;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
-#reusableTable tbody tr:nth-child(even) {
   background-color: #f2f2f2;
+  text-align: left;
 }
 
 #reusableTable tbody tr:hover {
-  background-color: #e9ecef;
-  cursor: pointer;
+  background-color: #f5f5f5;
 }
 
 td input {
-  width: calc(100% - 16px); /* Account for padding */
+  width: 100%;
   box-sizing: border-box;
-  border: 1px solid #007bff;
-  padding: 4px;
-  border-radius: 3px;
 }
 
 .positive {
-  color: #28a745; /* Green */
-  font-weight: bold;
+  color: green;
 }
 
 .negative {
-  color: #dc3545; /* Red */
-  font-weight: bold;
+  color: red;
 }
 
 .highlight {
-  background-color: #ffc107; /* Yellow */
-  padding: 2px 4px;
-  border-radius: 3px;
+  background-color: yellow;
 }
 
 .detail-row {
-  background-color: #fefefe; /* Lighter background for expanded detail */
+  background-color: #f9f9f9;
 }
 
 .description-content p {
   margin-bottom: 10px;
-  line-height: 1.6;
 }
 
 .description-content p:last-child {
   margin-bottom: 0;
-}
-
-.description-wrapper {
-  padding: 10px;
-  background-color: #f9f9f9;
-  border-radius: 5px;
-}
-
-/* Media queries for table responsiveness */
-@media (max-width: 768px) {
-  #reusableTable thead {
-    display: none; /* Hide table headers on small screens */
-  }
-
-  #reusableTable, #reusableTable tbody, #reusableTable tr, #reusableTable td {
-    display: block; /* Make table elements behave like blocks */
-    width: 100%;
-  }
-
-  #reusableTable tr {
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
-
-  #reusableTable .data-cell {
-    border: none; /* Remove individual cell borders */
-    border-bottom: 1px solid #eee; /* Add a light border between rows */
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack label and content vertically */
-    align-items: flex-start; /* Align items to the start */
-    padding: 8px 10px; /* Adjust padding for smaller screens */
-  }
-
-  #reusableTable .data-cell::before {
-    content: attr(data-label); /* Use data-label for column names */
-    font-weight: bold;
-    color: #555;
-    padding-bottom: 5px; /* Space between label and content */
-    white-space: normal; /* Allow label to wrap */
-  }
-
-  #reusableTable td span, #reusableTable td input { /* Target the actual data */
-    text-align: left; /* Align data to the left */
-    word-wrap: break-word; /* Allow long words to break */
-    overflow-wrap: break-word; /* Modern property for word breaking */
-    width: 100%; /* Ensure data takes full width */
-  }
 }

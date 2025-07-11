@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { MainView } from './main-view/main-view';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [MainView],
-  template: '<app-main-view></app-main-view>',
+  imports: [RouterModule],
+  template: '<router-outlet></router-outlet>',
 })
 export class App {
 }
