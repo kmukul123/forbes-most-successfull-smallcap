@@ -5,7 +5,7 @@
       <button (click)="goToPrevious()" [disabled]="currentIndex === 0">Previous: {{ companyList[currentIndex - 1]?.TICKER || 'N/A' }}</button>
       <button (click)="goToNext()" [disabled]="currentIndex === companyList.length - 1">Next: {{ companyList[currentIndex + 1]?.TICKER || 'N/A' }}</button>
     </div>
-    <app-description-display [companyData]="company"></app-description-display>
+    <app-description-display [companyData]="company" (onSave)="onDescriptionSave($event)"></app-description-display>
     <div class="navigation-buttons bottom">
       <button (click)="goBack()">Back to List</button>
       <button (click)="goToPrevious()" [disabled]="currentIndex === 0">Previous: {{ companyList[currentIndex - 1]?.TICKER || 'N/A' }}</button>

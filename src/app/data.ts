@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
+import { tap } from 'rxjs/operators';
 
 // Defines the structure for a list of companies, including metadata like name and subheading.
 export interface ListData {
@@ -33,18 +34,48 @@ export class Data {
     private americasDataUrl = 'assets/data/Americas_2025.json';
     private asiaDataUrl = 'assets/data/forbes_asia_200_report_2024.json';
 
+    private _americasData: ListData | null = null;
+    private _asiaData: ListData | null = null;
+
   constructor(private http: HttpClient) { }
 
   // Fetches the Americas companies data.
   // Returns an Observable of ListData, which includes list metadata and company array.
   getAmericasData(): Observable<ListData> {
-    return this.http.get<ListData>(this.americasDataUrl);
+    if (this._americasData) {
+      return of(this._americasData);
+    }
+    return this.http.get<ListData>(this.americasDataUrl).pipe(
+      tap(data => this._americasData = data)
+    );
   }
 
   // Fetches the Asia companies data.
   // Returns an Observable of ListData, which includes list metadata and company array.
   getAsiaData(): Observable<ListData> {
-    return this.http.get<ListData>(this.asiaDataUrl);
+    if (this._asiaData) {
+      return of(this._asiaData);
+    }
+    return this.http.get<ListData>(this.asiaDataUrl).pipe(
+      tap(data => this._asiaData = data)
+    );
+  }
+
+  updateCompanyData(updatedCompany: CompanyData): void {
+    if (this._americasData) {
+      const index = this._americasData.listCompanies.findIndex(c => c.TICKER === updatedCompany.TICKER);
+      if (index !== -1) {
+        this._americasData.listCompanies[index] = updatedCompany;
+        return;
+      }
+    }
+    if (this._asiaData) {
+      const index = this._asiaData.listCompanies.findIndex(c => c.TICKER === updatedCompany.TICKER);
+      if (index !== -1) {
+        this._asiaData.listCompanies[index] = updatedCompany;
+        return;
+      }
+    }
   }
 }
 

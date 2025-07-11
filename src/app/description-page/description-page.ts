@@ -58,4 +58,10 @@ export class DescriptionPage implements OnInit {
       this.router.navigate(['/description', nextTicker]);
     }
   }
+
+  onDescriptionSave(updatedCompany: CompanyData): void {
+    this.dataService.updateCompanyData(updatedCompany);
+    // Re-assign company to trigger change detection if needed, though updateCompanyData modifies in place
+    this.company = { ...updatedCompany };
+  }
 }
