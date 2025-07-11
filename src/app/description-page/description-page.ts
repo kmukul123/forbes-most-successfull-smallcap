@@ -3,13 +3,14 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { CompanyData, Data } from '../data';
 import { CommonModule } from '@angular/common';
 import { DescriptionDisplay } from '../description-display/description-display';
+import { HammerModule } from '@angular/platform-browser';
 import { Location } from '@angular/common';
 import { forkJoin } from 'rxjs';
 
 @Component({
   selector: 'app-description-page',
   standalone: true,
-  imports: [CommonModule, DescriptionDisplay],
+  imports: [CommonModule, DescriptionDisplay, HammerModule],
   templateUrl: './description-page.html',
   styleUrls: ['./description-page.css']
 })

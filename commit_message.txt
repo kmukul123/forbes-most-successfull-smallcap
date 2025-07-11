@@ -1,4 +1,5 @@
-refactor: Simplify data fetching in DescriptionPage component
+feat: Localize swipe gestures to description page
 
-- Introduces `getListData` method in `Data` service to centralize fetching of specific `ListData` objects based on `listCode`.
-- Refactors `DescriptionPage` component to utilize `dataService.getListData()`, simplifying its `ngOnInit` method by removing redundant `if/else if` blocks for data fetching.
+- Removes global `HammerModule` configuration from `app.config.ts` to prevent unintended gesture recognition across the application.
+- Adds `HammerModule` directly to the `DescriptionPage` component's imports, enabling swipe gestures only on that specific page.
+- Ensures `hammerjs` is loaded only when and where it's needed, improving performance and preventing potential conflicts with other touch interactions.
