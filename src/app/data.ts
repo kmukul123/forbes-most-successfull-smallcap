@@ -34,13 +34,17 @@ export class Data {
     private americasDataUrl = 'assets/data/Americas_2025.json';
     private asiaDataUrl = 'assets/data/forbes_asia_200_report_2024.json';
 
+    // In-memory cache for fetched data to prevent re-fetching and persist edits.
     private _americasData: ListData | null = null;
     private _asiaData: ListData | null = null;
 
   constructor(private http: HttpClient) { }
 
-  // Fetches the Americas companies data.
-  // Returns an Observable of ListData, which includes list metadata and company array.
+  /**
+   * Fetches the Americas companies data.
+   * If data is already in cache, returns it immediately. Otherwise, fetches from JSON and caches it.
+   * @returns An Observable of ListData, which includes list metadata and company array.
+   */
   getAmericasData(): Observable<ListData> {
     if (this._americasData) {
       return of(this._americasData);
@@ -50,8 +54,11 @@ export class Data {
     );
   }
 
-  // Fetches the Asia companies data.
-  // Returns an Observable of ListData, which includes list metadata and company array.
+  /**
+   * Fetches the Asia companies data.
+   * If data is already in cache, returns it immediately. Otherwise, fetches from JSON and caches it.
+   * @returns An Observable of ListData, which includes list metadata and company array.
+   */
   getAsiaData(): Observable<ListData> {
     if (this._asiaData) {
       return of(this._asiaData);
@@ -61,19 +68,24 @@ export class Data {
     );
   }
 
+  /**
+   * Updates a company's data in the in-memory cache.
+   * It searches for the company by its TICKER in both Americas and Asia lists.
+   * @param updatedCompany The CompanyData object with updated information.
+   */
   updateCompanyData(updatedCompany: CompanyData): void {
     if (this._americasData) {
       const index = this._americasData.listCompanies.findIndex(c => c.TICKER === updatedCompany.TICKER);
       if (index !== -1) {
         this._americasData.listCompanies[index] = updatedCompany;
-        return;
+        return; // Company found and updated in Americas data
       }
     }
     if (this._asiaData) {
       const index = this._asiaData.listCompanies.findIndex(c => c.TICKER === updatedCompany.TICKER);
       if (index !== -1) {
         this._asiaData.listCompanies[index] = updatedCompany;
-        return;
+        return; // Company found and updated in Asia data
       }
     }
   }
