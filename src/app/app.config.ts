@@ -20,7 +20,7 @@ export class CustomHammerConfig extends HammerGestureConfig {
     });
 
     // Recognize horizontal pan gestures
-    mc.get('pan').set({ direction: Hammer.DIRECTION_HORIZONTAL });
+    mc.get('swipe').set({ direction: Hammer.DIRECTION_HORIZONTAL });
 
     return mc;
   }

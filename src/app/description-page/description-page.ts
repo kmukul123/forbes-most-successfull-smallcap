@@ -47,16 +47,16 @@ export class DescriptionPage implements OnInit {
   }
 
   /**
-   * Handles a pan left gesture to navigate to the next company.
+   * Handles a swipe left gesture to navigate to the next company.
    */
-  onPanLeft(): void {
+  onSwipeLeft(): void {
     this.goToNext();
   }
 
   /**
-   * Handles a pan right gesture to navigate to the previous company.
+   * Handles a swipe right gesture to navigate to the previous company.
    */
-  onPanRight(): void {
+  onSwipeRight(): void {
     this.goToPrevious();
   }
 

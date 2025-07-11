@@ -1,5 +1,5 @@
 <div class="description-page-container">
-  <div *ngIf="company" class="company-description-content" (panleft)="onPanLeft()" (panright)="onPanRight()">
+  <div *ngIf="company" class="company-description-content" (swipeleft)="onSwipeLeft()" (swiperight)="onSwipeRight()">
     <div class="navigation-buttons top">
       <button (click)="goBack()">Back to List</button>
       <button (click)="goToPrevious()" [disabled]="currentIndex === 0">Previous: {{ currentIndex > 0 ? companyList[currentIndex - 1].TICKER : 'N/A' }}</button>

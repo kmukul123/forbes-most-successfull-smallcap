@@ -1,3 +1,5 @@
-fix: Revert swipe sensitivity to Hammer.js default
+feat: Implement swipe navigation using Hammer.js swipe gesture
 
-- Removes the explicit `threshold` setting for pan gestures in `app.config.ts`, allowing Hammer.js to use its default sensitivity of 10 pixels. This should provide a more balanced swipe experience.
+- Changes gesture recognition from `pan` to `swipe` in `description-page.html` and `app.config.ts` for more intuitive navigation.
+- Updates method names in `description-page.ts` from `onPanLeft/Right` to `onSwipeLeft/Right` to reflect the change in gesture type.
+- Configures the `swipe` recognizer in `app.config.ts` to specifically detect horizontal swipes.
