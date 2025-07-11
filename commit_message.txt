@@ -1,5 +1,5 @@
-feat: Localize swipe gestures to description page
+fix: Implement case-insensitive data parsing for company data
 
-- Removes global `HammerModule` configuration from `app.config.ts` to prevent unintended gesture recognition across the application.
-- Adds `HammerModule` directly to the `DescriptionPage` component's imports, enabling swipe gestures only on that specific page.
-- Ensures `hammerjs` is loaded only when and where it's needed, improving performance and preventing potential conflicts with other touch interactions.
+- Adds a `normalizeKeysToUppercase` helper function in `data.ts` to recursively convert all string keys in company data objects to uppercase.
+- Applies this normalization during data fetching in `getAmericasData()` and `getAsiaData()` to ensure consistent key casing across the application.
+- Resolves issues where company data (e.g., "Able Global" from Asia) was not displaying due to case-sensitivity mismatches between JSON and code.
