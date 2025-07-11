@@ -1,7 +1,4 @@
-feat: Implement list-aware navigation and data persistence
+fix: Resolve empty description page due to incorrect listCode matching
 
-- Introduces `listCode` to `ListData` interface and assigns it during data fetching in `Data` service.
-- Modifies `Data` service to include `getCompanyByTickerAndList` and updates `updateCompanyData` to use `listCode` for targeted data operations.
-- Updates `reusable-table.html` to pass `listCode` as a route parameter when navigating to the description page.
-- Refactors `description-page.ts` to receive `listCode` from route parameters, fetch company data from the correct list, and ensure previous/next navigation and description saves are list-specific.
-- Updates `app.routes.ts` to include `listCode` as a route parameter for the description page.
+- Updates `description-page.ts` to correctly match `listCode` values from JSON (e.g., "Forbes_America_SmallCap_2024") when fetching company data.
+- Ensures the description page now correctly displays content for companies from both Americas and Asia lists.

@@ -18,7 +18,7 @@ export class MainView implements OnInit {
   americasColumns: string[] = ['RANK', 'COMPANY', 'INDUSTRY', '52-WEEK RETURN (%)', 'REVENUE (millions USD)', 'TICKER'];
   asiaColumns: string[] = ['Rank', 'Company', 'Country/Territory', 'Industry', 'Sales ($M)', 'Net Income ($M)', 'Market Value ($M)'];
 
-  activeDataSet: 'americas' | 'asia' = 'americas';
+  activeDataSet: ListData | undefined; // Holds the currently active ListData object
   activeTitle = '';
   activeSubHeading = '';
 
@@ -31,16 +31,23 @@ export class MainView implements OnInit {
     }).subscribe(({ americas, asia }) => {
       this.americasData = americas;
       this.asiaData = asia;
-      this.setActiveDataSet('americas');
+      // Initialize with Americas data
+      this.setActiveDataSet(this.americasData);
     });
   }
 
-  setActiveDataSet(dataSet: 'americas' | 'asia'): void {
-    this.activeDataSet = dataSet;
-    const data = dataSet === 'americas' ? this.americasData : this.asiaData;
+  /**
+   * Sets the active dataset based on the provided ListData object.
+   * @param data The ListData object to set as active.
+   */
+  setActiveDataSet(data: ListData | undefined): void {
+    this.activeDataSet = data;
     if (data) {
       this.activeTitle = data.listName;
       this.activeSubHeading = data.listSubHeading;
+    } else {
+      this.activeTitle = '';
+      this.activeSubHeading = '';
     }
   }
 }

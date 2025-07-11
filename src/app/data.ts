@@ -52,7 +52,7 @@ export class Data {
     }
     return this.http.get<ListData>(this.americasDataUrl).pipe(
       tap(data => {
-        this._americasData = { ...data, listCode: 'americas' };
+        this._americasData = data;
       })
     );
   }
@@ -68,7 +68,7 @@ export class Data {
     }
     return this.http.get<ListData>(this.asiaDataUrl).pipe(
       tap(data => {
-        this._asiaData = { ...data, listCode: 'asia' };
+        this._asiaData = data;
       })
     );
   }

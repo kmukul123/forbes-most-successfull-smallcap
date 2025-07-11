@@ -30,22 +30,35 @@ export class DescriptionPage implements OnInit {
     this.route.paramMap.subscribe(params => {
       const stockTicker = params.get('stockTicker');
       const listCode = params.get('listCode');
+      console.log('DescriptionPage: stockTicker =', stockTicker, 'listCode =', listCode);
 
       if (stockTicker && listCode) {
         // Fetch only the relevant list based on listCode
-        if (listCode === 'americas') {
+        if (listCode === 'Forbes_America_SmallCap_2024') {
           this.dataService.getAmericasData().subscribe(data => {
+            console.log('DescriptionPage: Americas Data fetched:', data);
             this.companyList = data.listCompanies;
             this.currentIndex = this.companyList.findIndex(c => c['TICKER'] === stockTicker);
             this.company = this.companyList[this.currentIndex];
+            console.log('DescriptionPage: companyList (Americas) =', this.companyList);
+            console.log('DescriptionPage: currentIndex (Americas) =', this.currentIndex);
+            console.log('DescriptionPage: company (Americas) =', this.company);
           });
-        } else if (listCode === 'asia') {
+        } else if (listCode === 'Forbes_Asia_SmallCap_2024') {
           this.dataService.getAsiaData().subscribe(data => {
+            console.log('DescriptionPage: Asia Data fetched:', data);
             this.companyList = data.listCompanies;
             this.currentIndex = this.companyList.findIndex(c => c['TICKER'] === stockTicker);
             this.company = this.companyList[this.currentIndex];
+            console.log('DescriptionPage: companyList (Asia) =', this.companyList);
+            console.log('DescriptionPage: currentIndex (Asia) =', this.currentIndex);
+            console.log('DescriptionPage: company (Asia) =', this.company);
           });
+        } else {
+          console.log('DescriptionPage: Unknown listCode', listCode);
         }
+      } else {
+        console.log('DescriptionPage: Missing stockTicker or listCode');
       }
     });
   }

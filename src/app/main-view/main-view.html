@@ -3,22 +3,22 @@
   <!-- Container for dataset selection buttons. -->
   <div class="buttons">
     <!-- Button to activate the Americas dataset. The 'active' class is applied when this dataset is selected. -->
-    <button (click)="setActiveDataSet('americas')" [class.active]="activeDataSet === 'americas'">Americas</button>
+    <button (click)="setActiveDataSet(americasData)" [class.active]="activeDataSet?.listCode === americasData?.listCode">Americas</button>
     <!-- Button to activate the Asia dataset. The 'active' class is applied when this dataset is selected. -->
-    <button (click)="setActiveDataSet('asia')" [class.active]="activeDataSet === 'asia'">Asia</button>
+    <button (click)="setActiveDataSet(asiaData)" [class.active]="activeDataSet?.listCode === asiaData?.listCode">Asia</button>
   </div>
 
   <!-- Conditionally renders the ReusableTable component for Americas data. -->
   <!-- The 'data' input is bound to americasData.listCompanies, with a fallback to an empty array if undefined. -->
   <!-- The 'columns' input defines the table columns specific to Americas data. -->
   <!-- 'tableTitle' and 'tableSubHeading' are passed to display the list's title and subheading. -->
-  <div *ngIf="activeDataSet === 'americas'">
-    <app-reusable-table [data]="americasData?.listCompanies ?? []" [columns]="americasColumns" [tableTitle]="activeTitle" [tableSubHeading]="activeSubHeading" [listCode]="activeDataSet"></app-reusable-table>
+  <div *ngIf="activeDataSet === americasData">
+    <app-reusable-table [data]="americasData?.listCompanies ?? []" [columns]="americasColumns" [tableTitle]="activeTitle" [tableSubHeading]="activeSubHeading" [listCode]="activeDataSet?.listCode ?? ''"></app-reusable-table>
   </div>
 
   <!-- Conditionally renders the ReusableTable component for Asia data. -->
   <!-- Similar to the Americas table, but uses asiaData and asiaColumns. -->
-  <div *ngIf="activeDataSet === 'asia'">
-    <app-reusable-table [data]="asiaData?.listCompanies ?? []" [columns]="asiaColumns" [tableTitle]="activeTitle" [tableSubHeading]="activeSubHeading" [listCode]="activeDataSet"></app-reusable-table>
+  <div *ngIf="activeDataSet === asiaData">
+    <app-reusable-table [data]="asiaData?.listCompanies ?? []" [columns]="asiaColumns" [tableTitle]="activeTitle" [tableSubHeading]="activeSubHeading" [listCode]="activeDataSet?.listCode ?? ''"></app-reusable-table>
   </div>
 </div>
