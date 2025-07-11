@@ -47,6 +47,20 @@ export class DescriptionPage implements OnInit {
   }
 
   /**
+   * Handles a pan left gesture to navigate to the next company.
+   */
+  onPanLeft(): void {
+    this.goToNext();
+  }
+
+  /**
+   * Handles a pan right gesture to navigate to the previous company.
+   */
+  onPanRight(): void {
+    this.goToPrevious();
+  }
+
+  /**
    * Navigates back to the main list page.
    * Uses router.navigate to ensure a consistent return to the root path.
    */

@@ -3,6 +3,7 @@ import { provideRouter } from '@angular/router';
 import { provideHttpClient } from '@angular/common/http';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { QuillModule } from 'ngx-quill';
+import { HammerModule } from '@angular/platform-browser';
 
 import { routes } from './app.routes';
 import { registerQuillBlots } from './core/quill/quill.config';
@@ -16,6 +17,6 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
     provideHttpClient(),
     provideAnimations(),
-    importProvidersFrom(QuillModule.forRoot())
+    importProvidersFrom(QuillModule.forRoot(), HammerModule)
   ]
 };
