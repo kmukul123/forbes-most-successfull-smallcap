@@ -68,21 +68,72 @@
   color: #333;
 }
 
-.details-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px; /* Space between items */
+.details-table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.detail-item {
-  flex: 1 1 auto; /* Allow items to grow and shrink, and wrap */
-  min-width: 200px; /* Minimum width for each item before wrapping */
-  margin-bottom: 0; /* Remove margin-bottom as gap handles spacing */
+.details-table th,
+.details-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
 }
 
-.detail-item strong {
-  display: inline; /* Change to inline to flow with text */
-  width: auto; /* Remove fixed width */
-  color: #555;
-  margin-right: 5px; /* Space between label and value */
+/* Default styles for small screens (stacked) */
+.details-table thead {
+  display: none; /* Hide headers by default */
+}
+
+.details-table tbody tr {
+  display: block; /* Make rows behave like blocks */
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.details-table tbody td {
+  display: block; /* Make cells behave like blocks */
+  text-align: right; /* Align value to the right */
+  padding-left: 50%; /* Make space for the pseudo-element label */
+  position: relative;
+}
+
+.details-table tbody td::before {
+  content: attr(data-label); /* Use data-label for the header */
+  position: absolute;
+  left: 6px;
+  width: 45%;
+  padding-right: 10px;
+  white-space: nowrap;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Media query for larger screens (table view) */
+@media screen and (min-width: 768px) {
+  .details-table thead {
+    display: table-header-group; /* Show headers */
+  }
+
+  .details-table tbody tr {
+    display: table-row; /* Make rows behave like table rows */
+    border: none;
+  }
+
+  .details-table tbody td {
+    display: table-cell; /* Make cells behave like table cells */
+    text-align: left; /* Reset text alignment */
+    padding-left: 8px; /* Reset padding */
+    position: static;
+  }
+
+  .details-table tbody td::before {
+    content: none; /* Hide pseudo-element label */
+  }
+
+  .details-table th {
+    background-color: #e9ecef;
+    font-weight: bold;
+    width: auto; /* Allow width to adjust */
+  }
 }

@@ -1,13 +1,20 @@
 <!-- Main container for displaying and editing company descriptions. -->
 <div class="description-container">
-  <!-- Display all company data as key-value pairs -->
+  <!-- Display all company data as key-value pairs in a table-like format -->
   <div *ngIf="companyData" class="company-details">
     <h3>Company Details</h3>
-    <div class="details-grid">
-      <div *ngFor="let key of getCompanyDataKeys()" class="detail-item">
-        <strong>{{ getTitleCase(key) }}:</strong> {{ companyData[key] }}
-      </div>
-    </div>
+    <table class="details-table responsive-table">
+      <thead>
+        <tr>
+          <th *ngFor="let key of getCompanyDataKeys()">{{ getTitleCase(key) }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td *ngFor="let key of getCompanyDataKeys()" [attr.data-label]="getTitleCase(key)">{{ companyData[key] }}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
   <!-- Controls section with Edit/Cancel and Save buttons. -->
