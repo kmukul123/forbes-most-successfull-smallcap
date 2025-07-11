@@ -1,4 +1,4 @@
-fix: Resolve empty description page due to incorrect listCode matching
+refactor: Simplify data fetching in DescriptionPage component
 
-- Updates `description-page.ts` to correctly match `listCode` values from JSON (e.g., "Forbes_America_SmallCap_2024") when fetching company data.
-- Ensures the description page now correctly displays content for companies from both Americas and Asia lists.
+- Introduces `getListData` method in `Data` service to centralize fetching of specific `ListData` objects based on `listCode`.
+- Refactors `DescriptionPage` component to utilize `dataService.getListData()`, simplifying its `ngOnInit` method by removing redundant `if/else if` blocks for data fetching.

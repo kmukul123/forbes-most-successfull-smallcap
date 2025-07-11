@@ -17,6 +17,7 @@ export class DescriptionPage implements OnInit {
   company: CompanyData | undefined; // The currently displayed company's data
   companyList: CompanyData[] = []; // The full list of companies for navigation
   currentIndex: number = -1; // Index of the current company in the companyList
+  listCode: string | null | undefined; // The list code of the current company
 
   constructor(
     private route: ActivatedRoute, // Provides access to route parameters
@@ -29,36 +30,16 @@ export class DescriptionPage implements OnInit {
     // Subscribe to route parameter changes to update company data when navigating between descriptions
     this.route.paramMap.subscribe(params => {
       const stockTicker = params.get('stockTicker');
-      const listCode = params.get('listCode');
-      console.log('DescriptionPage: stockTicker =', stockTicker, 'listCode =', listCode);
+      this.listCode = params.get('listCode'); // Assign to class property
 
-      if (stockTicker && listCode) {
-        // Fetch only the relevant list based on listCode
-        if (listCode === 'Forbes_America_SmallCap_2024') {
-          this.dataService.getAmericasData().subscribe(data => {
-            console.log('DescriptionPage: Americas Data fetched:', data);
+      if (stockTicker && this.listCode) {
+        this.dataService.getListData(this.listCode).subscribe(data => {
+          if (data) {
             this.companyList = data.listCompanies;
             this.currentIndex = this.companyList.findIndex(c => c['TICKER'] === stockTicker);
             this.company = this.companyList[this.currentIndex];
-            console.log('DescriptionPage: companyList (Americas) =', this.companyList);
-            console.log('DescriptionPage: currentIndex (Americas) =', this.currentIndex);
-            console.log('DescriptionPage: company (Americas) =', this.company);
-          });
-        } else if (listCode === 'Forbes_Asia_SmallCap_2024') {
-          this.dataService.getAsiaData().subscribe(data => {
-            console.log('DescriptionPage: Asia Data fetched:', data);
-            this.companyList = data.listCompanies;
-            this.currentIndex = this.companyList.findIndex(c => c['TICKER'] === stockTicker);
-            this.company = this.companyList[this.currentIndex];
-            console.log('DescriptionPage: companyList (Asia) =', this.companyList);
-            console.log('DescriptionPage: currentIndex (Asia) =', this.currentIndex);
-            console.log('DescriptionPage: company (Asia) =', this.company);
-          });
-        } else {
-          console.log('DescriptionPage: Unknown listCode', listCode);
-        }
-      } else {
-        console.log('DescriptionPage: Missing stockTicker or listCode');
+          }
+        });
       }
     });
   }
@@ -90,10 +71,9 @@ export class DescriptionPage implements OnInit {
    * Disables the button if already at the first company.
    */
   goToPrevious(): void {
-    if (this.currentIndex > 0) {
+    if (this.currentIndex > 0 && this.listCode) {
       const previousTicker = this.companyList[this.currentIndex - 1]['TICKER'];
-      const currentListCode = this.companyList[this.currentIndex]['listCode']; // Get listCode of current company
-      this.router.navigate(['/description', previousTicker, currentListCode]);
+      this.router.navigate(['/description', previousTicker, this.listCode]);
     }
   }
 
@@ -102,10 +82,9 @@ export class DescriptionPage implements OnInit {
    * Disables the button if already at the last company.
    */
   goToNext(): void {
-    if (this.currentIndex < this.companyList.length - 1) {
+    if (this.currentIndex < this.companyList.length - 1 && this.listCode) {
       const nextTicker = this.companyList[this.currentIndex + 1]['TICKER'];
-      const currentListCode = this.companyList[this.currentIndex]['listCode']; // Get listCode of current company
-      this.router.navigate(['/description', nextTicker, currentListCode]);
+      this.router.navigate(['/description', nextTicker, this.listCode]);
     }
   }
 
@@ -115,9 +94,10 @@ export class DescriptionPage implements OnInit {
    * @param updatedCompany The CompanyData object with updated description.
    */
   onDescriptionSave(updatedCompany: CompanyData): void {
-    const currentListCode = this.companyList[this.currentIndex]['listCode']; // Get listCode of current company
-    this.dataService.updateCompanyData(updatedCompany, currentListCode);
-    // Re-assign company to trigger change detection if needed, though updateCompanyData modifies in place
-    this.company = { ...updatedCompany };
+    if (this.listCode) {
+      this.dataService.updateCompanyData(updatedCompany, this.listCode);
+      // Re-assign company to trigger change detection if needed, though updateCompanyData modifies in place
+      this.company = { ...updatedCompany };
+    }
   }
 }

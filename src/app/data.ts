@@ -74,16 +74,15 @@ export class Data {
   }
 
   /**
-   * Retrieves a specific company by its ticker and list code.
-   * @param ticker The stock ticker of the company.
-   * @param listCode The list code (e.g., 'americas', 'asia') to search within.
-   * @returns An Observable of the CompanyData or undefined if not found.
+   * Retrieves the ListData object for a given listCode.
+   * @param listCode The unique identifier for the list (e.g., 'Forbes_America_SmallCap_2024', 'Forbes_Asia_SmallCap_2024').
+   * @returns An Observable of ListData or undefined if the listCode is not recognized.
    */
-  getCompanyByTickerAndList(ticker: string, listCode: string): Observable<CompanyData | undefined> {
-    if (listCode === 'americas' && this._americasData) {
-      return of(this._americasData.listCompanies.find(c => c.TICKER === ticker));
-    } else if (listCode === 'asia' && this._asiaData) {
-      return of(this._asiaData.listCompanies.find(c => c.TICKER === ticker));
+  getListData(listCode: string): Observable<ListData | undefined> {
+    if (listCode === 'Forbes_America_SmallCap_2024') {
+      return this.getAmericasData();
+    } else if (listCode === 'Forbes_Asia_SmallCap_2024') {
+      return this.getAsiaData();
     }
     return of(undefined);
   }
@@ -95,12 +94,12 @@ export class Data {
    * @param listCode The list code (e.g., 'americas', 'asia') where the company belongs.
    */
   updateCompanyData(updatedCompany: CompanyData, listCode: string): void {
-    if (listCode === 'americas' && this._americasData) {
+    if (listCode === 'Forbes_America_SmallCap_2024' && this._americasData) {
       const index = this._americasData.listCompanies.findIndex(c => c.TICKER === updatedCompany.TICKER);
       if (index !== -1) {
         this._americasData.listCompanies[index] = updatedCompany;
       }
-    } else if (listCode === 'asia' && this._asiaData) {
+    } else if (listCode === 'Forbes_Asia_SmallCap_2024' && this._asiaData) {
       const index = this._asiaData.listCompanies.findIndex(c => c.TICKER === updatedCompany.TICKER);
       if (index !== -1) {
         this._asiaData.listCompanies[index] = updatedCompany;
