@@ -1,5 +1,1 @@
-docs: Add comments to Data service and DescriptionPage component
-
-- Adds detailed comments to the `Data` service, explaining the in-memory caching mechanism for company data and the `updateCompanyData` method.
-- Adds comments to the `DescriptionPage` component, clarifying the navigation logic, data fetching, and the `onDescriptionSave` method.
-- Ensures code remains self-documenting where comments are not explicitly needed.
+chore: Remove temporary commit_message.txt file
