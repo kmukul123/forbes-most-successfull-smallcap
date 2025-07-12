@@ -1,6 +1,7 @@
 {
     "listName" : "Forbes Asia’s 200 Best Under A Billion'",
     "listCode":"Forbes_Under_A_Billion_Asia_2024",
+    "columns": ["RANK", "COMPANY", "COUNTRY/TERRITORY", "INDUSTRY", "SALES ($M)", "NET INCOME ($M)", "MARKET VALUE ($M)", "TICKER"],
     "listSubHeading" :"AUGUST 06, 2024",
     "listCompanies": [
         {

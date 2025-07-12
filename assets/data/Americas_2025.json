@@ -2,6 +2,7 @@
     "listName" : "2025 AMERICA’S MOST SUCCESSFUL SMALL-CAP COMPANIES",
     "listSubHeading" :"NOVEMBER 15, 2024",
     "listCode":"Forbes_America_SmallCap_2024",
+    "columns": ["RANK", "COMPANY", "INDUSTRY", "52-WEEK RETURN (%)", "REVENUE (MILLIONS USD)", "TICKER"],
     "listCompanies": [
         {
             "RANK": 1,
