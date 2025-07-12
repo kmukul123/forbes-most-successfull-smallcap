@@ -1,11 +1,8 @@
-import { Component, Input, ViewChild, OnInit, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnInit, OnChanges, SimpleChanges } from '@angular/core';
 import { environment } from '../../environments/environment';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-
-
-import { animate, state, style, transition, trigger } from '@angular/animations';
 import { CompanyData } from '../data';
 
 @Component({
@@ -14,13 +11,6 @@ import { CompanyData } from '../data';
   imports: [CommonModule, FormsModule, RouterModule],
   templateUrl: './reusable-table.html',
   styleUrls: ['./reusable-table.css'],
-  animations: [
-    trigger('detailExpand', [
-      state('collapsed,void', style({ height: '0px', minHeight: '0' })),
-      state('expanded', style({ height: '*' })),
-      transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
-    ]),
-  ],
 })
 export class ReusableTable implements OnInit, OnChanges {
   @Input() data: CompanyData[] = [];
@@ -87,17 +77,5 @@ export class ReusableTable implements OnInit, OnChanges {
     a.download = 'data.json';
     a.click();
     URL.revokeObjectURL(url);
-  }
-
-  onDescriptionSave(updatedCompany: CompanyData): void {
-    const indexInOriginalData = this.data.findIndex(item => item['TICKER'] === updatedCompany['TICKER']);
-    if (indexInOriginalData !== -1) {
-      this.data[indexInOriginalData] = updatedCompany;
-    }
-
-    const indexInFilteredData = this.filteredData.findIndex(item => item['TICKER'] === updatedCompany['TICKER']);
-    if (indexInFilteredData !== -1) {
-      this.filteredData[indexInFilteredData] = updatedCompany;
-    }
   }
 }

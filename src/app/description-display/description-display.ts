@@ -106,19 +106,8 @@ export class DescriptionDisplay implements OnChanges {
   }
 
   /**
-   * Cancels the editing process.
-   * Reverts any unsaved changes by resetting the editable description to the original data.
-   * Bug Fix: Explicitly calls `resetEditableDescription()` to ensure the view reverts
-   * to the original state, preventing the description from disappearing on cancel.
-   */
-  cancel(): void {
-    this.isEditing = false; // Exit edit mode.
-    this.resetEditableDescription(); // Revert changes by re-processing the original data.
-  }
-
-  /**
    * Populates `editableDescription` with Delta objects converted from `companyData.DESCRIPTION`.
-   * This method is called on `ngOnChanges` and `cancel()` to ensure the display is always correct.
+   * This method is called on `ngOnChanges` to ensure the display is always correct.
    */
   private resetEditableDescription(): void {
     if (this.companyData && this.companyData.DESCRIPTION) {

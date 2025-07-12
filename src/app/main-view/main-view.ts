@@ -29,11 +29,6 @@ export class MainView implements OnInit {
       americas: this.dataService.getAmericasData(),
       asia: this.dataService.getAsiaData()
     }).subscribe(({ americas, asia }) => {
-      console.log('MainView: americas data received:', americas);
-      if (americas && americas.listCompanies && americas.listCompanies.length > 0) {
-        console.log('MainView: Revenue (MILLIONS USD) from data:', americas.listCompanies[0]['REVENUE (MILLIONS USD)']);
-        console.log('MainView: Revenue (millions USD) from data (lowercase):', americas.listCompanies[0]['REVENUE (millions USD)']);
-      }
       this.americasData = americas;
       this.asiaData = asia;
       // Initialize with Americas data

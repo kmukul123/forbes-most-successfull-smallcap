@@ -32,7 +32,6 @@ export class DescriptionPage implements OnInit {
     this.route.paramMap.subscribe(params => {
       const stockTicker = params.get('stockTicker');
       this.listCode = params.get('listCode'); // Assign to class property
-      console.log('DescriptionPage: stockTicker =', stockTicker, 'listCode =', this.listCode);
 
       if (stockTicker && this.listCode) {
         this.dataService.getListData(this.listCode).subscribe(data => {
@@ -41,11 +40,11 @@ export class DescriptionPage implements OnInit {
             this.currentIndex = this.companyList.findIndex(c => c['TICKER'] === stockTicker);
             this.company = this.companyList[this.currentIndex];
           } else {
-            console.log('DescriptionPage: Unknown listCode', this.listCode);
+            console.error('DescriptionPage: Unknown listCode', this.listCode);
           }
         });
       } else {
-        console.log('DescriptionPage: Missing stockTicker or listCode');
+        console.error('DescriptionPage: Missing stockTicker or listCode');
       }
     });
   }
