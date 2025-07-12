@@ -51,6 +51,8 @@ function normalizeKeysToUppercase(obj: any): any {
   return newObj;
 }
 
+export { normalizeData, normalizeKeysToUppercase };
+
 @Injectable({
     providedIn: 'root'
 })

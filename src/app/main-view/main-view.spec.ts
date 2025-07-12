@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 import { MainView } from './main-view';
 
@@ -8,7 +9,7 @@ describe('MainView', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MainView]
+      imports: [MainView, HttpClientTestingModule]
     })
     .compileComponents();
 
