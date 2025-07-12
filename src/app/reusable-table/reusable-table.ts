@@ -49,17 +49,12 @@ export class ReusableTable implements OnInit, OnChanges {
 
   filterData(): void {
     const lowerCaseFilter = this.filterText.trim().toLowerCase();
-    if (!lowerCaseFilter) {
-      this.filteredData = [...this.data]; // Reset to original data if filter is empty
-      return;
-    }
-
-    this.filteredData = this.data.filter(companyData => {
-      return this.columns.some(key => {
+    this.filteredData = this.data.filter(companyData => 
+      this.columns.some(key => {
         const value = companyData[key as keyof CompanyData];
         return value && value.toString().toLowerCase().includes(lowerCaseFilter);
-      });
-    });
+      })
+    );
   }
 
   startEdit(event: MouseEvent, rowIndex: number, key: string): void {
@@ -72,11 +67,7 @@ export class ReusableTable implements OnInit, OnChanges {
   saveEdit(rowIndex: number, key: string, value: any): void {
     const companyData = this.filteredData[rowIndex];
     const originalValue = companyData[key as keyof CompanyData];
-    if (typeof originalValue === 'number') {
-      (companyData as any)[key] = parseFloat(value) || null;
-    } else {
-      (companyData as any)[key] = value;
-    }
+    (companyData as any)[key] = typeof originalValue === 'number' ? parseFloat(value) || null : value;
     this.editingCell = null;
   }
 
@@ -87,9 +78,7 @@ export class ReusableTable implements OnInit, OnChanges {
     const a = document.createElement('a');
     a.href = url;
     a.download = 'data.json';
-    document.body.appendChild(a);
     a.click();
-    document.body.removeChild(a);
     URL.revokeObjectURL(url);
   }
 

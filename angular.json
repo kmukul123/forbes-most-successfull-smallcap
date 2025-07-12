@@ -13,6 +13,10 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "allowedCommonJsDependencies": [
+              "hammerjs",
+              "quill-delta"
+            ],
             "outputPath": "dist/forbes-most-successfull-smallcap",
             "browser": "src/main.ts",
             "polyfills": [
@@ -44,7 +48,7 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
+                  "maximumWarning": "700kB",
                   "maximumError": "1MB"
                 },
                 {

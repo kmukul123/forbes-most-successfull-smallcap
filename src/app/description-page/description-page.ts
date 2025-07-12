@@ -76,22 +76,19 @@ export class DescriptionPage implements OnInit {
    * Navigates to the previous company in the companyList.
    * Disables the button if already at the first company.
    */
-  goToPrevious(): void {
-    if (this.currentIndex > 0 && this.listCode) {
-      const previousTicker = this.companyList[this.currentIndex - 1]['TICKER'];
-      this.router.navigate(['/description', previousTicker, this.listCode]);
+  private navigateToCompany(index: number): void {
+    if (index >= 0 && index < this.companyList.length && this.listCode) {
+      const ticker = this.companyList[index]['TICKER'];
+      this.router.navigate(['/description', ticker, this.listCode]);
     }
   }
 
-  /**
-   * Navigates to the next company in the companyList.
-   * Disables the button if already at the last company.
-   */
+  goToPrevious(): void {
+    this.navigateToCompany(this.currentIndex - 1);
+  }
+
   goToNext(): void {
-    if (this.currentIndex < this.companyList.length - 1 && this.listCode) {
-      const nextTicker = this.companyList[this.currentIndex + 1]['TICKER'];
-      this.router.navigate(['/description', nextTicker, this.listCode]);
-    }
+    this.navigateToCompany(this.currentIndex + 1);
   }
 
   /**
@@ -102,8 +99,7 @@ export class DescriptionPage implements OnInit {
   onDescriptionSave(updatedCompany: CompanyData): void {
     if (this.listCode) {
       this.dataService.updateCompanyData(updatedCompany, this.listCode);
-      // Re-assign company to trigger change detection if needed, though updateCompanyData modifies in place
-      this.company = { ...updatedCompany };
+      this.company = updatedCompany;
     }
   }
 }

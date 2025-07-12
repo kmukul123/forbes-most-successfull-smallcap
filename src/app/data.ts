@@ -27,6 +27,11 @@ export interface CompanyData {
     };
 }
 
+function normalizeData(data: ListData): ListData {
+  const normalizedCompanies = data.listCompanies.map(company => normalizeKeysToUppercase(company));
+  return { ...data, listCompanies: normalizedCompanies, listCode: data.listCode };
+}
+
 function normalizeKeysToUppercase(obj: any): any {
   if (typeof obj !== 'object' || obj === null) {
     return obj;
@@ -71,9 +76,7 @@ export class Data {
     }
     return this.http.get<ListData>(this.americasDataUrl).pipe(
       tap(data => {
-        // Normalize keys to uppercase for consistent access
-        const normalizedCompanies = data.listCompanies.map(company => normalizeKeysToUppercase(company));
-        this._americasData = { ...data, listCompanies: normalizedCompanies, listCode: data.listCode };
+        this._americasData = normalizeData(data);
       })
     );
   }
@@ -89,9 +92,7 @@ export class Data {
     }
     return this.http.get<ListData>(this.asiaDataUrl).pipe(
       tap(data => {
-        // Normalize keys to uppercase for consistent access
-        const normalizedCompanies = data.listCompanies.map(company => normalizeKeysToUppercase(company));
-        this._asiaData = { ...data, listCompanies: normalizedCompanies, listCode: data.listCode };
+        this._asiaData = normalizeData(data);
       })
     );
   }
