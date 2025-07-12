@@ -38,16 +38,23 @@ export class ReusableTable implements OnInit, OnChanges {
 
   ngOnInit(): void {
     console.log('enableDownloadButton:', this.enableDownloadButton);
+    console.log('ReusableTable ngOnInit - data:', this.data);
+    console.log('ReusableTable ngOnInit - columns:', this.columns);
     this.filteredData = [...this.data]; // Create a shallow copy
   }
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['data']) {
+      console.log('ReusableTable ngOnChanges - data:', this.data);
+      console.log('ReusableTable ngOnChanges - columns:', this.columns);
+      this.filteredData = [...this.data]; // Ensure filteredData is updated with new data
       this.filterData();
     }
   }
 
   filterData(): void {
+    console.log('ReusableTable filterData - data:', this.data);
+    console.log('ReusableTable filterData - filterText:', this.filterText);
     const lowerCaseFilter = this.filterText.trim().toLowerCase();
     this.filteredData = this.data.filter(companyData => 
       this.columns.some(key => {
@@ -82,15 +89,15 @@ export class ReusableTable implements OnInit, OnChanges {
     URL.revokeObjectURL(url);
   }
 
-  onDescriptionSave(updatedData: CompanyData): void {
-    const indexInOriginalData = this.data.findIndex(item => item['TICKER'] === updatedData['TICKER']);
+  onDescriptionSave(updatedCompany: CompanyData): void {
+    const indexInOriginalData = this.data.findIndex(item => item['TICKER'] === updatedCompany['TICKER']);
     if (indexInOriginalData !== -1) {
-      this.data[indexInOriginalData] = updatedData;
+      this.data[indexInOriginalData] = updatedCompany;
     }
 
-    const indexInFilteredData = this.filteredData.findIndex(item => item['TICKER'] === updatedData['TICKER']);
+    const indexInFilteredData = this.filteredData.findIndex(item => item['TICKER'] === updatedCompany['TICKER']);
     if (indexInFilteredData !== -1) {
-      this.filteredData[indexInFilteredData] = updatedData;
+      this.filteredData[indexInFilteredData] = updatedCompany;
     }
   }
 }

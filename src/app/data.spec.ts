@@ -101,5 +101,80 @@ describe('Data Service and Normalization Functions', () => {
       };
       expect(normalizeData(input)).toEqual(expected);
     });
+
+    it('should normalize the provided JSON data correctly', () => {
+      const input: ListData = {
+        "listName": "2025 AMERICA’S MOST SUCCESSFUL SMALL-CAP COMPANIES",
+        "listSubHeading": "NOVEMBER 15, 2024",
+        "listCode": "Forbes_America_SmallCap_2024",
+        "listCompanies": [
+          {
+            "RANK": 1,
+            "COMPANY": "GigaCloud Technology",
+            "INDUSTRY": "Trading Companies",
+            "52-WEEK RETURN (%)": 181.6,
+            "REVENUE (millions USD)": 1110,
+            "year": 2025,
+            "TICKER": "GCT",
+            "DESCRIPTION": {
+              "overview": "GigaCloud Technology operates a global business-to-business (B2B) e-commerce marketplace for large parcel merchandise, such as furniture and home appliances. It connects manufacturers, primarily in Asia, with resellers in the U.S. and Europe. [pos]The company's marketplace GMV increased 56.1% year-over-year to $1,416.7 million for the 12 months ended March 31, 2025.[/pos] The company's moat is its integrated platform combining product discovery, payment, and logistics, creating high switching costs. [link to GigaCloud Technology Announces First Quarter 2025 Financial Results](https://investors.gigacloudtech.com/news-releases/news-release-details/gigacloud-technology-announces-first-quarter-2025-financial) [pos]The company demonstrates strong value creation with a Return on Invested Capital (ROIC) of 17.41% for the TTM as of March 2025, which exceeds its WACC of 6.24%.[/pos] [link to GuruFocus GCT ROIC data](https://www.gurufocus.com/term/roic/NASDAQ:GCT)",
+              "insider_ownership": "[pos]Insider ownership is substantial, with CEO Lei Wu holding a 23% stake.[/pos] This aligns leadership with shareholder interests. [link to TipRanks GCT Insider Trading](https://www.tipranks.com/stocks/gct/insider-trading)",
+              "balancesheet": "[neg]As of March 31, 2025, GigaCloud had total liabilities of $678.1 million, a significant figure for a potential acquirer.[/neg] [pos]The company has an active share repurchase program of $78 million and has already repurchased $61.8 million worth of shares.[/pos] [link to GigaCloud Technology Announces First Quarter 2025 Financial Results](https://investors.gigacloudtech.com/news-releases/news-release-details/gigacloud-technology-announces-first-quarter-2025-financial)"
+            }
+          },
+          {
+            "RANK": 2,
+            "COMPANY": "Vital Farms",
+            "INDUSTRY": "Food Drink & Tobacco",
+            "52-WEEK RETURN (%)": 164,
+            "Revenue (millions USD)": 576.1,
+            "year": 2025,
+            "TICKER": "VITL",
+            "DESCRIPTION": {
+              "overview": "Vital Farms is an ethical food company that markets and distributes pasture-raised food products, including eggs, butter, and ghee. It partners with a network of over 425 small family farms, emphasizing humane animal treatment and sustainable agriculture. The company has built a powerful brand centered on ethical practices and transparency, which resonates with a growing segment of consumers. [link to Vital Farms Q1 2025 Earnings Release](https://investors.vitalfarms.com/press-releases/press-release-details/2025/Vital-Farms-Reports-First-Quarter-2025-Financial-Results/default.aspx) [pos]Vital Farms demonstrates strong returns on capital, with a Return on Invested Capital (ROIC) of 37.17% and a Return on Capital Employed (ROCE) of 20.43%[/pos]. [link to GuruFocus Vital Farms ROIC/ROCE](https://www.gurufocus.com/stock/VITL/summary)",
+              "insider_ownership": "[pos]Insider ownership is significant, at 18.75%[/pos]. [link to GuruFocus Vital Farms Insider Ownership](https://www.gurufocus.com/stock/VITL/insider)",
+              "balancesheet": "[pos]Vital Farms has a strong balance sheet, with approximately $161.3 million in cash and no debt as of the first quarter of 2025.[/pos] [link to Vital Farms Q1 2025 Earnings Release](https://investors.vitalfarms.com/press-releases/press-release-details/2025/Vital-Farms-Reports-First-Quarter-2025-Financial-Results/default.aspx)"
+            }
+          }
+        ]
+      };
+
+      const expected: ListData = {
+        "listName": "2025 AMERICA’S MOST SUCCESSFUL SMALL-CAP COMPANIES",
+        "listSubHeading": "NOVEMBER 15, 2024",
+        "listCode": "Forbes_America_SmallCap_2024",
+        "listCompanies": [
+          {
+            "RANK": 1,
+            "COMPANY": "GigaCloud Technology",
+            "INDUSTRY": "Trading Companies",
+            "52-WEEK RETURN (%)": 181.6,
+            "REVENUE (MILLIONS USD)": 1110,
+            "YEAR": 2025,
+            "TICKER": "GCT",
+            "DESCRIPTION": {
+              "OVERVIEW": "GigaCloud Technology operates a global business-to-business (B2B) e-commerce marketplace for large parcel merchandise, such as furniture and home appliances. It connects manufacturers, primarily in Asia, with resellers in the U.S. and Europe. [pos]The company's marketplace GMV increased 56.1% year-over-year to $1,416.7 million for the 12 months ended March 31, 2025.[/pos] The company's moat is its integrated platform combining product discovery, payment, and logistics, creating high switching costs. [link to GigaCloud Technology Announces First Quarter 2025 Financial Results](https://investors.gigacloudtech.com/news-releases/news-release-details/gigacloud-technology-announces-first-quarter-2025-financial) [pos]The company demonstrates strong value creation with a Return on Invested Capital (ROIC) of 17.41% for the TTM as of March 2025, which exceeds its WACC of 6.24%.[/pos] [link to GuruFocus GCT ROIC data](https://www.gurufocus.com/term/roic/NASDAQ:GCT)",
+              "INSIDER_OWNERSHIP": "[pos]Insider ownership is substantial, with CEO Lei Wu holding a 23% stake.[/pos] This aligns leadership with shareholder interests. [link to TipRanks GCT Insider Trading](https://www.tipranks.com/stocks/gct/insider-trading)",
+              "BALANCESHEET": "[neg]As of March 31, 2025, GigaCloud had total liabilities of $678.1 million, a significant figure for a potential acquirer.[/neg] [pos]The company has an active share repurchase program of $78 million and has already repurchased $61.8 million worth of shares.[/pos] [link to GigaCloud Technology Announces First Quarter 2025 Financial Results](https://investors.gigacloudtech.com/news-releases/news-release-details/gigacloud-technology-announces-first-quarter-2025-financial)"
+            }
+          },
+          {
+            "RANK": 2,
+            "COMPANY": "Vital Farms",
+            "INDUSTRY": "Food Drink & Tobacco",
+            "52-WEEK RETURN (%)": 164,
+            "REVENUE (MILLIONS USD)": 576.1,
+            "YEAR": 2025,
+            "TICKER": "VITL",
+            "DESCRIPTION": {
+              "OVERVIEW": "Vital Farms is an ethical food company that markets and distributes pasture-raised food products, including eggs, butter, and ghee. It partners with a network of over 425 small family farms, emphasizing humane animal treatment and sustainable agriculture. The company has built a powerful brand centered on ethical practices and transparency, which resonates with a growing segment of consumers. [link to Vital Farms Q1 2025 Earnings Release](https://investors.vitalfarms.com/press-releases/press-release-details/2025/Vital-Farms-Reports-First-Quarter-2025-Financial-Results/default.aspx) [pos]Vital Farms demonstrates strong returns on capital, with a Return on Invested Capital (ROIC) of 37.17% and a Return on Capital Employed (ROCE) of 20.43%[/pos]. [link to GuruFocus Vital Farms ROIC/ROCE](https://www.gurufocus.com/stock/VITL/summary)",
+              "INSIDER_OWNERSHIP": "[pos]Insider ownership is significant, at 18.75%[/pos]. [link to GuruFocus Vital Farms Insider Ownership](https://www.gurufocus.com/stock/VITL/insider)",
+              "BALANCESHEET": "[pos]Vital Farms has a strong balance sheet, with approximately $161.3 million in cash and no debt as of the first quarter of 2025.[/pos] [link to Vital Farms Q1 2025 Earnings Release](https://investors.vitalfarms.com/press-releases/press-release-details/2025/Vital-Farms-Reports-First-Quarter-2025-Financial-Results/default.aspx)"
+            }
+          }
+        ]
+      };
+      expect(normalizeData(input)).toEqual(expected);
+    });
   });
 });

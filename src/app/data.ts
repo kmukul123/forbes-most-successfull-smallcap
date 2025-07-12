@@ -19,7 +19,7 @@ export interface CompanyData {
     COMPANY?: string; // Optional company name.
     INDUSTRY?: string; // Optional industry of the company.
     '52-WEEK RETURN (%)'?: number; // Optional 52-week return percentage.
-    'REVENUE (millions USD)'?: number; // Optional revenue in millions USD.
+    'REVENUE (MILLIONS USD)'?: number; // Optional revenue in millions USD.
     year?: number; // Optional year of the data.
     TICKER?: string; // Optional stock ticker symbol.
     DESCRIPTION?: { // Optional object containing various descriptions of the company.
@@ -46,6 +46,7 @@ function normalizeKeysToUppercase(obj: any): any {
     if (Object.prototype.hasOwnProperty.call(obj, key)) {
       const newKey = key.toUpperCase();
       newObj[newKey] = normalizeKeysToUppercase(obj[key]);
+      console.log(`normalizeKeysToUppercase: Original Key: ${key}, New Key: ${newKey}, Value: ${newObj[newKey]}`);
     }
   }
   return newObj;
@@ -78,7 +79,9 @@ export class Data {
     }
     return this.http.get<ListData>(this.americasDataUrl).pipe(
       tap(data => {
+        console.log('Data Service: Raw data before normalization:', data);
         this._americasData = normalizeData(data);
+        console.log('Data Service: _americasData after normalization:', this._americasData);
       })
     );
   }
@@ -126,6 +129,7 @@ export class Data {
       const index = this._americasData.listCompanies.findIndex(c => c.TICKER === normalizedUpdatedCompany.TICKER);
       if (index !== -1) {
         this._americasData.listCompanies[index] = normalizedUpdatedCompany;
+        console.log('Data Service: _americasData after update:', this._americasData);
       }
     } else if (listCode === 'Forbes_Asia_SmallCap_2024' && this._asiaData) {
       const index = this._asiaData.listCompanies.findIndex(c => c.TICKER === normalizedUpdatedCompany.TICKER);

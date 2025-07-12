@@ -28,6 +28,11 @@
         <tr [routerLink]="['/description', companyData['TICKER'], listCode]">
           <!-- Renders table cells for each column. Double-clicking enables inline editing. -->
           <td *ngFor="let key of columns" (dblclick)="startEdit($event, i, key)">
+            <script>
+              if (key.includes('REVENUE')) {
+                console.log(`Template Rendering: Key = ${key}, Value = ${companyData[key]}`);
+              }
+            </script>
             <!-- Displays the company data if not in editing mode for this cell. -->
             <span *ngIf="editingCell?.rowIndex !== i || editingCell?.key !== key">{{ companyData[key] }}</span>
             <!-- Input field for inline editing, shown only when a cell is being edited. -->
