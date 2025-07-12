@@ -103,13 +103,13 @@ export class Data {
 
   /**
    * Retrieves the ListData object for a given listCode.
-   * @param listCode The unique identifier for the list (e.g., 'Forbes_America_SmallCap_2024', 'Forbes_Asia_SmallCap_2024').
+   * @param listCode The unique identifier for the list (e.g., 'Forbes_America_SmallCap_2024', 'Forbes_Under_A_Billion_Asia_2024').
    * @returns An Observable of ListData or undefined if the listCode is not recognized.
    */
   getListData(listCode: string): Observable<ListData | undefined> {
     if (listCode === 'Forbes_America_SmallCap_2024') {
       return this.getAmericasData();
-    } else if (listCode === 'Forbes_Asia_SmallCap_2024') {
+    } else if (listCode.toLowerCase() === 'Forbes_Under_A_Billion_Asia_2024'.toLowerCase()) {
       return this.getAsiaData();
     }
     return of(undefined);
@@ -124,12 +124,12 @@ export class Data {
   updateCompanyData(updatedCompany: CompanyData, listCode: string): void {
     const normalizedUpdatedCompany = normalizeKeysToUppercase(updatedCompany);
 
-    if (listCode === 'Forbes_America_SmallCap_2024' && this._americasData) {
+    if (listCode.toLowerCase() === 'Forbes_America_SmallCap_2024'.toLowerCase() && this._americasData) {
       const index = this._americasData.listCompanies.findIndex(c => c.TICKER === normalizedUpdatedCompany.TICKER);
       if (index !== -1) {
         this._americasData.listCompanies[index] = normalizedUpdatedCompany;
       }
-    } else if (listCode === 'Forbes_Asia_SmallCap_2024' && this._asiaData) {
+    } else if (listCode.toLowerCase() === 'Forbes_Under_A_Billion_Asia_2024'.toLowerCase() && this._asiaData) {
       const index = this._asiaData.listCompanies.findIndex(c => c.TICKER === normalizedUpdatedCompany.TICKER);
       if (index !== -1) {
         this._asiaData.listCompanies[index] = normalizedUpdatedCompany;

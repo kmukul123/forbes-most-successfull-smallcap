@@ -15,7 +15,7 @@ import { forkJoin } from 'rxjs';
 export class MainView implements OnInit {
   americasData?: ListData;
   asiaData?: ListData;
-  americasColumns: string[] = ['RANK', 'COMPANY', 'INDUSTRY', '52-WEEK RETURN (%)', 'REVENUE (MILLIONS USD)', 'TICKER'];
+  americasColumns: string[] = ['RANK', 'COMPANY', 'INDUSTRY', '52-WEEK RETURN (%)', 'REVENUE (millions USD)', 'TICKER'];
   asiaColumns: string[] = ['RANK', 'COMPANY', 'COUNTRY/TERRITORY', 'INDUSTRY', 'SALES ($M)', 'NET INCOME ($M)', 'MARKET VALUE ($M)', 'TICKER'];
 
   activeDataSet: ListData | undefined; // Holds the currently active ListData object
