@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
-import { tap } from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 
 // Defines the structure for a list of companies, including metadata like name and subheading.
 export interface ListData {
@@ -46,7 +46,6 @@ function normalizeKeysToUppercase(obj: any): any {
     if (Object.prototype.hasOwnProperty.call(obj, key)) {
       const newKey = key.toUpperCase();
       newObj[newKey] = normalizeKeysToUppercase(obj[key]);
-      console.log(`normalizeKeysToUppercase: Original Key: ${key}, New Key: ${newKey}, Value: ${newObj[newKey]}`);
     }
   }
   return newObj;
@@ -78,10 +77,9 @@ export class Data {
       return of(this._americasData);
     }
     return this.http.get<ListData>(this.americasDataUrl).pipe(
-      tap(data => {
-        console.log('Data Service: Raw data before normalization:', data);
+      map(data => {
         this._americasData = normalizeData(data);
-        console.log('Data Service: _americasData after normalization:', this._americasData);
+        return this._americasData;
       })
     );
   }
@@ -96,8 +94,9 @@ export class Data {
       return of(this._asiaData);
     }
     return this.http.get<ListData>(this.asiaDataUrl).pipe(
-      tap(data => {
+      map(data => {
         this._asiaData = normalizeData(data);
+        return this._asiaData;
       })
     );
   }
@@ -129,7 +128,6 @@ export class Data {
       const index = this._americasData.listCompanies.findIndex(c => c.TICKER === normalizedUpdatedCompany.TICKER);
       if (index !== -1) {
         this._americasData.listCompanies[index] = normalizedUpdatedCompany;
-        console.log('Data Service: _americasData after update:', this._americasData);
       }
     } else if (listCode === 'Forbes_Asia_SmallCap_2024' && this._asiaData) {
       const index = this._asiaData.listCompanies.findIndex(c => c.TICKER === normalizedUpdatedCompany.TICKER);
