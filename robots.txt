@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://<your-github-username>.github.io/forbes-most-successfull-smallcap/sitemap.xml
+Sitemap: https://kmukul123.github.io/forbes-most-successfull-smallcap/sitemap.xml
