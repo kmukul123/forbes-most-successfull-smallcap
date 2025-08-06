@@ -12,13 +12,13 @@ This document outlines the various formatting and highlighting features supporte
 
 We use custom tags to apply specific styling (colors) to important phrases within the description. These tags are converted into HTML `<span>` elements with corresponding CSS classes.
 
-1.  **Positive Highlight**: `[pos]Your positive text here[/pos]`
+1.  **Positive Highlight**: `<p class=\"positive\">Your positive text here</p>`
     *   Use this tag to highlight positive aspects, such as strong financial indicators, good management practices, or favorable market conditions.
-    *   Example: `[pos]Insider ownership is substantial[/pos]`
+    *   Example: `<p class=\"positive\">Insider ownership is substantial</p>`
 
-2.  **Negative Highlight**: `[neg]Your negative text here[/neg]`
+2.  **Negative Highlight**: `<p class=\"negative\">Your negative text here<p class=\"negative\">`
     *   Use this tag to highlight potentially negative aspects, such as high debt, significant risks, or challenging market conditions.
-    *   Example: `[neg]moderate amount of debt[/neg]`
+    *   Example: `<p class="negative">The company reported total liabilities of $305.6 million</p>`
 
 3.  **General Highlight**: `[highlight]Your general highlight text here[/highlight]`
     *   Use this tag for general emphasis on important points that are neither strictly positive nor negative, such as unique business models, proprietary technology, or key growth drivers.
