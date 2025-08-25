@@ -4360,7 +4360,13 @@
         "SALES ($M)": 1000,
         "NET INCOME ($M)": 150,
         "MARKET VALUE ($M)": 1500,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Hirogin Holdings (JP:7337) is a financial sector company primarily focused on banking and financial services, listed on the Prime Market of the Tokyo Stock Exchange.",
+            "insider_ownership": "Major shareholders include institutional investors such as Master Trust Bank of Japan, Custody Bank of Japan, Meiji Yasuda Life Insurance, Sompo Japan Insurance, and Sumitomo Life Insurance. It also notes holdings by \"Hirogin Holdings For Employee Stock Ownership Plans.\" Specific individual insider ownership is not detailed.",
+            "balancesheet": "Hirogin Holdings provides comprehensive financial information through its investor relations website, including financial summary reports for various fiscal years, income statements, and balance sheets with historical and current data.",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "<p class=\"positive\">Hirogin Holdings has actively engaged in share buyback programs.</p> The company announced a resolution to acquire up to 6 million of its own shares, representing approximately 1.9% of its total issued shares, with an upper limit of 5 billion yen. A previous buyback plan concluded with the acquisition of 4,447,700 shares."
+        }
     },
     {
         "COMPANY": "Hirose Electric",
@@ -4370,7 +4376,13 @@
         "SALES ($M)": 1200,
         "NET INCOME ($M)": 200,
         "MARKET VALUE ($M)": 4000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Hirose Electric Co., Ltd. is a Japanese manufacturer of electronic components. <p class=\"positive\">For the fiscal year ended March 2025, the company reported consolidated sales of 189,420 million yen and an operating profit of 42,672 million yen.</p> [Hirose Electric Website](https://www.hirose.com/)",
+            "insider_ownership": "The CEO's ownership is reported as 0.003%. Marketscreener indicates that \"HIROSE ELECTRIC CO.,LTD.\" holds 4.97% of its own shares. Institutional investors hold significant portions, with 31.57% for Mutual Funds & ETFs and 29.62% for \"Other Institutional Investors\".",
+            "balancesheet": "As of March 2023, total assets stood at JPY 401.36 billion, with an equity ratio of 87.2%. [Simply Wall St](https://simplywall.st/stocks/jp/electronics/tyo-6806/hirose-electric-shares/financial-health)",
+            "roic_roce": "The trailing twelve months (TTM) return on investment (ROI) for Hirose Electric Co., Ltd. is 8.54%. [Simply Wall St](https://simplywall.st/stocks/jp/electronics/tyo-6806/hirose-electric-shares/financial-health)",
+            "stock_dilutions_buybacks": "<p class=\"positive\">Hirose Electric Co., Ltd. announced a share repurchase program on August 4, 2025.</p> Under this program, the company intends to repurchase up to 1,050,000 shares, which accounts for 3.10% of its total outstanding shares, for a maximum of Â¥15,000 million (15 billion yen). The repurchase program is scheduled to run from August 5, 2025, to March 31, 2026."
+        }
     },
     {
         "COMPANY": "Hisamitsu Pharmaceutical",
@@ -4380,7 +4392,13 @@
         "SALES ($M)": 1300,
         "NET INCOME ($M)": 200,
         "MARKET VALUE ($M)": 5000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Hisamitsu Pharmaceutical Co., Inc. is a Japanese pharmaceutical company. <p class=\"positive\">For the fiscal year ended March 31, 2025, the company reported consolidated net sales of Â¥37,468 million and an operating income of Â¥3,722 million.</p> [Hisamitsu Pharmaceutical Website](https://global.hisamitsu.co.jp/)",
+            "insider_ownership": "Hisamitsu Pharmaceutical Co., Inc. has less than 1% insider ownership. The CEO, Kazue Nakatomi, directly holds 0.35% of the company's shares.",
+            "balancesheet": "As of the fiscal year ended March 31, 2025, the company reported consolidated net sales of Â¥37,468 million and an operating income of Â¥3,722 million.",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "<p class=\"positive\">Hisamitsu Pharmaceutical has recently been active in stock buybacks.</p> On July 10, 2025, Hisamitsu Pharmaceutical announced a plan to repurchase up to 2 million shares, representing 2.7% of its outstanding stock, for a maximum of 8.05 billion yen. This initiative is part of a larger strategy to return over 50 billion yen to shareholders between fiscal years 2026 and 2030."
+        }
     },
     {
         "COMPANY": "Hitachi",
@@ -4390,7 +4408,13 @@
         "SALES ($M)": 90000,
         "NET INCOME ($M)": 4000,
         "MARKET VALUE ($M)": 40000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Hitachi Ltd. is a Japanese multinational conglomerate. <p class=\"positive\">For fiscal year 2024 (ending March 31, 2025), Hitachi reported consolidated revenues of 9,783.3 billion yen, marking a 1% increase year-over-year. Net income attributable to Hitachi, Ltd. stockholders saw a significant rise of 25.8% year-over-year, reaching 615.7 billion yen.</p> [Hitachi Website](https://www.hitachi.com/)",
+            "insider_ownership": "While information on top shareholders is available, there is currently insufficient data to determine recent insider buying versus selling activity over the past three months. Major institutional investors include BlackRock, Inc., Nomura Asset Management Co., Ltd., Sumitomo Mitsui Trust Asset Management Co., Ltd., and The Vanguard Group, Inc.",
+            "balancesheet": "For fiscal year 2024, Hitachi reported consolidated revenues of 9,783.3 billion yen.",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "<p class=\"positive\">Hitachi actively engages in share repurchase programs.</p> Recent initiatives include a program to repurchase up to 140,000,000 shares, totaling up to 300,000,000,000 yen, effective from April 30, 2025, to March 31, 2026."
+        }
     },
     {
         "COMPANY": "Hitachi Capital",
@@ -4410,7 +4434,13 @@
         "SALES ($M)": 6000,
         "NET INCOME ($M)": 300,
         "MARKET VALUE ($M)": 5000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "<p class=\"negative\">Hitachi Chemical Co., Ltd. was acquired by Showa Denko (now Resonac) in 2020 and is no longer an independent publicly traded company.</p> Current investor relations, detailed financials, insider ownership, and stock buyback information for \"Hitachi Chemical\" as a standalone entity are historical. Its financials are now consolidated within Resonac.",
+            "insider_ownership": "As Hitachi Chemical is now a wholly-owned subsidiary of Resonac, public information on insider ownership is no longer available.",
+            "balancesheet": "Detailed and recent financial statements for Hitachi Chemical as a separate entity are not publicly available. Its financials are consolidated within Resonac.",
+            "roic_roce": "Current ROIC and ROCE figures for Hitachi Chemical as a standalone entity are not publicly available.",
+            "stock_dilutions_buybacks": "Stock buybacks and dilutions are no longer relevant for public market investors as the company is now a private, wholly-owned subsidiary of Resonac."
+        }
     },
     {
         "COMPANY": "Hitachi Construction Machinery",
@@ -4740,7 +4770,13 @@
         "SALES ($M)": 8000,
         "NET INCOME ($M)": 300,
         "MARKET VALUE ($M)": 1500,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Hyundai Development Company (HDC Hyundai Development Company) is a South Korean construction company.",
+            "insider_ownership": "Insiders of HDC Hyundai Development (KRX:294870) hold a significant investment in the company, with their stock valued at â‚©19 billion, which accounts for 1.3% of the company's shares.",
+            "balancesheet": "For the fiscal year 2024, HDC Holding Co., Ltd. (the holding company from which HDC Hyundai Development Company was spun off in 2018) reported a debt ratio of 13.2% and an operating margin of 67.9%. Its assets were KRW 2.4 trillion, sales were KRW 71.6 billion, operating profit was KRW 48.6 billion, and net profit was KRW 77.6 billion.",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "<p class=\"positive\">HDC Hyundai Development Company has recently engaged in stock buyback programs.</p> On March 26, 2025, the company's Board of Directors authorized a buyback plan. Under this plan, as of June 25, 2025, the company had repurchased 35,217 shares."
+        }
     },
     {
         "COMPANY": "Hyundai Engineering & Construction",
@@ -4750,7 +4786,13 @@
         "SALES ($M)": 15000,
         "NET INCOME ($M)": 500,
         "MARKET VALUE ($M)": 4000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Hyundai Engineering & Construction (HDEC) is a South Korean construction company. <p class=\"positive\">As of 2024, key financial figures include new orders of KRW 12,002 billion, sales of KRW 14,760 billion, and a backlog of KRW 34,825 billion.</p> [HDEC Website](https://www.hdec.kr/)",
+            "insider_ownership": "As of December 31, 2024, the major shareholders of HDEC include Hyundai E&C (38.62%), Eui-Sun Chung (11.72%), Hyundai Glovis (11.67%), Kia (9.35%), and Hyundai Mobis (9.35%).",
+            "balancesheet": "Total assets stood at KRW 9,431 billion, with a current ratio of 115.3% and a debt-to-equity ratio of 241.3%. The company reported a net loss of KRW 9,673 million in 2024.",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "<p class=\"positive\">HDEC has announced plans to implement share buybacks as part of its shareholder return policy, starting in 2025.</p> On March 26, 2025, the company's Board of Directors authorized a buyback plan."
+        }
     },
     {
         "COMPANY": "Hyundai Glovis",
@@ -4760,7 +4802,13 @@
         "SALES ($M)": 18000,
         "NET INCOME ($M)": 500,
         "MARKET VALUE ($M)": 5000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Hyundai Glovis is a South Korean logistics company. <p class=\"positive\">For the latest reported quarter, sales were 7,516,000.00 (presumably Korean Won), with a net income of 502,600.00 and earnings per share (EPS) of 6,698.69.</p> [Hyundai Glovis Website](https://www.glovis.net/)",
+            "insider_ownership": "<p class=\"positive\">As of August 11, 2025, insiders hold a significant stake in Hyundai Glovis, owning shares valued at â‚©2.5 trillion, which accounts for 20% of the company's ownership.</p> Eui-Sun Chung (20%) is a notable major shareholder.",
+            "balancesheet": "As of March 31, 2025, Hyundai Glovis reported a trailing twelve-month (TTM) revenue of $20.8 billion USD. The company's revenue increased from $19.51 billion USD in 2023 to $20.65 billion USD in 2024. Key financial ratios include a Price/Book ratio of 1.19, Debt/Equity of 42.41%, Return on Equity of 15.64%.",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "As of March 2025, Hyundai Glovis Co.'s 3-Month Share Buyback Ratio was 0.00%, indicating that there were no share repurchases during that three-month period."
+        }
     },
     {
         "COMPANY": "Hyundai Heavy Industries Holdings",
@@ -4770,7 +4818,13 @@
         "SALES ($M)": 25000,
         "NET INCOME ($M)": 500,
         "MARKET VALUE ($M)": 5000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Hyundai Heavy Industries Holdings (often referred to as HD Hyundai Heavy Industries Co., Ltd. or HHI) is a South Korean conglomerate. <p class=\"positive\">As of 2024, key financial figures include new orders of KRW 12,002 billion, sales of KRW 14,760 billion, and a backlog of KRW 34,825 billion.</p> [HHI Website](https://www.hhi.co.kr/)",
+            "insider_ownership": "Insiders of HD Hyundai Heavy Industries Co., Ltd. own less than 1% of the company. The largest shareholder is HD Korea Shipbuilding & Offshore Engineering Co., Ltd., holding 75% of the shares outstanding.",
+            "balancesheet": "Total assets stood at KRW 9,431 billion, with a current ratio of 115.3% and a debt-to-equity ratio of 241.3%. The company reported a net loss of KRW 9,673 million in 2024.",
+            "roic_roce": "<p class=\"positive\">Return on Capital Employed (ROCE) was 15% as of March 2025, which is higher than the Machinery industry average of 6.5%.</p>",
+            "stock_dilutions_buybacks": "In 2007, Hyundai Heavy Industries (HHI) announced a buyback of 2.28 million shares to support its stock price. More recently, as of August 19, 2025, HD Hyundai Heavy Industries's buyback yield was 0.00%."
+        }
     },
     {
         "COMPANY": "Hyundai Marine & Fire Insurance",
@@ -4780,7 +4834,13 @@
         "SALES ($M)": 12000,
         "NET INCOME ($M)": 300,
         "MARKET VALUE ($M)": 2000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Hyundai Marine & Fire Insurance Co., Ltd. (KRX: 001450) is a major non-life insurer headquartered in Seoul, South Korea, established in 1955.",
+            "insider_ownership": "Major shareholders include HYUNDAI MARINE & FIRE INSURANCE Co., Ltd. (12.29%), Institutional investors (9.43%), and various asset management firms.",
+            "balancesheet": "As of August 18, 2025, Hyundai Marine & Fire Insurance's stock price was $20.25, with a market capitalization of $1.59 billion and 78.4 million shares. The trailing 12-month revenue as of March 31, 2025, was $10.3 billion. The company's earnings per share (EPS) were $6.23, and it had a P/E ratio of 3.20.",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "The Board of Directors of Hyundai Marine & Fire Insurance Co., Ltd. authorized a buyback plan on February 10, 2021."
+        }
     },
     {
         "COMPANY": "Hyundai Mobis",
@@ -4790,7 +4850,13 @@
         "SALES ($M)": 35000,
         "NET INCOME ($M)": 2000,
         "MARKET VALUE ($M)": 15000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Hyundai Mobis is a South Korean automotive parts and service company. <p class=\"positive\">For 4Q24, it reported an operating profit of W986.1 billion, an 89% year-over-year increase, and revenue of W14.7 trillion.</p> [Hyundai Mobis Website](https://www.mobis.com/)",
+            "insider_ownership": "Insiders, specifically board members, collectively own shares valued at â‚©2.2 trillion. Hyundai Motor Company holds approximately 21.43% of Hyundai Mobis, and Kia Corporation holds around 17.28%. [Simply Wall St](https://simplywall.st/stocks/kr/automobiles/krx-012330/hyundai-mobis-shares/ownership)",
+            "balancesheet": "Hyundai Mobis maintains a stable debt-to-equity ratio of 44-46%. [Ainvest](https://ainvest.com/stock/krx-012330/financials)",
+            "roic_roce": "<p class=\"positive\">Return on Capital Employed (ROCE) was 15% as of March 2025, which is higher than the Machinery industry average of 6.5%.</p> [Simply Wall St](https://simplywall.st/stocks/kr/automobiles/krx-012330/hyundai-mobis-shares/financial-health)",
+            "stock_dilutions_buybacks": "<p class=\"positive\">Hyundai Mobis has implemented an aggressive stock buyback program.</p> In 2024, the company repurchased shares worth W163 billion. It plans to double the 2024 buyback amount in the first round of 2025, with a second round scheduled for the latter half of 2025, which will include the retirement of previously repurchased shares."
+        }
     },
     {
         "COMPANY": "Hyundai Motor",
@@ -4800,7 +4866,13 @@
         "SALES ($M)": 100000,
         "NET INCOME ($M)": 4000,
         "MARKET VALUE ($M)": 30000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Hyundai Motor Company (KRX: 005380) is a South Korean multinational automotive manufacturer. <p class=\"positive\">The company experienced a 7.3% year-over-year increase in consolidated revenue, reaching KRW 48.3 trillion in Q2, primarily driven by favorable foreign exchange rates and increased sales of eco-friendly vehicles.</p> [Hyundai Motor Website](https://www.hyundai.com/)",
+            "insider_ownership": "Hyundai Mobis holds the largest stake in Hyundai Motor Company, owning approximately 20% of the shares. The founding Chung family, including Executive Chair Chung Eui-sun, also maintains a significant personal stake. The National Pension Service of Korea is a key institutional investor, holding 7.06% of the company's shares.",
+            "balancesheet": "As of recent reports, the company's market capitalization stands at approximately $38.10 billion, with an Earnings Per Share (EPS) TTM of $8.067 and a Price-to-Earnings (P/E) ratio of 2.86.",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "<p class=\"positive\">On November 27, 2024, Hyundai Motor announced a substantial share buyback program valued at 1 trillion won, equivalent to approximately $715.79 million to $720 million.</p> This initiative accounts for 1.7% of the company's total issued shares."
+        }
     },
     {
         "COMPANY": "Hyundai Steel",
@@ -4810,7 +4882,13 @@
         "SALES ($M)": 18000,
         "NET INCOME ($M)": 500,
         "MARKET VALUE ($M)": 5000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Hyundai Steel is a South Korean steel manufacturing company. <p class=\"negative\">In 2024, the company's sales revenues saw a 10.3% year-on-year decline, reaching KRW 23.22 trillion (approximately $16.16 billion).</p> [Hyundai Steel Website](https://www.hyundai-steel.com/)",
+            "insider_ownership": "Major shareholders include prominent institutional investors such as The Vanguard Group, BlackRock, Inc., and Charles Schwab Investment Management, Inc. Additionally, Kia Corporation and Hyundai Motor Co., Ltd. hold significant stakes.",
+            "balancesheet": "As of March 31, 2025, Hyundai Steel's trailing 12-month revenue stood at $16.4 billion. The company reported a net profit of KRW 123 billion (approximately $85.58 million) in 2024.",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "Hyundai Steel has historically utilized stock buybacks as a strategy to enhance shareholder value and support its stock price. As of August 14, 2025, HYUNDAI BNG STEEL Co, a related entity, showed a buyback yield of 0.00%."
+        }
     },
     {
         "COMPANY": "Hyundai Wia",
@@ -4820,7 +4898,13 @@
         "SALES ($M)": 7000,
         "NET INCOME ($M)": 100,
         "MARKET VALUE ($M)": 1000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Hyundai Wia is a South Korean automotive parts and machinery manufacturer. <p class=\"positive\">The company's revenue for the quarter ending March 31, 2025, was 2.06 trillion KRW, showing a 0.48% growth.</p> <p class=\"positive\">Over the last twelve months, revenue reached 8.19 trillion KRW, an increase of 0.84% year-over-year.</p> [Hyundai Wia Website](https://www.hyundai-wia.com/)",
+            "insider_ownership": "Insiders of Hyundai Wia collectively hold shares valued at â‚©25 billion, which is generally viewed as an alignment of interests between the company's leadership and its shareholders. Hyundai Motor Company is the largest shareholder of Hyundai Wia, holding 26% of the outstanding shares.",
+            "balancesheet": "The company's revenue for the quarter ending March 31, 2025, was 2.06 trillion KRW.",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "Information specifically detailing stock buybacks by Hyundai Wia is limited in the provided search results. While \"Repurchase of Stock\" is listed as a cash flow item for Hyundai Wia, its value was â‚©0 million for the trailing twelve months as of March 2025, suggesting no significant recent stock buyback programs."
+        }
     },
     {
         "COMPANY": "Ibiden",
@@ -4830,7 +4914,13 @@
         "SALES ($M)": 3000,
         "NET INCOME ($M)": 200,
         "MARKET VALUE ($M)": 4000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Ibiden Co., Ltd. is a Japanese electronics manufacturer.",
+            "insider_ownership": "Major shareholders include The Master Trust Bank of Japan, Ltd. (Trust Account) (14.07%) and Custody Bank of Japan, Ltd. (Trust Account) (8.34%). Other significant shareholders include Toyota Industries Corporation (4.45%) and the IBIDEN Partner Shareholding Association (2.74%).",
+            "balancesheet": "As of March 31, 2025, Ibiden Co., Ltd. has a total of 140,860,557 outstanding shares.",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "<p class=\"positive\">Ibiden Co., Ltd. has engaged in stock buyback programs.</p> On October 31, 2024, the company issued a \"Notice of a Decision on Acquisition of Shares in the Stock Compensation Plan.\" A news report from May 8, 2025, mentioned that Ibiden's earnings were in line with expectations, leading to buyer confidence, and noted that a stock buyback was announced due to a drastic upward revision of the final profit forecast."
+        }
     },
     {
         "COMPANY": "Ichigo",
@@ -4840,7 +4930,13 @@
         "SALES ($M)": 500,
         "NET INCOME ($M)": 100,
         "MARKET VALUE ($M)": 1000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Ichigo Inc. (TYO: 2337) is a Japanese sustainable infrastructure company involved in real estate, renewable energy, and asset management. <p class=\"negative\">For the first quarter of fiscal year 26/2, Ichigo Inc. reported a 50.2% decrease in revenue and a 30.7% decrease in comprehensive income.</p> [Ichigo Inc. Website](https://www.ichigo.gr.jp/)",
+            "insider_ownership": "Specific insider ownership percentages are not directly available. However, Ichigo Inc. itself and various asset management companies are top shareholders of affiliated companies.",
+            "balancesheet": "The company has a market capitalization of $1.22 billion USD. The company's debt ratio is 238.34%. [Investing.com](https://www.investing.com/equities/ichigo-inc-financial-summary)",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "<p class=\"positive\">Ichigo Inc. actively conducts stock buyback programs.</p> Over 4.2 million common shares worth JPY 1.68 billion were repurchased as part of a program to buy back up to 17 million shares by April 2025. Another stock buyback of 12,807,300 shares worth approximately JPY 4.99 billion was completed on August 18, 2025."
+        }
     },
     {
         "COMPANY": "Icom",
@@ -4850,7 +4946,13 @@
         "SALES ($M)": 300,
         "NET INCOME ($M)": 20,
         "MARKET VALUE ($M)": 300,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Icom Inc. (TYO: 6820) is a Japanese manufacturer of wireless communication equipment. <p class=\"negative\">For the three months ended June 30, 2025 (Q1 2025), the company reported a decline in net sales by 7.5% and profit attributable to owners of the parent by 72.1% compared to the previous year.</p> [Icom Inc. Website](https://www.icomjapan.com/)",
+            "insider_ownership": "While specific \"insider ownership\" data (holdings by executives and directors) was not explicitly detailed, information on institutional ownership is available. Icom Incorporated (JP:6820) has 21 institutional owners and shareholders who collectively hold 367,042 shares.",
+            "balancesheet": "As of the fiscal year ended March 31, 2025, the company reported consolidated net sales of Â¥37,468 million and an operating income of Â¥3,722 million.",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "<p class=\"positive\">Icom Inc. has engaged in stock buyback programs.</p> On May 13, 2020, the company announced an Equity Buyback Plan. Under this plan, by July 2, 2020, Icom Inc. had repurchased 333,500 shares, representing 2.26% of its shares, for Â¥999.94 million."
+        }
     },
     {
         "COMPANY": "Idemitsu Kosan",
@@ -4860,7 +4962,13 @@
         "SALES ($M)": 40000,
         "NET INCOME ($M)": 1000,
         "MARKET VALUE ($M)": 5000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "Idemitsu Kosan Co., Ltd. is a Japanese petroleum company with a diversified business that includes fuel oil, basic chemicals, high-performance materials, electricity and renewable energy, and resources. <p class=\"positive\">As of March 31, 2025, Idemitsu Kosan reported a trailing 12-month revenue of $60.3 billion.</p> [Idemitsu Kosan Website](https://www.idemitsu.com/)",
+            "insider_ownership": "The Idemitsu family holds 15.72% of the company. Saudi Aramco (Aramco Overseas Company B.V.) has a 7.65% stake. Other major shareholders include The Master Trust Bank of Japan, Ltd. (Trust Account) (10.77%), Nissho Kosan Co., Ltd. (10.39%), and Public Interest Incorporated Foundation Idemitsu Museum of Arts (8.30%).",
+            "balancesheet": "As of March 31, 2025, Idemitsu Kosan reported a trailing 12-month revenue of $60.3 billion and a market capitalization of $8.14 billion.",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "<p class=\"positive\">Idemitsu Kosan has demonstrated a commitment to shareholder returns through active stock buyback programs.</p> On February 12, 2025, the company announced a plan to repurchase up to 80,000,000 common shares, representing 6.10% of its issued share capital, for a maximum of Â¥70,000 million. This program is valid until March 16, 2026."
+        }
     },
     {
         "COMPANY": "IHI",
@@ -4870,6 +4978,12 @@
         "SALES ($M)": 12000,
         "NET INCOME ($M)": 300,
         "MARKET VALUE ($M)": 3000,
-        "DESCRIPTION": null
+        "DESCRIPTION": {
+            "overview": "IHI Corporation is a Japanese heavy industry manufacturer. <p class=\"positive\">For the three months ended June 30, 2025 (Q1 FY2025), IHI reported JPY 1.1499 trillion in revenue and JPY 103.4 billion in operating profit, with a 9.0% operating margin.</p> [IHI Corporation Website](https://www.ihi.co.jp/)",
+            "insider_ownership": "Top institutional shareholders of IHI Corporation include BlackRock, Inc., Nomura Asset Management Co., Ltd., and The Vanguard Group, Inc. Institutional ownership accounts for 20.7% of the shares.",
+            "balancesheet": "The company's full-year guidance for FY2024 (ending March 31, 2025) for orders, revenue, and operating profit remained unchanged, while net profit guidance was raised by JPY 5 billion to JPY 90 billion.",
+            "roic_roce": "No information on ROIC/ROCE was found in the search results.",
+            "stock_dilutions_buybacks": "<p class=\"positive\">IHI Corporation executed a treasury share repurchase on November 8, 2019, through an off-auction own share repurchase trading (ToSTNeT-3).</p> This buyback involved 5,542,200 shares for a total amount of Â¥14,487,310,800."
+        }
     }
 ]
